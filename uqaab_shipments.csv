@@ -1,0 +1,1501 @@
+shipment_id,shipper_id,carrier_id,truck_id,truck_type,fuel_type,origin,destination,cargo_type,distance_km,estimated_time_hrs,fuel_consumed_liters,driver_hours,load_date,status,delivery_date,actual_time_hrs
+2001,151,558,1053,Medium,Hybrid,Lahore,Karachi,Electronics,649,38,239.54,20,2025-04-20,Delayed,2025-04-24,37
+2002,192,538,1020,Large,Hybrid,Lahore,Karachi,FMCG,780,31,215.73,6,2025-05-28,Delayed,2025-06-04,32
+2003,114,598,1073,Medium,Petrol,Multan,Peshawar,Automotive,894,22,280.57,29,2025-06-24,Delivered,2025-06-30,22
+2004,171,553,1037,Small,Hybrid,Peshawar,Islamabad,FMCG,302,12,266.82,17,2025-05-19,Delivered,2025-05-21,15
+2005,160,597,1045,Small,Hybrid,Faisalabad,Peshawar,Electronics,424,13,181.21,15,2025-06-26,Delivered,2025-07-03,13
+2006,120,554,1003,Small,Hybrid,Sialkot,Peshawar,Pharmaceuticals,924,36,181.5,47,2025-05-30,In Transit,2025-06-03,40
+2007,182,523,1059,Large,Diesel,Peshawar,Lahore,Pharmaceuticals,343,17,73.5,47,2025-04-29,In Transit,2025-04-30,20
+2008,186,521,1056,Large,Hybrid,Quetta,Islamabad,Furniture,426,36,215.03,36,2025-04-18,Delayed,2025-04-25,45
+2009,174,568,1044,Medium,Diesel,Karachi,Sialkot,Automotive,1086,24,243.13,16,2025-04-29,In Transit,2025-05-02,21
+2010,174,555,1019,Medium,Petrol,Quetta,Sialkot,Automotive,1170,15,201.07,21,2025-04-20,Delayed,2025-04-24,18
+2011,187,532,1016,Small,Hybrid,Karachi,Lahore,Automotive,860,17,143.77,14,2025-05-26,In Transit,2025-05-28,17
+2012,199,535,1070,Large,Hybrid,Karachi,Multan,Textiles,1136,25,294.23,19,2025-04-16,In Transit,2025-04-17,27
+2013,123,519,1003,Medium,Hybrid,Peshawar,Quetta,Pharmaceuticals,1006,12,48.37,24,2025-06-10,In Transit,2025-06-14,9
+2014,102,582,1092,Large,Petrol,Faisalabad,Sialkot,Electronics,1503,19,367.49,36,2025-04-29,Delayed,2025-05-07,23
+2015,121,598,1013,Large,Diesel,Multan,Peshawar,Pharmaceuticals,464,16,27.84,14,2025-04-26,Delivered,2025-05-02,13
+2016,152,580,1002,Small,Diesel,Peshawar,Multan,FMCG,1465,12,385.69,41,2025-06-06,Delivered,2025-06-09,9
+2017,101,561,1087,Small,Hybrid,Faisalabad,Sialkot,Textiles,1344,34,195.7,44,2025-04-24,Delayed,2025-04-27,38
+2018,187,597,1079,Large,Petrol,Lahore,Islamabad,Automotive,172,15,176.81,31,2025-05-03,Delayed,2025-05-06,13
+2019,129,572,1057,Large,Petrol,Lahore,Peshawar,Construction,1169,34,117.45,13,2025-05-07,Delayed,2025-05-12,39
+2020,137,525,1054,Large,Petrol,Karachi,Quetta,Furniture,373,14,23.83,29,2025-05-29,Delayed,2025-06-05,19
+2021,101,565,1003,Large,Petrol,Islamabad,Multan,Textiles,307,15,124.42,13,2025-06-28,In Transit,2025-06-30,17
+2022,163,572,1023,Small,Petrol,Quetta,Sialkot,FMCG,223,24,61.57,24,2025-05-28,Delivered,2025-06-01,28
+2023,159,572,1033,Medium,Diesel,Quetta,Sialkot,Automotive,1133,36,270.73,35,2025-05-02,Delayed,2025-05-08,36
+2024,120,539,1029,Small,Diesel,Karachi,Faisalabad,FMCG,1452,22,141.25,27,2025-05-03,Delivered,2025-05-09,21
+2025,132,516,1081,Medium,Diesel,Islamabad,Sialkot,FMCG,1310,14,311.53,14,2025-05-30,Delayed,2025-06-05,16
+2026,175,500,1018,Large,Hybrid,Sialkot,Karachi,Automotive,642,38,98.63,49,2025-04-11,Delayed,2025-04-15,38
+2027,157,588,1030,Medium,Petrol,Faisalabad,Peshawar,FMCG,159,39,362.09,9,2025-05-07,Delayed,2025-05-09,37
+2028,121,560,1059,Small,Hybrid,Sialkot,Quetta,Electronics,998,29,218.73,42,2025-04-18,In Transit,2025-04-19,31
+2029,188,542,1059,Small,Petrol,Sialkot,Karachi,Furniture,985,14,63.51,13,2025-05-02,Delayed,2025-05-09,15
+2030,148,541,1018,Large,Diesel,Lahore,Lahore,Construction,881,12,172.32,6,2025-04-10,Delayed,2025-04-17,17
+2031,190,524,1048,Small,Hybrid,Sialkot,Multan,FMCG,541,21,98.57,33,2025-04-15,In Transit,2025-04-17,23
+2032,158,538,1062,Large,Diesel,Quetta,Sialkot,FMCG,1340,24,95.88,11,2025-06-01,Delayed,2025-06-04,23
+2033,141,534,1082,Small,Petrol,Peshawar,Lahore,Pharmaceuticals,1010,11,212.42,41,2025-05-08,In Transit,2025-05-15,12
+2034,191,502,1021,Small,Petrol,Islamabad,Quetta,Furniture,1125,16,275.32,16,2025-06-30,In Transit,2025-07-03,20
+2035,159,543,1023,Large,Petrol,Faisalabad,Peshawar,Textiles,931,17,366.41,10,2025-05-02,Delivered,2025-05-04,22
+2036,179,550,1075,Medium,Diesel,Lahore,Karachi,Furniture,1107,18,210.82,29,2025-05-08,In Transit,2025-05-10,22
+2037,114,593,1029,Small,Petrol,Sialkot,Karachi,Furniture,1479,17,387.02,23,2025-05-13,In Transit,2025-05-17,16
+2038,161,597,1057,Medium,Diesel,Peshawar,Multan,Automotive,725,26,377.82,25,2025-06-22,In Transit,2025-06-26,31
+2039,161,511,1030,Small,Hybrid,Islamabad,Peshawar,Automotive,1288,15,348.72,33,2025-04-21,Delayed,2025-04-26,14
+2040,146,518,1099,Small,Petrol,Karachi,Sialkot,Automotive,1097,25,209.99,18,2025-06-01,Delivered,2025-06-07,29
+2041,161,543,1063,Small,Petrol,Karachi,Faisalabad,Construction,833,33,73.54,10,2025-04-28,Delayed,2025-05-03,38
+2042,150,558,1018,Small,Petrol,Karachi,Faisalabad,Furniture,190,29,102.8,35,2025-05-11,In Transit,2025-05-17,32
+2043,154,548,1047,Medium,Hybrid,Quetta,Multan,Construction,266,10,266.11,6,2025-06-14,In Transit,2025-06-17,10
+2044,163,560,1044,Medium,Petrol,Faisalabad,Peshawar,FMCG,1058,17,180.27,27,2025-05-07,Delivered,2025-05-12,22
+2045,102,516,1099,Small,Diesel,Karachi,Multan,Automotive,306,7,75.78,23,2025-05-09,Delivered,2025-05-14,6
+2046,150,573,1093,Small,Diesel,Quetta,Peshawar,FMCG,1405,14,202.02,10,2025-06-12,In Transit,2025-06-13,13
+2047,106,556,1054,Medium,Petrol,Multan,Quetta,Automotive,1188,27,26.62,36,2025-05-21,In Transit,2025-05-23,25
+2048,120,554,1054,Large,Petrol,Quetta,Quetta,Electronics,615,10,298.88,11,2025-06-20,Delayed,2025-06-24,9
+2049,172,546,1096,Large,Hybrid,Lahore,Lahore,Construction,1280,17,47.96,32,2025-06-18,In Transit,2025-06-23,14
+2050,138,511,1017,Medium,Hybrid,Quetta,Sialkot,Construction,846,6,259.06,30,2025-06-30,Delayed,2025-07-04,6
+2051,117,561,1062,Small,Hybrid,Faisalabad,Multan,Textiles,405,27,321.34,34,2025-05-09,Delivered,2025-05-15,31
+2052,103,579,1091,Small,Petrol,Peshawar,Sialkot,Pharmaceuticals,494,24,70.4,33,2025-04-22,Delayed,2025-04-27,25
+2053,188,587,1046,Large,Hybrid,Sialkot,Peshawar,Furniture,1197,21,217.08,21,2025-06-23,In Transit,2025-06-29,19
+2054,159,582,1074,Large,Hybrid,Quetta,Faisalabad,Textiles,286,36,316.05,17,2025-06-30,Delayed,2025-07-05,35
+2055,113,507,1056,Medium,Diesel,Karachi,Sialkot,Construction,1460,8,119.04,25,2025-06-30,Delayed,2025-07-07,5
+2056,108,594,1044,Large,Hybrid,Lahore,Peshawar,Textiles,722,28,81.91,23,2025-06-20,Delayed,2025-06-26,29
+2057,189,520,1032,Medium,Diesel,Islamabad,Quetta,Electronics,829,23,147.99,39,2025-05-21,Delayed,2025-05-22,20
+2058,152,580,1016,Large,Diesel,Karachi,Peshawar,Pharmaceuticals,339,31,230.79,28,2025-04-20,In Transit,2025-04-26,29
+2059,101,586,1069,Large,Hybrid,Lahore,Multan,Construction,632,18,238.61,32,2025-06-21,Delayed,2025-06-23,17
+2060,183,579,1003,Large,Diesel,Multan,Lahore,Construction,240,23,69.73,22,2025-05-09,Delayed,2025-05-11,20
+2061,191,569,1019,Small,Petrol,Sialkot,Lahore,Furniture,1388,8,193.88,26,2025-05-28,Delayed,2025-05-31,13
+2062,159,571,1046,Small,Petrol,Islamabad,Lahore,Automotive,238,28,121.95,45,2025-05-18,In Transit,2025-05-21,29
+2063,170,524,1090,Small,Hybrid,Multan,Lahore,Pharmaceuticals,558,8,339.97,36,2025-05-29,Delayed,2025-06-07,15
+2064,143,581,1014,Large,Petrol,Peshawar,Quetta,Electronics,169,30,139.16,8,2025-05-02,In Transit,2025-05-04,31
+2065,107,588,1069,Medium,Diesel,Lahore,Islamabad,FMCG,484,32,338.71,22,2025-04-18,Delayed,2025-04-24,36
+2066,146,511,1046,Medium,Petrol,Multan,Sialkot,Textiles,729,32,182.85,31,2025-05-04,Delivered,2025-05-06,35
+2067,134,514,1077,Medium,Hybrid,Sialkot,Multan,Furniture,297,30,296.1,28,2025-05-19,Delivered,2025-05-20,30
+2068,177,558,1074,Medium,Hybrid,Sialkot,Karachi,Construction,304,29,213.82,11,2025-06-19,Delivered,2025-06-24,32
+2069,180,525,1008,Small,Diesel,Peshawar,Multan,FMCG,667,13,256.35,33,2025-05-31,In Transit,2025-06-01,15
+2070,135,525,1089,Small,Hybrid,Sialkot,Islamabad,Electronics,1081,14,170.24,13,2025-06-27,In Transit,2025-07-04,13
+2071,149,546,1015,Large,Petrol,Lahore,Lahore,Pharmaceuticals,904,35,311.92,13,2025-06-04,In Transit,2025-06-11,40
+2072,103,531,1068,Large,Hybrid,Lahore,Islamabad,Textiles,958,24,181.57,24,2025-05-13,Delayed,2025-05-15,29
+2073,101,509,1060,Medium,Diesel,Sialkot,Faisalabad,Furniture,981,21,193.84,43,2025-05-17,In Transit,2025-05-22,22
+2074,105,515,1009,Small,Hybrid,Multan,Faisalabad,Construction,1073,29,216.72,34,2025-05-16,In Transit,2025-05-18,33
+2075,153,570,1049,Medium,Petrol,Lahore,Sialkot,Construction,739,26,336.09,28,2025-05-05,In Transit,2025-05-06,29
+2076,103,516,1002,Large,Diesel,Karachi,Quetta,FMCG,1554,11,270.56,37,2025-05-31,Delayed,2025-06-02,18
+2077,153,522,1076,Large,Petrol,Sialkot,Multan,FMCG,424,10,152.68,15,2025-06-13,Delivered,2025-06-19,13
+2078,192,525,1093,Medium,Diesel,Lahore,Multan,Textiles,541,19,274.72,32,2025-04-19,Delayed,2025-04-25,19
+2079,162,584,1069,Large,Hybrid,Faisalabad,Karachi,Pharmaceuticals,903,9,264.12,6,2025-04-24,Delivered,2025-04-25,9
+2080,117,585,1080,Medium,Diesel,Peshawar,Quetta,Electronics,387,13,373.79,44,2025-04-22,Delayed,2025-04-27,17
+2081,189,506,1050,Small,Diesel,Sialkot,Karachi,Automotive,325,29,339.74,34,2025-04-15,Delayed,2025-04-22,31
+2082,143,513,1018,Medium,Hybrid,Lahore,Faisalabad,Pharmaceuticals,1187,16,266.03,8,2025-05-23,Delivered,2025-05-29,21
+2083,133,578,1041,Small,Petrol,Faisalabad,Lahore,Pharmaceuticals,1066,22,149.77,42,2025-06-23,In Transit,2025-06-29,25
+2084,173,506,1034,Small,Hybrid,Lahore,Islamabad,Pharmaceuticals,1037,26,316.24,36,2025-06-14,Delivered,2025-06-18,29
+2085,161,508,1045,Large,Diesel,Lahore,Karachi,Automotive,659,31,238.58,16,2025-05-20,Delayed,2025-05-24,31
+2086,199,547,1025,Large,Hybrid,Multan,Peshawar,Textiles,813,32,394.4,27,2025-04-28,Delayed,2025-05-04,31
+2087,113,571,1068,Large,Diesel,Karachi,Karachi,Automotive,597,21,114.05,23,2025-04-26,In Transit,2025-04-28,25
+2088,194,558,1092,Medium,Hybrid,Sialkot,Lahore,Textiles,948,31,50.27,40,2025-05-05,Delivered,2025-05-10,34
+2089,147,586,1063,Medium,Hybrid,Peshawar,Lahore,Automotive,1025,38,46.56,11,2025-04-28,Delayed,2025-05-01,38
+2090,114,592,1036,Large,Petrol,Sialkot,Multan,Electronics,159,36,263.21,8,2025-06-17,Delivered,2025-06-23,36
+2091,171,581,1083,Medium,Diesel,Karachi,Islamabad,Pharmaceuticals,1520,11,376.92,10,2025-05-24,In Transit,2025-05-28,8
+2092,177,594,1048,Large,Petrol,Islamabad,Lahore,Textiles,356,13,20.73,14,2025-06-14,In Transit,2025-06-19,16
+2093,186,593,1020,Medium,Diesel,Multan,Quetta,Automotive,676,12,295.79,33,2025-04-18,Delayed,2025-04-23,9
+2094,161,538,1073,Small,Hybrid,Multan,Karachi,Electronics,338,39,269.68,24,2025-06-03,In Transit,2025-06-07,39
+2095,139,598,1063,Small,Diesel,Karachi,Karachi,Automotive,137,19,298.28,33,2025-05-28,Delayed,2025-06-02,18
+2096,184,517,1004,Large,Petrol,Quetta,Faisalabad,Construction,124,21,155.05,32,2025-04-13,Delayed,2025-04-18,20
+2097,179,558,1099,Medium,Petrol,Multan,Lahore,Electronics,509,14,331.79,18,2025-06-30,In Transit,2025-07-04,11
+2098,181,516,1069,Medium,Petrol,Sialkot,Peshawar,Pharmaceuticals,560,15,36.99,43,2025-05-03,In Transit,2025-05-04,15
+2099,152,513,1089,Small,Diesel,Karachi,Multan,Furniture,1087,22,307.06,48,2025-05-28,Delayed,2025-06-05,23
+2100,123,530,1003,Small,Petrol,Multan,Islamabad,Pharmaceuticals,1540,17,121.49,26,2025-06-20,Delivered,2025-06-22,21
+2101,125,523,1038,Large,Petrol,Lahore,Peshawar,Furniture,456,11,201.2,32,2025-04-07,Delayed,2025-04-10,8
+2102,188,598,1034,Small,Petrol,Karachi,Multan,Electronics,482,24,332.6,11,2025-05-04,Delivered,2025-05-06,26
+2103,159,559,1000,Large,Hybrid,Karachi,Karachi,Construction,1281,34,123.12,43,2025-05-02,Delayed,2025-05-03,37
+2104,140,544,1023,Small,Hybrid,Sialkot,Peshawar,Construction,668,11,90.38,16,2025-05-28,In Transit,2025-06-04,9
+2105,128,597,1056,Small,Diesel,Faisalabad,Multan,Textiles,1556,30,278.9,46,2025-04-25,In Transit,2025-04-26,30
+2106,114,502,1099,Medium,Diesel,Multan,Karachi,Construction,1171,29,222.69,22,2025-05-07,Delivered,2025-05-12,28
+2107,144,536,1069,Small,Petrol,Multan,Karachi,FMCG,1451,30,215.47,44,2025-06-08,Delayed,2025-06-10,35
+2108,164,542,1040,Small,Hybrid,Karachi,Karachi,Electronics,532,21,117.57,12,2025-05-17,Delayed,2025-05-18,24
+2109,188,539,1053,Large,Petrol,Lahore,Karachi,Textiles,1554,21,33.25,35,2025-04-13,Delayed,2025-04-17,23
+2110,170,589,1045,Small,Petrol,Lahore,Quetta,Construction,155,11,175.9,26,2025-06-29,Delayed,2025-06-30,13
+2111,108,554,1059,Large,Hybrid,Peshawar,Karachi,Electronics,676,26,60.49,6,2025-05-30,Delayed,2025-06-02,31
+2112,187,586,1059,Small,Hybrid,Lahore,Faisalabad,Pharmaceuticals,367,9,364.28,30,2025-04-23,In Transit,2025-04-24,8
+2113,100,538,1056,Small,Hybrid,Multan,Peshawar,Construction,168,39,35.68,37,2025-06-11,Delayed,2025-06-13,41
+2114,107,514,1030,Large,Diesel,Quetta,Multan,Automotive,1001,33,184.03,13,2025-05-17,Delayed,2025-05-22,32
+2115,187,503,1083,Medium,Diesel,Faisalabad,Faisalabad,Furniture,1572,33,39.85,10,2025-06-21,Delayed,2025-06-23,32
+2116,162,592,1023,Large,Petrol,Karachi,Quetta,Electronics,892,22,56.31,35,2025-06-16,Delivered,2025-06-20,22
+2117,110,585,1088,Large,Diesel,Islamabad,Sialkot,Textiles,356,19,270.37,13,2025-04-28,Delayed,2025-05-01,26
+2118,180,524,1035,Large,Hybrid,Faisalabad,Sialkot,Pharmaceuticals,771,12,265.9,24,2025-04-25,Delivered,2025-04-28,16
+2119,107,512,1084,Medium,Hybrid,Sialkot,Faisalabad,FMCG,589,27,32.56,49,2025-06-14,Delayed,2025-06-20,24
+2120,134,581,1029,Small,Diesel,Sialkot,Lahore,Pharmaceuticals,845,6,20.43,35,2025-06-05,Delayed,2025-06-08,3
+2121,134,532,1023,Large,Petrol,Quetta,Lahore,Construction,148,34,49.95,20,2025-04-19,Delivered,2025-04-22,37
+2122,132,515,1029,Large,Petrol,Islamabad,Lahore,Furniture,415,36,309.94,41,2025-06-07,Delivered,2025-06-08,35
+2123,104,541,1085,Medium,Diesel,Faisalabad,Islamabad,Pharmaceuticals,512,35,242.14,49,2025-06-30,Delayed,2025-07-03,38
+2124,140,565,1091,Large,Petrol,Lahore,Lahore,FMCG,533,20,34.48,32,2025-04-12,Delayed,2025-04-14,25
+2125,127,554,1006,Small,Petrol,Multan,Multan,Automotive,1125,23,205.48,18,2025-05-13,In Transit,2025-05-19,22
+2126,106,598,1034,Medium,Petrol,Quetta,Faisalabad,Textiles,1268,35,290.57,19,2025-04-12,Delivered,2025-04-19,34
+2127,172,541,1054,Small,Hybrid,Islamabad,Multan,Electronics,1489,39,350.2,42,2025-05-05,Delayed,2025-05-10,37
+2128,171,533,1091,Small,Hybrid,Quetta,Peshawar,Furniture,519,16,374.93,35,2025-06-10,Delivered,2025-06-17,13
+2129,111,529,1013,Medium,Diesel,Faisalabad,Lahore,FMCG,943,32,144.43,44,2025-05-31,Delivered,2025-06-03,37
+2130,133,512,1009,Large,Hybrid,Multan,Quetta,Construction,1567,29,71.62,18,2025-06-17,Delivered,2025-06-19,31
+2131,132,512,1079,Small,Petrol,Quetta,Islamabad,Construction,1015,13,110.03,21,2025-04-25,In Transit,2025-04-26,15
+2132,147,517,1015,Small,Hybrid,Islamabad,Peshawar,Construction,533,23,314.95,49,2025-04-25,Delayed,2025-04-26,27
+2133,122,531,1053,Small,Diesel,Karachi,Quetta,Furniture,742,18,389.16,12,2025-05-24,Delayed,2025-05-29,19
+2134,161,595,1094,Small,Hybrid,Faisalabad,Islamabad,Pharmaceuticals,156,29,197.23,32,2025-04-17,Delivered,2025-04-22,34
+2135,187,598,1088,Medium,Petrol,Karachi,Sialkot,Furniture,1063,28,136.03,40,2025-06-05,Delayed,2025-06-09,33
+2136,136,538,1076,Medium,Petrol,Lahore,Peshawar,Construction,1076,17,183.09,20,2025-06-27,In Transit,2025-07-02,15
+2137,198,545,1069,Small,Diesel,Karachi,Sialkot,Automotive,1301,35,135.83,33,2025-04-04,Delayed,2025-04-10,39
+2138,143,528,1043,Large,Hybrid,Karachi,Faisalabad,FMCG,1416,36,117.47,40,2025-06-15,In Transit,2025-06-16,41
+2139,185,561,1072,Small,Hybrid,Peshawar,Multan,Electronics,145,33,245.63,12,2025-06-03,In Transit,2025-06-05,32
+2140,190,592,1044,Large,Hybrid,Faisalabad,Karachi,Electronics,1293,27,25.98,25,2025-04-07,Delayed,2025-04-13,27
+2141,134,561,1099,Small,Petrol,Lahore,Multan,Furniture,1394,33,118.63,37,2025-06-22,Delayed,2025-06-27,37
+2142,164,556,1055,Large,Diesel,Karachi,Lahore,Construction,516,18,271.33,43,2025-05-09,In Transit,2025-05-11,20
+2143,198,515,1083,Small,Hybrid,Sialkot,Sialkot,Textiles,947,30,32.18,45,2025-05-15,Delayed,2025-05-18,33
+2144,146,555,1081,Large,Petrol,Multan,Quetta,Automotive,238,12,51.62,37,2025-06-07,In Transit,2025-06-08,15
+2145,177,509,1056,Small,Petrol,Islamabad,Karachi,Furniture,346,11,131.49,31,2025-06-20,In Transit,2025-06-26,11
+2146,102,529,1020,Small,Petrol,Karachi,Islamabad,Construction,1271,29,353.57,44,2025-06-26,Delayed,2025-06-28,34
+2147,100,524,1067,Large,Hybrid,Lahore,Sialkot,Pharmaceuticals,329,24,310.66,25,2025-05-08,In Transit,2025-05-09,29
+2148,104,583,1049,Medium,Hybrid,Karachi,Faisalabad,Electronics,891,24,28.42,23,2025-04-25,In Transit,2025-04-29,23
+2149,189,504,1032,Large,Hybrid,Islamabad,Faisalabad,Electronics,736,14,210.65,20,2025-06-06,Delayed,2025-06-08,18
+2150,113,564,1090,Medium,Hybrid,Lahore,Sialkot,Automotive,473,34,124.38,27,2025-04-08,Delivered,2025-04-11,37
+2151,126,593,1006,Small,Hybrid,Faisalabad,Sialkot,Electronics,1203,29,266.49,27,2025-05-22,Delayed,2025-05-27,29
+2152,108,548,1069,Large,Hybrid,Lahore,Sialkot,Textiles,837,10,294.19,26,2025-05-22,Delivered,2025-05-25,9
+2153,178,502,1014,Large,Hybrid,Faisalabad,Islamabad,Construction,1188,31,347.89,7,2025-04-15,Delayed,2025-04-17,34
+2154,114,544,1081,Large,Hybrid,Lahore,Lahore,Construction,187,19,200.66,45,2025-05-02,In Transit,2025-05-03,24
+2155,189,513,1031,Medium,Hybrid,Sialkot,Islamabad,Automotive,1211,34,397.89,48,2025-05-19,Delivered,2025-05-23,33
+2156,141,529,1074,Medium,Petrol,Quetta,Peshawar,Construction,812,11,392.39,23,2025-05-31,Delivered,2025-06-02,16
+2157,176,567,1019,Small,Hybrid,Islamabad,Quetta,Automotive,1327,12,355.22,28,2025-04-09,Delivered,2025-04-15,16
+2158,150,517,1087,Medium,Diesel,Islamabad,Sialkot,Construction,1505,23,238.45,18,2025-05-18,Delivered,2025-05-24,22
+2159,162,561,1014,Medium,Petrol,Lahore,Quetta,Textiles,700,28,171.24,46,2025-04-19,Delayed,2025-04-21,32
+2160,195,536,1047,Small,Hybrid,Quetta,Lahore,FMCG,1599,6,158.47,14,2025-04-14,Delayed,2025-04-19,6
+2161,151,524,1070,Large,Diesel,Karachi,Karachi,Furniture,638,9,24.61,12,2025-06-17,Delivered,2025-06-20,11
+2162,195,547,1020,Large,Hybrid,Islamabad,Islamabad,Furniture,313,28,114.69,46,2025-06-01,Delivered,2025-06-04,26
+2163,103,564,1041,Small,Diesel,Sialkot,Lahore,Construction,173,32,293.15,6,2025-06-03,Delivered,2025-06-08,36
+2164,193,552,1025,Large,Diesel,Faisalabad,Quetta,Pharmaceuticals,160,31,249.38,7,2025-06-02,Delayed,2025-06-06,36
+2165,122,578,1013,Medium,Diesel,Faisalabad,Karachi,Electronics,797,13,368.24,9,2025-04-26,Delivered,2025-04-27,16
+2166,114,572,1056,Small,Diesel,Multan,Islamabad,Textiles,1342,21,39.01,19,2025-06-13,Delivered,2025-06-20,25
+2167,142,514,1036,Small,Petrol,Peshawar,Faisalabad,Pharmaceuticals,111,8,79.01,37,2025-06-04,Delivered,2025-06-11,11
+2168,128,548,1057,Small,Petrol,Quetta,Islamabad,Pharmaceuticals,913,37,319.91,41,2025-04-30,Delayed,2025-05-01,37
+2169,135,587,1020,Large,Diesel,Peshawar,Multan,Construction,1538,10,156.23,7,2025-04-17,In Transit,2025-04-23,7
+2170,112,567,1081,Small,Hybrid,Peshawar,Islamabad,Textiles,131,25,64.97,45,2025-06-04,In Transit,2025-06-08,24
+2171,131,511,1068,Small,Diesel,Faisalabad,Multan,Furniture,1283,19,398.65,19,2025-06-18,Delayed,2025-06-23,22
+2172,170,558,1002,Small,Petrol,Sialkot,Karachi,Electronics,1100,37,319.16,25,2025-05-08,In Transit,2025-05-15,40
+2173,158,536,1086,Large,Hybrid,Sialkot,Islamabad,Furniture,336,31,175.32,30,2025-06-01,Delivered,2025-06-03,30
+2174,185,560,1089,Medium,Petrol,Multan,Karachi,Pharmaceuticals,1304,11,332.87,47,2025-04-09,Delivered,2025-04-12,8
+2175,127,542,1036,Small,Petrol,Peshawar,Karachi,Electronics,657,10,278.63,13,2025-07-01,Delayed,2025-07-05,19
+2176,165,569,1087,Medium,Hybrid,Peshawar,Quetta,FMCG,1464,18,320.19,33,2025-06-19,Delayed,2025-06-22,20
+2177,141,538,1048,Large,Diesel,Lahore,Lahore,Pharmaceuticals,1581,37,329.78,26,2025-06-06,In Transit,2025-06-08,40
+2178,144,555,1018,Large,Diesel,Lahore,Karachi,Furniture,1203,21,52.2,28,2025-05-06,In Transit,2025-05-11,18
+2179,161,562,1088,Large,Diesel,Lahore,Karachi,Furniture,746,6,256.73,37,2025-05-15,Delivered,2025-05-20,3
+2180,156,545,1084,Large,Diesel,Karachi,Quetta,Construction,1086,18,22.58,13,2025-05-11,Delayed,2025-05-15,18
+2181,105,587,1011,Medium,Hybrid,Peshawar,Quetta,Furniture,919,16,36.51,36,2025-05-28,In Transit,2025-05-30,19
+2182,127,510,1060,Small,Hybrid,Sialkot,Islamabad,Textiles,572,13,363.51,42,2025-05-05,In Transit,2025-05-07,17
+2183,127,561,1040,Large,Hybrid,Sialkot,Quetta,Pharmaceuticals,211,30,220.47,21,2025-06-20,Delayed,2025-06-25,39
+2184,143,576,1032,Large,Petrol,Karachi,Islamabad,Automotive,1415,37,299.64,45,2025-05-08,Delivered,2025-05-12,34
+2185,183,597,1049,Medium,Hybrid,Sialkot,Faisalabad,Automotive,482,29,338.63,47,2025-05-09,Delivered,2025-05-14,29
+2186,129,524,1067,Medium,Diesel,Multan,Quetta,Electronics,116,33,380.84,32,2025-04-04,Delivered,2025-04-09,33
+2187,161,570,1070,Large,Petrol,Quetta,Lahore,Furniture,592,19,350.35,45,2025-04-05,In Transit,2025-04-11,18
+2188,174,551,1085,Small,Diesel,Faisalabad,Karachi,Construction,1454,8,203.66,46,2025-06-30,Delayed,2025-07-02,11
+2189,191,503,1032,Small,Diesel,Peshawar,Lahore,Construction,1025,32,147.67,23,2025-05-09,Delayed,2025-05-17,32
+2190,188,558,1080,Large,Hybrid,Sialkot,Multan,Furniture,1529,25,78.71,40,2025-06-28,Delayed,2025-07-06,34
+2191,161,571,1023,Medium,Hybrid,Faisalabad,Sialkot,Textiles,216,20,172.12,20,2025-06-24,Delivered,2025-06-29,24
+2192,196,519,1060,Large,Diesel,Sialkot,Quetta,Construction,979,32,159.27,32,2025-04-30,In Transit,2025-05-02,30
+2193,100,592,1060,Large,Diesel,Quetta,Karachi,Automotive,214,33,232.64,22,2025-04-24,Delivered,2025-04-28,31
+2194,126,562,1097,Medium,Petrol,Lahore,Lahore,Electronics,913,30,272.89,45,2025-05-26,Delayed,2025-05-28,34
+2195,161,553,1027,Large,Hybrid,Peshawar,Quetta,Pharmaceuticals,743,38,391.76,7,2025-04-12,Delayed,2025-04-22,39
+2196,176,573,1057,Large,Petrol,Islamabad,Quetta,FMCG,1459,19,296.79,36,2025-05-09,Delayed,2025-05-10,22
+2197,102,597,1042,Large,Petrol,Karachi,Sialkot,Textiles,435,13,264.62,42,2025-05-22,Delayed,2025-05-26,22
+2198,169,556,1040,Medium,Petrol,Karachi,Faisalabad,Construction,1021,19,147.34,46,2025-06-13,Delivered,2025-06-14,18
+2199,171,589,1038,Small,Diesel,Peshawar,Faisalabad,Pharmaceuticals,246,6,33.11,46,2025-05-14,Delayed,2025-05-17,12
+2200,126,540,1085,Small,Petrol,Quetta,Karachi,FMCG,221,21,129.49,39,2025-06-09,Delayed,2025-06-19,26
+2201,108,502,1048,Medium,Petrol,Lahore,Multan,Furniture,180,23,312.01,39,2025-06-12,In Transit,2025-06-13,26
+2202,161,505,1016,Small,Diesel,Karachi,Faisalabad,Furniture,784,12,98.0,8,2025-04-09,Delivered,2025-04-10,15
+2203,136,504,1097,Large,Hybrid,Lahore,Sialkot,Electronics,761,20,290.63,22,2025-04-13,Delivered,2025-04-20,17
+2204,196,504,1069,Small,Hybrid,Multan,Faisalabad,FMCG,474,29,240.32,19,2025-04-23,Delayed,2025-04-27,31
+2205,150,553,1069,Large,Petrol,Faisalabad,Multan,Furniture,162,18,85.31,19,2025-06-03,Delayed,2025-06-09,15
+2206,143,546,1097,Small,Diesel,Quetta,Lahore,Furniture,603,14,119.42,43,2025-06-22,Delivered,2025-06-27,15
+2207,123,586,1064,Medium,Hybrid,Islamabad,Faisalabad,Automotive,767,20,208.6,40,2025-05-13,Delayed,2025-05-16,19
+2208,178,548,1073,Small,Petrol,Faisalabad,Sialkot,Construction,548,29,178.98,6,2025-06-21,In Transit,2025-06-26,26
+2209,158,508,1084,Small,Petrol,Faisalabad,Islamabad,Electronics,1551,38,315.85,34,2025-04-27,In Transit,2025-04-28,36
+2210,131,598,1004,Small,Diesel,Multan,Sialkot,Pharmaceuticals,967,21,299.07,9,2025-05-29,Delayed,2025-05-31,22
+2211,195,519,1001,Medium,Petrol,Karachi,Peshawar,Furniture,1550,13,238.34,38,2025-06-16,Delayed,2025-06-18,12
+2212,187,560,1021,Small,Hybrid,Islamabad,Peshawar,Automotive,1544,34,332.46,22,2025-04-26,Delayed,2025-04-28,36
+2213,151,534,1056,Medium,Diesel,Karachi,Faisalabad,Textiles,1445,28,233.81,33,2025-05-07,In Transit,2025-05-09,33
+2214,161,549,1065,Large,Hybrid,Peshawar,Lahore,Textiles,779,36,386.47,31,2025-04-03,Delivered,2025-04-09,38
+2215,157,581,1073,Small,Hybrid,Faisalabad,Quetta,Pharmaceuticals,1289,19,102.55,13,2025-06-14,Delayed,2025-06-17,17
+2216,151,561,1097,Medium,Hybrid,Peshawar,Lahore,FMCG,560,35,291.37,39,2025-06-10,Delayed,2025-06-14,33
+2217,111,516,1015,Medium,Petrol,Lahore,Sialkot,Electronics,558,32,160.58,23,2025-05-14,Delayed,2025-05-15,36
+2218,138,587,1050,Small,Petrol,Faisalabad,Karachi,Automotive,1312,21,126.01,36,2025-05-13,Delivered,2025-05-16,25
+2219,101,502,1038,Large,Hybrid,Karachi,Islamabad,Construction,563,11,88.55,32,2025-05-05,Delayed,2025-05-10,13
+2220,102,531,1085,Medium,Hybrid,Faisalabad,Lahore,Automotive,1011,38,229.95,21,2025-04-15,Delayed,2025-04-19,41
+2221,155,598,1075,Small,Diesel,Lahore,Multan,Textiles,478,23,101.88,15,2025-04-28,In Transit,2025-05-02,20
+2222,180,512,1087,Large,Diesel,Multan,Sialkot,Textiles,1125,21,96.13,45,2025-04-03,Delayed,2025-04-05,26
+2223,158,588,1039,Medium,Petrol,Peshawar,Islamabad,Pharmaceuticals,463,17,396.4,17,2025-06-12,In Transit,2025-06-15,18
+2224,101,572,1037,Medium,Petrol,Sialkot,Peshawar,FMCG,171,25,324.66,27,2025-04-25,Delivered,2025-04-30,30
+2225,101,567,1059,Large,Diesel,Peshawar,Sialkot,FMCG,1550,34,304.35,21,2025-06-20,Delayed,2025-06-22,32
+2226,191,513,1058,Large,Hybrid,Karachi,Islamabad,Pharmaceuticals,737,35,321.74,17,2025-05-18,Delayed,2025-05-20,39
+2227,153,597,1009,Small,Petrol,Faisalabad,Multan,Automotive,1293,31,388.19,16,2025-04-26,In Transit,2025-05-03,34
+2228,186,510,1098,Small,Hybrid,Karachi,Faisalabad,Textiles,1328,27,237.85,25,2025-05-31,Delivered,2025-06-07,27
+2229,195,555,1063,Medium,Diesel,Multan,Multan,Automotive,436,38,103.69,6,2025-04-15,Delayed,2025-04-24,40
+2230,196,566,1062,Large,Petrol,Faisalabad,Multan,Automotive,1595,34,347.64,32,2025-06-07,In Transit,2025-06-13,34
+2231,100,591,1048,Large,Petrol,Sialkot,Faisalabad,Electronics,294,27,302.24,8,2025-06-11,Delivered,2025-06-12,27
+2232,118,528,1063,Large,Diesel,Faisalabad,Faisalabad,Textiles,1111,18,177.44,17,2025-04-10,Delivered,2025-04-14,22
+2233,101,508,1031,Medium,Petrol,Sialkot,Faisalabad,FMCG,752,14,199.96,35,2025-04-24,Delivered,2025-04-29,14
+2234,152,566,1006,Large,Diesel,Karachi,Faisalabad,Construction,1398,29,176.28,14,2025-05-19,Delivered,2025-05-23,30
+2235,143,524,1020,Large,Petrol,Karachi,Faisalabad,Automotive,106,20,373.38,42,2025-04-17,Delivered,2025-04-20,18
+2236,189,597,1019,Medium,Diesel,Lahore,Multan,Textiles,1004,18,150.54,6,2025-05-08,Delivered,2025-05-09,18
+2237,131,575,1025,Small,Petrol,Quetta,Karachi,Automotive,1078,32,386.12,47,2025-06-10,Delivered,2025-06-12,35
+2238,169,541,1067,Small,Hybrid,Quetta,Karachi,Electronics,665,12,365.9,9,2025-04-08,Delivered,2025-04-09,11
+2239,131,508,1085,Medium,Hybrid,Multan,Sialkot,Furniture,715,13,259.6,20,2025-04-10,Delayed,2025-04-12,10
+2240,167,578,1014,Large,Hybrid,Quetta,Lahore,Textiles,672,19,240.33,32,2025-06-29,In Transit,2025-07-06,23
+2241,154,539,1084,Medium,Petrol,Lahore,Karachi,Pharmaceuticals,698,17,160.63,13,2025-06-24,Delayed,2025-06-26,25
+2242,174,524,1078,Small,Petrol,Peshawar,Peshawar,Furniture,869,22,26.97,28,2025-04-16,Delayed,2025-04-19,27
+2243,155,504,1085,Small,Hybrid,Sialkot,Karachi,Automotive,1301,34,68.5,20,2025-06-13,Delivered,2025-06-17,37
+2244,116,510,1091,Medium,Hybrid,Faisalabad,Multan,Pharmaceuticals,341,32,306.61,32,2025-05-31,Delivered,2025-06-07,30
+2245,137,558,1013,Medium,Diesel,Karachi,Faisalabad,Pharmaceuticals,1326,6,199.19,36,2025-04-28,Delayed,2025-05-05,7
+2246,123,597,1026,Small,Diesel,Faisalabad,Sialkot,Pharmaceuticals,1585,39,76.94,44,2025-05-09,In Transit,2025-05-16,42
+2247,168,587,1039,Medium,Diesel,Faisalabad,Faisalabad,Textiles,1203,9,120.31,13,2025-05-14,In Transit,2025-05-18,14
+2248,197,578,1057,Small,Hybrid,Islamabad,Quetta,FMCG,1540,29,380.18,35,2025-04-16,Delayed,2025-04-23,30
+2249,169,537,1027,Medium,Hybrid,Peshawar,Quetta,Automotive,865,26,159.51,47,2025-05-02,Delayed,2025-05-06,25
+2250,185,571,1025,Medium,Hybrid,Islamabad,Quetta,Furniture,483,38,364.92,23,2025-06-24,In Transit,2025-07-01,40
+2251,110,504,1062,Medium,Diesel,Quetta,Multan,Electronics,490,12,135.76,9,2025-04-10,Delivered,2025-04-11,15
+2252,115,547,1065,Small,Petrol,Faisalabad,Peshawar,FMCG,995,6,226.42,48,2025-05-31,Delivered,2025-06-02,8
+2253,196,589,1024,Medium,Hybrid,Sialkot,Karachi,Automotive,787,8,27.78,27,2025-05-31,In Transit,2025-06-04,5
+2254,172,517,1002,Small,Petrol,Karachi,Multan,Textiles,1249,20,218.31,8,2025-06-17,Delayed,2025-06-20,22
+2255,158,569,1071,Small,Petrol,Sialkot,Lahore,Pharmaceuticals,146,36,262.04,20,2025-06-29,Delayed,2025-07-01,38
+2256,169,536,1043,Medium,Petrol,Faisalabad,Sialkot,Electronics,1599,21,109.04,40,2025-04-03,Delayed,2025-04-10,25
+2257,179,559,1096,Medium,Diesel,Peshawar,Faisalabad,Automotive,718,15,240.0,43,2025-05-24,Delayed,2025-05-25,15
+2258,192,547,1041,Small,Petrol,Sialkot,Quetta,Furniture,563,34,265.92,38,2025-05-06,In Transit,2025-05-13,37
+2259,102,576,1098,Small,Hybrid,Islamabad,Islamabad,Automotive,222,11,281.02,19,2025-06-20,In Transit,2025-06-26,10
+2260,119,527,1005,Large,Diesel,Karachi,Lahore,FMCG,1597,34,315.03,6,2025-05-14,In Transit,2025-05-18,38
+2261,158,568,1038,Small,Hybrid,Faisalabad,Quetta,Construction,233,22,138.31,31,2025-06-27,Delivered,2025-06-30,19
+2262,135,576,1051,Large,Hybrid,Multan,Peshawar,FMCG,940,27,235.76,13,2025-05-05,In Transit,2025-05-06,27
+2263,118,580,1022,Large,Diesel,Peshawar,Lahore,Automotive,948,29,393.0,21,2025-06-15,In Transit,2025-06-19,33
+2264,189,539,1088,Large,Hybrid,Peshawar,Multan,Electronics,706,22,361.29,43,2025-04-17,Delayed,2025-04-22,22
+2265,166,544,1049,Medium,Hybrid,Multan,Karachi,Automotive,122,26,382.01,15,2025-05-09,Delivered,2025-05-11,24
+2266,118,595,1042,Medium,Diesel,Sialkot,Faisalabad,Automotive,665,16,166.73,47,2025-05-05,Delivered,2025-05-11,14
+2267,119,561,1018,Small,Hybrid,Faisalabad,Sialkot,Textiles,865,12,319.03,42,2025-06-16,Delayed,2025-06-20,12
+2268,195,592,1068,Large,Petrol,Peshawar,Peshawar,Furniture,1064,10,255.56,31,2025-05-18,Delivered,2025-05-23,10
+2269,170,557,1050,Medium,Hybrid,Karachi,Peshawar,Electronics,334,26,51.44,33,2025-06-09,In Transit,2025-06-10,24
+2270,151,566,1010,Medium,Petrol,Faisalabad,Islamabad,Automotive,1095,23,333.11,17,2025-06-14,Delivered,2025-06-15,26
+2271,132,555,1011,Medium,Hybrid,Faisalabad,Lahore,Pharmaceuticals,1182,25,277.3,25,2025-06-02,Delayed,2025-06-07,27
+2272,139,539,1073,Medium,Diesel,Islamabad,Islamabad,Furniture,1287,20,95.59,19,2025-04-19,Delayed,2025-04-26,23
+2273,138,597,1007,Medium,Diesel,Peshawar,Karachi,FMCG,925,10,50.3,40,2025-06-28,Delayed,2025-07-03,14
+2274,181,539,1023,Large,Hybrid,Peshawar,Quetta,Electronics,315,18,338.07,34,2025-06-18,In Transit,2025-06-20,22
+2275,100,590,1091,Large,Diesel,Multan,Karachi,FMCG,1306,17,49.98,17,2025-06-20,Delayed,2025-06-23,16
+2276,110,576,1040,Large,Hybrid,Islamabad,Quetta,Automotive,756,26,54.71,23,2025-04-22,Delayed,2025-04-27,25
+2277,191,532,1035,Large,Diesel,Sialkot,Islamabad,FMCG,1034,11,182.42,49,2025-05-22,In Transit,2025-05-25,12
+2278,156,505,1084,Small,Petrol,Quetta,Faisalabad,FMCG,1213,12,71.22,7,2025-05-12,In Transit,2025-05-15,10
+2279,188,587,1071,Large,Hybrid,Sialkot,Karachi,Textiles,410,31,367.19,7,2025-04-15,Delivered,2025-04-20,32
+2280,149,518,1054,Medium,Petrol,Sialkot,Islamabad,FMCG,656,13,198.71,22,2025-06-29,Delayed,2025-07-03,14
+2281,122,579,1008,Large,Petrol,Islamabad,Lahore,Pharmaceuticals,1071,14,236.28,15,2025-04-07,Delayed,2025-04-11,23
+2282,130,539,1046,Small,Hybrid,Peshawar,Islamabad,Pharmaceuticals,356,32,372.68,23,2025-05-05,In Transit,2025-05-08,29
+2283,193,591,1014,Medium,Petrol,Faisalabad,Islamabad,Furniture,632,9,221.5,27,2025-06-28,Delivered,2025-07-03,9
+2284,141,596,1047,Large,Hybrid,Islamabad,Multan,Automotive,151,26,154.36,24,2025-05-04,Delayed,2025-05-11,28
+2285,198,558,1081,Large,Petrol,Multan,Karachi,Construction,1461,36,322.92,6,2025-05-08,In Transit,2025-05-13,41
+2286,106,558,1041,Large,Hybrid,Islamabad,Sialkot,FMCG,1294,26,188.28,29,2025-06-03,In Transit,2025-06-07,25
+2287,115,547,1059,Medium,Hybrid,Multan,Faisalabad,FMCG,1190,30,141.02,41,2025-05-24,In Transit,2025-05-29,29
+2288,189,540,1083,Medium,Diesel,Sialkot,Faisalabad,Electronics,399,20,294.83,30,2025-05-26,Delayed,2025-05-28,21
+2289,159,512,1069,Small,Hybrid,Quetta,Multan,Textiles,771,33,324.61,41,2025-04-23,Delivered,2025-04-26,36
+2290,101,544,1011,Medium,Hybrid,Islamabad,Quetta,Construction,877,19,320.85,36,2025-06-11,Delayed,2025-06-15,20
+2291,100,588,1001,Medium,Petrol,Multan,Peshawar,Furniture,931,9,391.52,36,2025-06-12,Delayed,2025-06-15,13
+2292,147,552,1006,Large,Hybrid,Islamabad,Quetta,Construction,331,25,318.93,7,2025-06-03,Delivered,2025-06-06,26
+2293,111,541,1079,Medium,Diesel,Quetta,Faisalabad,FMCG,1074,39,312.57,24,2025-05-24,Delayed,2025-05-26,42
+2294,168,599,1002,Large,Petrol,Sialkot,Islamabad,Electronics,1191,17,345.84,17,2025-04-07,Delayed,2025-04-12,19
+2295,136,562,1002,Large,Petrol,Islamabad,Multan,Automotive,127,38,20.07,15,2025-04-10,In Transit,2025-04-12,36
+2296,131,526,1026,Medium,Diesel,Karachi,Lahore,Textiles,1174,29,157.72,36,2025-04-17,Delayed,2025-04-23,31
+2297,108,537,1039,Small,Petrol,Multan,Karachi,Automotive,1383,25,300.29,27,2025-05-18,In Transit,2025-05-22,25
+2298,198,559,1032,Small,Petrol,Quetta,Karachi,Furniture,690,10,247.89,28,2025-06-06,Delayed,2025-06-08,11
+2299,118,506,1091,Medium,Petrol,Multan,Sialkot,Construction,884,35,87.48,28,2025-06-09,In Transit,2025-06-11,40
+2300,147,504,1000,Small,Petrol,Multan,Karachi,Furniture,719,29,135.42,20,2025-05-24,In Transit,2025-05-31,31
+2301,179,544,1007,Large,Diesel,Lahore,Islamabad,FMCG,685,12,147.98,31,2025-05-24,In Transit,2025-05-30,9
+2302,102,557,1031,Large,Diesel,Quetta,Lahore,Furniture,1101,21,235.77,8,2025-04-09,Delivered,2025-04-10,20
+2303,119,530,1047,Medium,Petrol,Islamabad,Multan,Automotive,283,20,336.01,28,2025-06-05,Delayed,2025-06-07,23
+2304,123,522,1003,Small,Petrol,Multan,Multan,Electronics,1146,28,374.35,25,2025-04-10,Delayed,2025-04-16,32
+2305,153,541,1093,Small,Diesel,Peshawar,Karachi,Furniture,228,17,305.04,45,2025-05-24,Delayed,2025-05-25,20
+2306,132,509,1069,Large,Diesel,Lahore,Lahore,Pharmaceuticals,390,34,340.32,44,2025-04-29,Delayed,2025-05-09,38
+2307,123,531,1018,Medium,Diesel,Karachi,Lahore,Electronics,600,20,198.64,13,2025-05-20,Delayed,2025-05-26,26
+2308,174,552,1031,Small,Petrol,Multan,Lahore,Construction,285,34,168.11,23,2025-06-15,Delayed,2025-06-20,39
+2309,171,529,1008,Medium,Petrol,Sialkot,Faisalabad,Textiles,578,26,169.23,46,2025-04-08,Delivered,2025-04-13,29
+2310,135,538,1011,Small,Hybrid,Multan,Faisalabad,Textiles,591,20,254.09,11,2025-06-17,Delivered,2025-06-23,25
+2311,137,530,1010,Large,Diesel,Lahore,Karachi,FMCG,612,19,67.21,32,2025-04-10,Delayed,2025-04-16,16
+2312,183,581,1045,Large,Petrol,Islamabad,Lahore,FMCG,1190,21,240.21,41,2025-04-12,In Transit,2025-04-13,26
+2313,198,599,1015,Medium,Diesel,Peshawar,Peshawar,Pharmaceuticals,566,20,272.75,20,2025-04-15,Delayed,2025-04-23,23
+2314,188,501,1000,Large,Petrol,Sialkot,Lahore,Construction,384,9,186.79,42,2025-04-21,Delayed,2025-04-24,11
+2315,198,577,1062,Small,Diesel,Karachi,Multan,Automotive,700,32,382.2,10,2025-05-30,In Transit,2025-06-01,36
+2316,124,576,1020,Large,Petrol,Sialkot,Multan,Textiles,1540,28,251.12,44,2025-04-29,Delivered,2025-05-05,27
+2317,192,592,1029,Medium,Hybrid,Multan,Karachi,Textiles,1223,34,103.6,14,2025-04-21,Delivered,2025-04-27,34
+2318,117,511,1012,Medium,Hybrid,Islamabad,Peshawar,Textiles,288,14,202.1,12,2025-06-25,Delayed,2025-07-01,17
+2319,181,538,1033,Medium,Diesel,Quetta,Lahore,Automotive,1088,12,276.65,46,2025-06-19,Delayed,2025-06-20,15
+2320,165,565,1003,Small,Petrol,Peshawar,Quetta,Textiles,989,9,142.98,25,2025-04-16,Delayed,2025-04-22,12
+2321,153,595,1027,Small,Petrol,Quetta,Peshawar,Furniture,487,10,50.26,15,2025-05-28,Delayed,2025-06-03,19
+2322,134,512,1094,Small,Diesel,Peshawar,Sialkot,Construction,340,10,241.71,31,2025-05-02,Delayed,2025-05-06,13
+2323,179,545,1058,Small,Petrol,Karachi,Karachi,Electronics,516,16,380.19,9,2025-06-24,In Transit,2025-06-26,20
+2324,160,526,1026,Small,Diesel,Faisalabad,Multan,Electronics,275,33,204.33,43,2025-04-04,Delayed,2025-04-09,37
+2325,140,516,1068,Large,Petrol,Peshawar,Quetta,Pharmaceuticals,486,21,364.32,29,2025-05-27,In Transit,2025-05-30,21
+2326,199,594,1024,Small,Diesel,Faisalabad,Multan,Furniture,1594,35,337.31,19,2025-05-16,In Transit,2025-05-17,38
+2327,132,597,1002,Small,Petrol,Quetta,Faisalabad,Textiles,952,9,76.02,46,2025-06-20,In Transit,2025-06-26,9
+2328,167,559,1096,Large,Diesel,Peshawar,Karachi,Textiles,1356,7,289.1,6,2025-05-14,Delayed,2025-05-20,4
+2329,132,563,1067,Small,Petrol,Karachi,Karachi,FMCG,762,8,185.48,22,2025-05-13,In Transit,2025-05-20,5
+2330,113,587,1024,Medium,Hybrid,Lahore,Lahore,FMCG,551,26,115.09,29,2025-04-21,Delayed,2025-04-26,23
+2331,120,534,1019,Small,Petrol,Karachi,Lahore,Pharmaceuticals,376,11,281.04,32,2025-04-28,In Transit,2025-04-30,9
+2332,147,569,1033,Small,Diesel,Karachi,Faisalabad,Textiles,1352,23,302.21,12,2025-05-23,Delayed,2025-05-29,25
+2333,119,582,1025,Medium,Hybrid,Lahore,Quetta,Pharmaceuticals,1294,10,88.36,14,2025-04-29,In Transit,2025-05-06,11
+2334,107,529,1004,Medium,Petrol,Lahore,Sialkot,Furniture,312,14,367.49,48,2025-05-08,Delivered,2025-05-10,12
+2335,106,570,1098,Medium,Hybrid,Islamabad,Islamabad,Electronics,1405,25,305.44,40,2025-06-26,Delivered,2025-06-28,29
+2336,166,573,1060,Medium,Petrol,Peshawar,Peshawar,Textiles,140,33,374.68,17,2025-05-08,Delivered,2025-05-13,38
+2337,116,595,1091,Small,Hybrid,Quetta,Islamabad,Construction,1245,31,140.49,26,2025-05-04,In Transit,2025-05-08,34
+2338,132,597,1092,Medium,Diesel,Islamabad,Islamabad,Automotive,1350,23,376.95,8,2025-04-20,Delayed,2025-04-27,28
+2339,147,562,1008,Medium,Petrol,Lahore,Karachi,Furniture,393,24,160.04,20,2025-04-19,In Transit,2025-04-23,24
+2340,175,527,1049,Large,Petrol,Faisalabad,Peshawar,Textiles,699,8,40.51,26,2025-06-18,In Transit,2025-06-22,11
+2341,158,559,1005,Medium,Diesel,Quetta,Karachi,Automotive,1390,14,309.93,15,2025-05-26,In Transit,2025-06-02,15
+2342,185,578,1082,Medium,Hybrid,Faisalabad,Sialkot,Construction,640,36,287.33,38,2025-06-22,In Transit,2025-06-25,37
+2343,121,593,1059,Large,Diesel,Karachi,Peshawar,FMCG,550,22,247.21,11,2025-05-03,Delayed,2025-05-08,21
+2344,129,536,1043,Large,Diesel,Multan,Multan,Pharmaceuticals,1572,28,206.16,7,2025-06-08,In Transit,2025-06-15,33
+2345,137,592,1010,Small,Hybrid,Karachi,Karachi,FMCG,1184,39,32.22,34,2025-04-12,Delivered,2025-04-14,40
+2346,150,521,1065,Large,Diesel,Karachi,Karachi,Electronics,1270,10,257.35,45,2025-04-12,Delivered,2025-04-19,12
+2347,153,567,1046,Small,Petrol,Multan,Karachi,FMCG,889,20,178.4,38,2025-06-17,Delivered,2025-06-23,19
+2348,107,519,1072,Large,Petrol,Peshawar,Quetta,Textiles,433,8,232.88,9,2025-06-08,In Transit,2025-06-15,11
+2349,126,595,1084,Large,Petrol,Lahore,Faisalabad,Construction,990,24,183.14,9,2025-06-07,Delayed,2025-06-10,29
+2350,126,599,1087,Small,Diesel,Faisalabad,Karachi,FMCG,1265,33,387.1,34,2025-04-29,Delayed,2025-05-05,41
+2351,197,567,1097,Large,Petrol,Karachi,Sialkot,Textiles,143,8,249.56,42,2025-04-28,Delayed,2025-04-29,9
+2352,120,590,1085,Small,Petrol,Multan,Lahore,Electronics,243,9,304.71,25,2025-07-01,In Transit,2025-07-04,12
+2353,129,563,1002,Large,Petrol,Islamabad,Lahore,Automotive,432,29,375.81,46,2025-05-30,Delayed,2025-06-02,28
+2354,196,516,1075,Medium,Petrol,Karachi,Peshawar,Construction,1097,36,244.81,28,2025-05-22,Delivered,2025-05-27,38
+2355,127,511,1091,Large,Petrol,Faisalabad,Multan,FMCG,1519,16,24.58,23,2025-04-06,Delayed,2025-04-12,20
+2356,163,521,1029,Small,Petrol,Lahore,Faisalabad,Pharmaceuticals,154,6,33.03,30,2025-04-09,In Transit,2025-04-12,10
+2357,196,516,1089,Large,Diesel,Karachi,Quetta,Pharmaceuticals,1430,14,286.89,6,2025-05-30,In Transit,2025-06-06,12
+2358,168,509,1020,Small,Petrol,Karachi,Peshawar,Construction,969,22,126.05,20,2025-04-22,Delayed,2025-04-28,24
+2359,160,564,1027,Small,Petrol,Peshawar,Lahore,Pharmaceuticals,1546,6,240.16,39,2025-05-31,In Transit,2025-06-05,9
+2360,147,521,1089,Medium,Hybrid,Sialkot,Faisalabad,FMCG,1540,8,96.87,25,2025-04-15,Delayed,2025-04-22,11
+2361,118,589,1061,Medium,Diesel,Multan,Faisalabad,FMCG,896,31,122.69,42,2025-05-06,Delayed,2025-05-07,30
+2362,103,581,1032,Small,Diesel,Islamabad,Multan,Construction,424,36,211.76,32,2025-06-12,Delivered,2025-06-14,41
+2363,134,549,1084,Large,Diesel,Islamabad,Sialkot,FMCG,179,31,390.72,27,2025-05-02,Delayed,2025-05-06,33
+2364,163,513,1034,Small,Diesel,Quetta,Faisalabad,Automotive,1154,28,254.18,10,2025-06-16,Delivered,2025-06-20,27
+2365,148,563,1051,Small,Petrol,Lahore,Karachi,Textiles,1084,35,375.74,39,2025-04-22,In Transit,2025-04-26,33
+2366,116,546,1033,Large,Petrol,Quetta,Faisalabad,Electronics,1235,15,384.56,44,2025-06-22,Delayed,2025-06-23,20
+2367,143,528,1040,Large,Hybrid,Faisalabad,Multan,Automotive,657,13,99.08,8,2025-06-16,In Transit,2025-06-18,13
+2368,191,575,1050,Large,Hybrid,Lahore,Peshawar,Automotive,964,30,138.25,22,2025-06-29,Delayed,2025-07-05,30
+2369,129,535,1046,Large,Diesel,Karachi,Multan,Pharmaceuticals,816,27,312.6,29,2025-05-12,In Transit,2025-05-18,26
+2370,192,598,1081,Small,Hybrid,Sialkot,Quetta,Textiles,571,20,349.37,29,2025-04-14,Delivered,2025-04-17,20
+2371,145,551,1057,Small,Hybrid,Karachi,Multan,Construction,173,15,217.31,8,2025-05-17,Delivered,2025-05-22,17
+2372,105,575,1074,Medium,Diesel,Islamabad,Lahore,Pharmaceuticals,688,25,397.43,12,2025-04-17,Delayed,2025-04-25,29
+2373,198,506,1056,Small,Diesel,Faisalabad,Karachi,Textiles,1510,28,24.4,30,2025-06-05,Delayed,2025-06-11,31
+2374,136,528,1022,Large,Hybrid,Multan,Sialkot,FMCG,663,6,133.85,8,2025-06-23,Delayed,2025-06-24,10
+2375,123,510,1047,Medium,Petrol,Faisalabad,Lahore,Construction,1556,7,256.8,20,2025-05-27,Delayed,2025-06-03,11
+2376,192,532,1021,Large,Hybrid,Karachi,Peshawar,Construction,1535,24,198.33,34,2025-06-04,Delayed,2025-06-06,27
+2377,145,505,1016,Small,Hybrid,Multan,Islamabad,Pharmaceuticals,566,19,64.31,34,2025-06-20,In Transit,2025-06-21,18
+2378,152,578,1068,Medium,Petrol,Faisalabad,Peshawar,FMCG,698,13,159.76,15,2025-05-05,Delayed,2025-05-10,10
+2379,194,531,1010,Large,Petrol,Sialkot,Karachi,Pharmaceuticals,1091,17,29.67,37,2025-04-16,Delivered,2025-04-21,18
+2380,198,550,1093,Medium,Diesel,Sialkot,Faisalabad,Furniture,836,31,264.24,28,2025-04-24,In Transit,2025-04-25,28
+2381,159,574,1014,Medium,Diesel,Faisalabad,Multan,Textiles,1093,32,359.24,44,2025-06-27,Delivered,2025-07-01,34
+2382,196,557,1090,Small,Hybrid,Multan,Islamabad,Furniture,347,34,356.25,14,2025-04-15,Delayed,2025-04-19,37
+2383,162,586,1034,Large,Petrol,Karachi,Karachi,Textiles,1243,20,285.83,42,2025-06-01,Delayed,2025-06-03,21
+2384,184,525,1032,Medium,Diesel,Faisalabad,Lahore,Electronics,166,6,196.99,45,2025-04-08,Delivered,2025-04-14,6
+2385,131,597,1083,Medium,Hybrid,Multan,Multan,Automotive,672,33,214.57,19,2025-06-02,Delayed,2025-06-05,33
+2386,186,545,1015,Large,Petrol,Peshawar,Peshawar,Construction,1450,8,72.03,9,2025-05-27,Delivered,2025-05-30,9
+2387,132,597,1033,Medium,Hybrid,Sialkot,Lahore,Pharmaceuticals,802,23,149.59,25,2025-06-02,Delayed,2025-06-09,31
+2388,166,528,1065,Medium,Diesel,Peshawar,Karachi,Electronics,569,39,91.34,33,2025-06-30,Delayed,2025-07-10,43
+2389,117,503,1098,Medium,Diesel,Karachi,Karachi,Electronics,592,37,332.06,19,2025-04-30,Delayed,2025-05-03,35
+2390,124,580,1039,Large,Petrol,Multan,Peshawar,Construction,762,34,367.61,49,2025-05-15,Delayed,2025-05-17,36
+2391,194,598,1027,Large,Hybrid,Peshawar,Islamabad,Construction,385,30,224.03,39,2025-05-26,Delivered,2025-06-01,34
+2392,153,512,1046,Large,Petrol,Multan,Peshawar,Textiles,411,31,296.55,18,2025-07-01,Delayed,2025-07-07,29
+2393,157,538,1038,Large,Diesel,Faisalabad,Faisalabad,Furniture,408,13,66.16,36,2025-06-30,Delivered,2025-07-03,18
+2394,166,514,1069,Small,Diesel,Karachi,Lahore,FMCG,874,24,251.24,38,2025-05-27,In Transit,2025-05-28,27
+2395,145,528,1072,Medium,Hybrid,Peshawar,Islamabad,Textiles,1220,27,287.06,44,2025-05-03,Delayed,2025-05-07,25
+2396,123,528,1019,Large,Hybrid,Quetta,Multan,FMCG,1064,34,192.05,33,2025-04-19,Delayed,2025-04-25,35
+2397,131,574,1000,Medium,Hybrid,Faisalabad,Quetta,Electronics,1236,38,112.44,30,2025-05-29,In Transit,2025-06-05,39
+2398,146,531,1071,Medium,Petrol,Sialkot,Faisalabad,FMCG,555,8,353.4,37,2025-06-16,Delivered,2025-06-23,11
+2399,185,501,1086,Small,Hybrid,Quetta,Islamabad,Furniture,1586,24,302.31,14,2025-05-01,Delayed,2025-05-07,25
+2400,122,546,1062,Large,Hybrid,Quetta,Quetta,Textiles,231,15,361.95,33,2025-05-24,In Transit,2025-05-27,17
+2401,165,577,1066,Large,Diesel,Lahore,Quetta,Construction,1029,32,330.99,36,2025-06-28,Delayed,2025-07-04,37
+2402,126,583,1003,Medium,Diesel,Lahore,Lahore,Furniture,1064,20,396.34,22,2025-06-16,Delivered,2025-06-19,19
+2403,101,521,1057,Large,Hybrid,Karachi,Karachi,Automotive,1028,16,93.03,28,2025-04-11,Delivered,2025-04-12,15
+2404,189,574,1024,Medium,Hybrid,Peshawar,Multan,Furniture,220,31,52.96,18,2025-06-05,Delivered,2025-06-12,35
+2405,116,526,1046,Medium,Diesel,Peshawar,Peshawar,Automotive,1320,29,148.06,15,2025-05-24,Delivered,2025-05-30,31
+2406,132,566,1037,Small,Hybrid,Peshawar,Lahore,Textiles,733,18,69.02,21,2025-05-24,In Transit,2025-05-29,17
+2407,108,580,1014,Small,Petrol,Multan,Faisalabad,Construction,996,37,218.79,11,2025-06-09,Delayed,2025-06-14,39
+2408,142,555,1062,Small,Petrol,Faisalabad,Sialkot,Furniture,871,9,260.55,16,2025-05-18,In Transit,2025-05-25,7
+2409,147,591,1020,Medium,Petrol,Peshawar,Quetta,Automotive,1162,18,239.75,8,2025-04-12,Delivered,2025-04-13,16
+2410,138,592,1098,Large,Hybrid,Faisalabad,Faisalabad,Construction,665,14,118.51,33,2025-04-05,Delivered,2025-04-10,15
+2411,192,520,1056,Small,Diesel,Karachi,Quetta,Pharmaceuticals,611,39,365.35,46,2025-06-20,Delivered,2025-06-27,40
+2412,141,546,1052,Large,Hybrid,Quetta,Karachi,Pharmaceuticals,1597,12,28.05,20,2025-04-16,Delivered,2025-04-17,9
+2413,125,579,1045,Small,Hybrid,Peshawar,Sialkot,Pharmaceuticals,1284,6,152.25,18,2025-06-03,Delayed,2025-06-07,4
+2414,198,558,1013,Small,Diesel,Karachi,Karachi,FMCG,388,17,293.22,47,2025-04-07,Delayed,2025-04-11,18
+2415,149,583,1099,Medium,Diesel,Peshawar,Multan,Furniture,299,26,311.43,22,2025-07-01,Delayed,2025-07-02,26
+2416,124,505,1075,Small,Diesel,Lahore,Peshawar,Textiles,627,16,178.13,12,2025-05-10,Delivered,2025-05-14,19
+2417,123,518,1016,Small,Petrol,Islamabad,Multan,Textiles,1016,19,26.43,33,2025-04-11,Delayed,2025-04-17,18
+2418,112,556,1038,Medium,Hybrid,Karachi,Karachi,FMCG,1371,39,254.86,43,2025-06-01,Delayed,2025-06-03,40
+2419,159,568,1008,Large,Diesel,Peshawar,Karachi,Textiles,1506,39,43.98,18,2025-04-11,Delivered,2025-04-16,44
+2420,106,502,1098,Small,Hybrid,Sialkot,Faisalabad,Automotive,1341,30,60.99,22,2025-04-08,In Transit,2025-04-15,31
+2421,156,500,1076,Medium,Petrol,Islamabad,Karachi,Pharmaceuticals,1210,9,267.1,20,2025-06-11,In Transit,2025-06-14,14
+2422,135,557,1078,Small,Petrol,Karachi,Sialkot,Furniture,1205,31,138.75,41,2025-05-06,Delayed,2025-05-11,32
+2423,144,537,1081,Medium,Diesel,Sialkot,Sialkot,Textiles,1185,21,152.25,33,2025-06-03,Delayed,2025-06-13,28
+2424,119,514,1096,Large,Diesel,Sialkot,Islamabad,Textiles,898,15,204.99,20,2025-05-05,In Transit,2025-05-06,16
+2425,164,533,1005,Large,Hybrid,Multan,Quetta,Electronics,1165,7,391.86,16,2025-05-16,Delivered,2025-05-19,11
+2426,107,560,1090,Medium,Diesel,Sialkot,Lahore,Electronics,111,24,386.87,36,2025-06-23,Delivered,2025-06-27,25
+2427,115,534,1022,Medium,Hybrid,Peshawar,Karachi,Electronics,932,11,178.18,9,2025-06-25,Delayed,2025-06-29,16
+2428,113,563,1058,Medium,Diesel,Multan,Multan,Furniture,940,24,120.89,40,2025-06-21,Delivered,2025-06-27,28
+2429,175,524,1090,Large,Hybrid,Lahore,Peshawar,Pharmaceuticals,742,13,134.99,39,2025-06-06,Delivered,2025-06-11,11
+2430,186,523,1097,Small,Hybrid,Peshawar,Quetta,Construction,1238,19,122.14,32,2025-04-07,Delivered,2025-04-09,18
+2431,114,511,1045,Large,Hybrid,Quetta,Quetta,Pharmaceuticals,1341,15,222.25,15,2025-06-26,Delayed,2025-06-28,20
+2432,191,517,1037,Medium,Hybrid,Sialkot,Peshawar,Pharmaceuticals,205,8,250.61,35,2025-04-09,Delayed,2025-04-15,9
+2433,197,514,1013,Medium,Petrol,Lahore,Peshawar,Furniture,790,34,205.74,25,2025-06-25,Delivered,2025-06-28,35
+2434,165,579,1099,Large,Hybrid,Islamabad,Quetta,Automotive,627,20,175.04,34,2025-06-26,Delivered,2025-06-30,25
+2435,131,526,1071,Medium,Diesel,Karachi,Islamabad,Automotive,1595,28,100.29,34,2025-06-27,Delayed,2025-07-03,27
+2436,186,571,1061,Large,Petrol,Sialkot,Multan,Furniture,945,28,203.35,28,2025-06-01,Delayed,2025-06-08,28
+2437,162,559,1034,Medium,Petrol,Faisalabad,Islamabad,Electronics,992,23,149.62,26,2025-05-08,Delivered,2025-05-12,26
+2438,185,545,1018,Small,Hybrid,Lahore,Karachi,Textiles,486,24,225.81,48,2025-05-27,Delayed,2025-06-02,22
+2439,150,588,1029,Small,Petrol,Faisalabad,Lahore,FMCG,1349,33,276.57,15,2025-06-21,In Transit,2025-06-23,37
+2440,124,516,1077,Medium,Hybrid,Sialkot,Peshawar,FMCG,580,31,260.66,46,2025-06-07,Delayed,2025-06-13,34
+2441,157,592,1083,Large,Diesel,Faisalabad,Sialkot,Construction,507,15,195.75,17,2025-06-27,In Transit,2025-06-30,12
+2442,162,552,1024,Small,Hybrid,Sialkot,Multan,Textiles,1580,9,231.3,35,2025-04-21,Delayed,2025-04-24,8
+2443,161,507,1039,Large,Petrol,Karachi,Peshawar,Construction,997,7,128.25,38,2025-04-13,Delayed,2025-04-19,15
+2444,121,578,1087,Medium,Diesel,Islamabad,Islamabad,Electronics,810,8,29.21,23,2025-05-03,Delivered,2025-05-07,9
+2445,157,526,1013,Large,Hybrid,Karachi,Faisalabad,Construction,738,12,257.51,19,2025-05-08,Delivered,2025-05-13,16
+2446,157,545,1025,Small,Diesel,Peshawar,Karachi,Textiles,1144,21,115.98,27,2025-06-02,Delayed,2025-06-09,18
+2447,185,549,1086,Large,Diesel,Lahore,Lahore,Textiles,914,36,274.2,26,2025-05-11,Delayed,2025-05-17,39
+2448,148,570,1021,Large,Petrol,Faisalabad,Karachi,FMCG,1017,15,303.86,6,2025-06-27,Delayed,2025-06-30,21
+2449,151,502,1047,Medium,Diesel,Karachi,Faisalabad,Automotive,302,24,368.05,48,2025-04-20,Delayed,2025-04-27,28
+2450,141,592,1082,Medium,Petrol,Sialkot,Lahore,Electronics,516,33,384.09,20,2025-06-19,Delayed,2025-06-25,35
+2451,169,563,1050,Medium,Diesel,Karachi,Faisalabad,Furniture,515,22,24.0,41,2025-04-08,In Transit,2025-04-10,19
+2452,114,543,1002,Small,Hybrid,Karachi,Karachi,Construction,1571,33,396.34,27,2025-06-07,Delivered,2025-06-10,38
+2453,153,552,1041,Small,Diesel,Lahore,Islamabad,FMCG,184,24,279.55,37,2025-04-29,Delayed,2025-04-30,21
+2454,159,523,1018,Medium,Hybrid,Islamabad,Quetta,Construction,266,28,264.54,38,2025-05-28,Delivered,2025-05-30,30
+2455,196,559,1072,Medium,Hybrid,Quetta,Karachi,Construction,483,25,25.78,46,2025-06-14,Delivered,2025-06-18,30
+2456,107,502,1027,Small,Diesel,Karachi,Karachi,Furniture,567,18,347.27,44,2025-04-05,Delayed,2025-04-09,16
+2457,152,519,1083,Small,Hybrid,Lahore,Karachi,Electronics,1195,18,75.29,28,2025-06-10,Delayed,2025-06-17,18
+2458,159,545,1044,Small,Diesel,Faisalabad,Multan,Textiles,909,16,338.19,48,2025-04-15,In Transit,2025-04-18,14
+2459,104,514,1070,Small,Diesel,Sialkot,Faisalabad,Pharmaceuticals,1096,20,25.91,7,2025-04-20,Delayed,2025-04-23,23
+2460,167,524,1077,Medium,Hybrid,Peshawar,Sialkot,Construction,572,22,265.47,7,2025-05-11,In Transit,2025-05-17,20
+2461,105,593,1062,Small,Hybrid,Quetta,Faisalabad,Pharmaceuticals,1092,33,185.22,43,2025-04-16,In Transit,2025-04-18,30
+2462,195,577,1072,Medium,Petrol,Multan,Peshawar,Electronics,1381,24,96.29,34,2025-06-09,Delivered,2025-06-14,23
+2463,193,570,1018,Large,Hybrid,Quetta,Faisalabad,Pharmaceuticals,374,9,60.87,8,2025-05-03,Delivered,2025-05-04,13
+2464,146,516,1046,Large,Petrol,Sialkot,Peshawar,Construction,1143,27,187.25,44,2025-06-02,Delayed,2025-06-09,28
+2465,198,583,1013,Small,Hybrid,Quetta,Multan,Furniture,589,27,66.86,12,2025-06-25,In Transit,2025-06-29,27
+2466,154,599,1037,Large,Diesel,Sialkot,Islamabad,Pharmaceuticals,425,39,204.85,41,2025-04-08,In Transit,2025-04-11,40
+2467,139,508,1052,Large,Hybrid,Lahore,Peshawar,Electronics,628,38,257.58,34,2025-05-24,Delayed,2025-05-28,42
+2468,151,537,1060,Large,Diesel,Multan,Karachi,Electronics,991,38,334.41,42,2025-06-29,Delivered,2025-07-03,40
+2469,115,547,1035,Small,Diesel,Karachi,Islamabad,Automotive,188,17,277.89,41,2025-06-13,Delayed,2025-06-16,18
+2470,112,559,1039,Small,Diesel,Karachi,Quetta,Automotive,585,7,44.78,28,2025-05-18,Delayed,2025-05-24,11
+2471,129,562,1080,Large,Petrol,Quetta,Multan,Furniture,807,33,136.82,21,2025-06-03,Delayed,2025-06-06,38
+2472,118,585,1029,Medium,Hybrid,Lahore,Faisalabad,Pharmaceuticals,449,15,129.43,36,2025-05-29,Delayed,2025-06-02,16
+2473,116,501,1008,Large,Diesel,Multan,Peshawar,Pharmaceuticals,1207,27,367.71,39,2025-05-19,Delivered,2025-05-25,29
+2474,162,587,1063,Small,Diesel,Karachi,Sialkot,Automotive,486,22,349.76,6,2025-06-19,Delivered,2025-06-24,22
+2475,118,571,1032,Small,Petrol,Faisalabad,Karachi,Textiles,186,31,160.66,23,2025-05-21,Delayed,2025-05-22,30
+2476,191,510,1051,Small,Hybrid,Islamabad,Lahore,FMCG,406,8,47.04,45,2025-05-30,Delivered,2025-06-03,10
+2477,157,563,1088,Large,Hybrid,Islamabad,Quetta,Electronics,1277,12,359.76,48,2025-04-25,Delivered,2025-04-26,13
+2478,154,576,1013,Medium,Petrol,Karachi,Lahore,Textiles,539,13,357.51,20,2025-05-11,Delayed,2025-05-15,13
+2479,189,580,1074,Small,Petrol,Multan,Islamabad,Electronics,839,25,344.8,22,2025-04-10,Delayed,2025-04-17,26
+2480,189,571,1052,Small,Hybrid,Peshawar,Faisalabad,Textiles,363,17,341.13,49,2025-06-11,In Transit,2025-06-13,20
+2481,161,520,1098,Large,Petrol,Karachi,Sialkot,Automotive,1076,22,202.5,15,2025-04-06,Delivered,2025-04-11,19
+2482,122,517,1058,Medium,Hybrid,Peshawar,Lahore,Automotive,834,33,87.42,25,2025-06-28,Delayed,2025-07-05,30
+2483,108,593,1077,Large,Hybrid,Peshawar,Islamabad,FMCG,520,15,201.45,11,2025-05-25,Delivered,2025-05-31,12
+2484,111,563,1093,Small,Diesel,Sialkot,Multan,Textiles,592,27,207.95,13,2025-04-15,Delayed,2025-04-23,29
+2485,100,581,1040,Medium,Diesel,Sialkot,Islamabad,Electronics,732,38,206.17,39,2025-06-10,Delayed,2025-06-11,43
+2486,157,594,1067,Medium,Hybrid,Multan,Quetta,Pharmaceuticals,1092,27,224.73,37,2025-05-04,In Transit,2025-05-06,28
+2487,100,537,1067,Small,Hybrid,Peshawar,Sialkot,Electronics,510,18,117.91,47,2025-06-29,Delayed,2025-07-02,23
+2488,133,531,1091,Medium,Hybrid,Faisalabad,Sialkot,Construction,272,32,159.17,9,2025-05-24,Delayed,2025-05-31,33
+2489,195,510,1007,Medium,Hybrid,Multan,Islamabad,Automotive,103,20,184.99,49,2025-05-27,Delivered,2025-06-01,23
+2490,147,544,1001,Large,Hybrid,Karachi,Quetta,Furniture,953,27,69.83,44,2025-04-25,Delayed,2025-05-04,33
+2491,188,588,1085,Small,Hybrid,Quetta,Islamabad,Furniture,1085,35,193.04,25,2025-04-08,Delayed,2025-04-15,33
+2492,100,532,1040,Small,Petrol,Faisalabad,Sialkot,Automotive,1595,39,327.98,29,2025-04-09,Delivered,2025-04-11,38
+2493,115,540,1054,Small,Hybrid,Lahore,Sialkot,Construction,1233,39,334.66,29,2025-06-05,Delayed,2025-06-10,43
+2494,160,507,1015,Small,Petrol,Islamabad,Karachi,Furniture,1160,24,176.39,31,2025-06-22,Delivered,2025-06-23,24
+2495,163,510,1092,Small,Petrol,Karachi,Islamabad,Automotive,682,13,217.15,30,2025-05-09,Delayed,2025-05-15,15
+2496,162,585,1061,Medium,Hybrid,Karachi,Peshawar,Furniture,1154,38,32.79,41,2025-04-03,In Transit,2025-04-05,42
+2497,168,550,1047,Large,Hybrid,Karachi,Islamabad,Automotive,480,33,276.28,12,2025-05-22,Delayed,2025-05-24,37
+2498,121,587,1029,Small,Petrol,Faisalabad,Sialkot,FMCG,1391,30,173.75,15,2025-05-17,Delivered,2025-05-20,29
+2499,192,540,1011,Large,Petrol,Lahore,Karachi,Pharmaceuticals,1134,22,189.28,17,2025-05-11,Delayed,2025-05-12,22
+2500,166,516,1034,Large,Hybrid,Quetta,Karachi,Pharmaceuticals,443,29,352.0,6,2025-06-05,In Transit,2025-06-06,26
+2501,175,575,1010,Medium,Hybrid,Multan,Multan,Electronics,265,26,195.5,30,2025-04-23,In Transit,2025-04-29,24
+2502,125,545,1063,Small,Petrol,Sialkot,Quetta,Construction,799,7,28.05,21,2025-05-08,In Transit,2025-05-10,12
+2503,115,531,1049,Medium,Petrol,Lahore,Faisalabad,Automotive,441,36,106.45,10,2025-04-08,Delayed,2025-04-12,38
+2504,150,578,1084,Small,Petrol,Faisalabad,Lahore,Textiles,1142,38,200.74,24,2025-06-07,Delivered,2025-06-11,40
+2505,185,579,1020,Medium,Diesel,Karachi,Lahore,Electronics,1079,35,181.27,9,2025-04-11,Delayed,2025-04-16,38
+2506,156,553,1068,Large,Petrol,Islamabad,Islamabad,Electronics,1307,17,346.94,11,2025-06-13,In Transit,2025-06-20,19
+2507,128,585,1047,Small,Diesel,Karachi,Multan,Automotive,644,17,226.01,31,2025-04-07,Delayed,2025-04-08,21
+2508,177,591,1019,Large,Hybrid,Multan,Islamabad,Automotive,1133,29,282.06,44,2025-06-22,Delivered,2025-06-25,34
+2509,191,519,1066,Large,Hybrid,Peshawar,Lahore,Electronics,291,29,198.34,44,2025-05-28,Delayed,2025-06-03,33
+2510,168,532,1043,Medium,Petrol,Islamabad,Quetta,Electronics,419,16,187.07,14,2025-04-19,Delayed,2025-04-23,19
+2511,146,573,1032,Small,Hybrid,Karachi,Sialkot,Pharmaceuticals,679,18,189.59,19,2025-06-12,In Transit,2025-06-14,22
+2512,193,539,1072,Large,Hybrid,Quetta,Quetta,Textiles,574,32,176.15,14,2025-04-29,Delayed,2025-05-07,40
+2513,161,531,1060,Medium,Hybrid,Islamabad,Quetta,Electronics,736,13,224.66,20,2025-06-20,Delivered,2025-06-21,17
+2514,168,596,1008,Small,Hybrid,Peshawar,Karachi,Pharmaceuticals,526,15,115.17,42,2025-06-25,Delayed,2025-07-01,17
+2515,175,501,1067,Small,Diesel,Sialkot,Sialkot,Electronics,1182,13,358.6,25,2025-06-22,Delivered,2025-06-24,11
+2516,115,596,1034,Large,Diesel,Lahore,Faisalabad,Furniture,1559,25,146.57,13,2025-06-15,Delivered,2025-06-16,24
+2517,189,532,1080,Small,Petrol,Faisalabad,Sialkot,Electronics,196,13,76.06,37,2025-04-09,Delivered,2025-04-16,16
+2518,189,576,1097,Large,Petrol,Sialkot,Multan,Automotive,595,14,56.69,26,2025-06-19,In Transit,2025-06-25,19
+2519,147,529,1087,Small,Petrol,Karachi,Karachi,Construction,760,12,25.1,46,2025-05-31,In Transit,2025-06-01,16
+2520,184,532,1095,Medium,Hybrid,Multan,Faisalabad,Construction,1401,19,180.69,24,2025-06-07,Delayed,2025-06-10,24
+2521,138,576,1064,Large,Hybrid,Lahore,Multan,Electronics,1388,33,91.29,34,2025-04-10,Delayed,2025-04-18,39
+2522,199,525,1007,Large,Diesel,Sialkot,Multan,FMCG,108,7,28.23,36,2025-04-28,Delayed,2025-05-03,4
+2523,132,521,1044,Small,Diesel,Karachi,Lahore,Furniture,556,13,217.61,11,2025-06-11,In Transit,2025-06-15,13
+2524,193,565,1086,Small,Petrol,Lahore,Karachi,Textiles,372,18,278.39,9,2025-05-22,In Transit,2025-05-27,20
+2525,122,537,1046,Large,Diesel,Sialkot,Multan,Electronics,1039,26,52.59,48,2025-05-27,Delivered,2025-05-30,28
+2526,109,589,1039,Small,Diesel,Multan,Peshawar,Textiles,1131,33,195.15,34,2025-06-05,In Transit,2025-06-09,37
+2527,168,545,1075,Medium,Diesel,Karachi,Quetta,Furniture,307,28,302.58,47,2025-04-19,Delivered,2025-04-23,25
+2528,199,514,1053,Small,Diesel,Peshawar,Multan,Electronics,1246,20,394.61,8,2025-05-29,Delivered,2025-05-31,18
+2529,133,597,1075,Medium,Diesel,Peshawar,Faisalabad,FMCG,1156,7,273.53,6,2025-04-16,In Transit,2025-04-20,5
+2530,151,543,1045,Medium,Petrol,Multan,Lahore,Pharmaceuticals,303,17,113.04,49,2025-05-16,Delivered,2025-05-17,19
+2531,194,548,1046,Medium,Petrol,Islamabad,Islamabad,FMCG,617,8,292.29,20,2025-05-09,Delivered,2025-05-14,11
+2532,109,574,1014,Medium,Diesel,Multan,Quetta,Automotive,616,10,247.21,26,2025-05-10,Delayed,2025-05-16,8
+2533,118,560,1018,Medium,Petrol,Islamabad,Lahore,FMCG,542,8,100.48,36,2025-04-08,Delivered,2025-04-14,9
+2534,157,566,1025,Small,Hybrid,Karachi,Islamabad,Pharmaceuticals,788,24,343.42,12,2025-05-16,In Transit,2025-05-21,26
+2535,195,505,1051,Medium,Diesel,Sialkot,Karachi,Automotive,949,7,182.41,22,2025-04-28,In Transit,2025-04-30,7
+2536,100,508,1092,Small,Hybrid,Islamabad,Karachi,Pharmaceuticals,932,22,385.55,24,2025-06-26,Delivered,2025-06-30,19
+2537,168,505,1021,Medium,Petrol,Karachi,Multan,Construction,438,19,294.7,44,2025-05-15,Delayed,2025-05-18,18
+2538,103,572,1020,Large,Petrol,Karachi,Peshawar,Pharmaceuticals,1561,33,264.93,8,2025-05-20,In Transit,2025-05-27,38
+2539,115,594,1050,Medium,Hybrid,Quetta,Karachi,Electronics,1568,32,296.77,35,2025-06-15,In Transit,2025-06-22,34
+2540,123,531,1037,Large,Petrol,Faisalabad,Sialkot,Textiles,1259,15,201.68,40,2025-04-07,Delayed,2025-04-08,13
+2541,179,540,1019,Medium,Diesel,Karachi,Multan,Construction,486,8,211.99,34,2025-06-07,Delivered,2025-06-09,13
+2542,101,575,1028,Medium,Hybrid,Islamabad,Quetta,Construction,1148,30,343.46,19,2025-05-30,Delayed,2025-06-07,32
+2543,191,507,1050,Medium,Diesel,Faisalabad,Lahore,Textiles,605,27,278.75,40,2025-06-24,Delivered,2025-06-28,31
+2544,131,571,1003,Large,Hybrid,Faisalabad,Karachi,Construction,1448,35,360.95,33,2025-04-26,Delivered,2025-05-02,38
+2545,190,549,1054,Large,Petrol,Karachi,Sialkot,Pharmaceuticals,779,26,358.51,35,2025-06-24,Delivered,2025-06-27,25
+2546,183,591,1070,Medium,Hybrid,Multan,Lahore,FMCG,1461,35,391.07,31,2025-04-04,Delayed,2025-04-11,42
+2547,123,561,1091,Small,Hybrid,Multan,Lahore,Furniture,789,33,286.08,12,2025-05-29,Delayed,2025-06-02,36
+2548,111,583,1027,Medium,Diesel,Peshawar,Peshawar,Pharmaceuticals,984,36,210.87,44,2025-06-12,Delayed,2025-06-15,34
+2549,149,561,1003,Large,Petrol,Faisalabad,Karachi,Automotive,1218,31,83.2,36,2025-04-21,In Transit,2025-04-28,32
+2550,134,506,1021,Medium,Diesel,Karachi,Lahore,Automotive,722,27,288.04,10,2025-05-07,Delayed,2025-05-10,24
+2551,132,574,1075,Large,Petrol,Quetta,Peshawar,FMCG,1269,26,130.8,40,2025-06-06,Delivered,2025-06-09,30
+2552,132,583,1044,Large,Diesel,Multan,Peshawar,FMCG,992,6,127.52,19,2025-06-11,Delayed,2025-06-17,12
+2553,160,579,1066,Large,Hybrid,Quetta,Karachi,Construction,1052,18,110.55,41,2025-05-04,Delivered,2025-05-11,17
+2554,150,503,1085,Medium,Diesel,Karachi,Peshawar,Electronics,1354,26,352.55,32,2025-05-03,In Transit,2025-05-07,23
+2555,142,505,1065,Large,Petrol,Karachi,Karachi,Electronics,883,14,349.83,29,2025-04-14,In Transit,2025-04-17,14
+2556,111,557,1087,Large,Petrol,Sialkot,Sialkot,Construction,594,22,259.77,45,2025-05-12,Delayed,2025-05-16,27
+2557,166,521,1033,Medium,Hybrid,Faisalabad,Karachi,Construction,1161,26,199.73,34,2025-04-07,Delivered,2025-04-10,31
+2558,164,525,1090,Large,Petrol,Sialkot,Islamabad,Textiles,1548,36,275.4,27,2025-06-26,Delivered,2025-06-29,33
+2559,132,502,1054,Medium,Diesel,Quetta,Lahore,Textiles,846,27,250.75,13,2025-05-20,Delayed,2025-05-22,30
+2560,139,540,1000,Large,Hybrid,Sialkot,Sialkot,Furniture,536,17,177.98,20,2025-05-01,Delivered,2025-05-05,19
+2561,173,559,1071,Small,Petrol,Peshawar,Faisalabad,Furniture,1491,11,164.26,10,2025-06-20,Delivered,2025-06-26,14
+2562,142,513,1086,Small,Petrol,Faisalabad,Karachi,Furniture,444,21,165.46,9,2025-05-31,Delivered,2025-06-04,24
+2563,143,574,1037,Large,Diesel,Lahore,Lahore,Furniture,1283,31,243.87,16,2025-05-13,In Transit,2025-05-18,35
+2564,128,581,1005,Small,Diesel,Sialkot,Quetta,FMCG,649,10,266.11,23,2025-05-15,In Transit,2025-05-22,14
+2565,112,511,1085,Medium,Hybrid,Quetta,Peshawar,FMCG,919,14,191.66,47,2025-04-21,In Transit,2025-04-27,12
+2566,111,586,1024,Small,Petrol,Multan,Multan,Textiles,640,19,388.1,35,2025-06-11,Delivered,2025-06-13,19
+2567,194,511,1081,Large,Diesel,Multan,Karachi,Electronics,243,35,51.86,20,2025-06-25,In Transit,2025-06-29,35
+2568,145,512,1016,Large,Hybrid,Multan,Peshawar,Construction,687,31,151.88,11,2025-06-20,Delivered,2025-06-22,35
+2569,101,524,1060,Medium,Petrol,Islamabad,Peshawar,Automotive,756,34,179.25,21,2025-04-14,Delivered,2025-04-20,33
+2570,134,544,1011,Large,Petrol,Karachi,Peshawar,Electronics,444,24,26.43,45,2025-04-09,Delayed,2025-04-11,23
+2571,186,518,1005,Medium,Hybrid,Faisalabad,Peshawar,Pharmaceuticals,1392,13,158.68,14,2025-04-30,Delivered,2025-05-02,11
+2572,180,554,1089,Small,Hybrid,Multan,Peshawar,FMCG,795,28,124.01,48,2025-04-09,In Transit,2025-04-10,25
+2573,189,599,1026,Small,Diesel,Lahore,Karachi,Furniture,367,36,212.29,39,2025-06-09,In Transit,2025-06-13,40
+2574,107,544,1007,Medium,Petrol,Multan,Quetta,Furniture,268,37,147.84,32,2025-04-17,Delivered,2025-04-19,42
+2575,192,507,1082,Medium,Petrol,Peshawar,Faisalabad,Pharmaceuticals,132,10,295.95,18,2025-05-29,In Transit,2025-05-30,15
+2576,125,592,1064,Large,Petrol,Karachi,Islamabad,Electronics,476,21,213.77,41,2025-04-04,Delivered,2025-04-05,25
+2577,173,552,1056,Small,Hybrid,Quetta,Peshawar,Furniture,1337,22,69.31,32,2025-06-22,Delayed,2025-06-25,23
+2578,189,554,1092,Medium,Diesel,Karachi,Peshawar,Electronics,1563,37,305.02,14,2025-04-27,Delivered,2025-04-30,34
+2579,133,531,1098,Small,Petrol,Sialkot,Islamabad,Construction,492,37,57.71,10,2025-06-12,Delivered,2025-06-19,42
+2580,106,550,1039,Medium,Hybrid,Quetta,Quetta,Pharmaceuticals,588,25,338.84,27,2025-05-22,Delayed,2025-05-31,30
+2581,167,543,1013,Small,Petrol,Quetta,Sialkot,Automotive,821,7,373.94,36,2025-05-26,Delayed,2025-06-02,12
+2582,157,581,1034,Large,Diesel,Sialkot,Quetta,Electronics,1045,25,142.53,8,2025-05-06,Delayed,2025-05-09,29
+2583,174,569,1047,Small,Petrol,Faisalabad,Sialkot,Construction,1152,23,371.93,35,2025-05-17,Delayed,2025-05-26,28
+2584,128,517,1083,Small,Diesel,Sialkot,Karachi,Electronics,138,6,321.34,26,2025-04-12,Delayed,2025-04-19,11
+2585,135,582,1055,Small,Diesel,Islamabad,Lahore,Electronics,1296,34,370.53,40,2025-05-25,Delivered,2025-05-31,37
+2586,188,521,1048,Small,Petrol,Quetta,Multan,Furniture,1140,34,273.18,11,2025-04-24,Delayed,2025-05-01,37
+2587,120,536,1012,Small,Petrol,Quetta,Multan,Textiles,1179,24,109.54,33,2025-04-10,In Transit,2025-04-17,22
+2588,135,595,1060,Large,Diesel,Sialkot,Lahore,FMCG,325,11,359.92,37,2025-06-27,Delayed,2025-07-01,12
+2589,109,555,1048,Medium,Hybrid,Faisalabad,Karachi,Electronics,166,13,90.02,47,2025-05-13,In Transit,2025-05-14,17
+2590,172,558,1045,Small,Diesel,Multan,Multan,Electronics,1320,29,100.96,42,2025-05-06,Delayed,2025-05-10,30
+2591,123,502,1061,Large,Petrol,Peshawar,Quetta,Electronics,934,25,123.0,30,2025-04-09,Delayed,2025-04-15,23
+2592,163,527,1007,Small,Petrol,Lahore,Islamabad,Textiles,1146,19,135.61,37,2025-06-21,In Transit,2025-06-27,18
+2593,198,573,1042,Small,Hybrid,Faisalabad,Lahore,Construction,1098,10,215.5,40,2025-05-31,Delayed,2025-06-03,12
+2594,148,534,1019,Medium,Diesel,Islamabad,Quetta,Automotive,336,39,291.11,27,2025-04-15,Delivered,2025-04-18,41
+2595,198,560,1096,Small,Diesel,Faisalabad,Faisalabad,Automotive,1056,21,371.96,29,2025-06-02,Delayed,2025-06-06,25
+2596,135,592,1089,Large,Diesel,Karachi,Karachi,Pharmaceuticals,1018,12,53.61,44,2025-05-30,Delayed,2025-06-06,17
+2597,181,553,1038,Large,Petrol,Multan,Lahore,Furniture,1261,21,382.66,35,2025-05-11,In Transit,2025-05-14,22
+2598,195,562,1084,Medium,Diesel,Multan,Multan,Textiles,572,12,370.1,37,2025-05-27,In Transit,2025-05-29,15
+2599,123,578,1048,Small,Hybrid,Quetta,Karachi,Construction,652,32,40.52,36,2025-05-24,Delivered,2025-05-27,33
+2600,122,596,1063,Large,Petrol,Multan,Islamabad,Electronics,794,19,156.92,28,2025-04-07,Delayed,2025-04-12,24
+2601,161,506,1061,Small,Petrol,Multan,Karachi,Construction,1352,19,328.99,45,2025-04-25,Delivered,2025-05-01,21
+2602,195,575,1053,Small,Diesel,Sialkot,Karachi,Textiles,416,38,252.4,38,2025-04-05,Delivered,2025-04-06,41
+2603,136,548,1008,Small,Hybrid,Multan,Islamabad,Textiles,697,38,316.06,30,2025-05-17,In Transit,2025-05-18,42
+2604,111,593,1087,Medium,Petrol,Multan,Peshawar,Textiles,867,25,293.23,41,2025-06-12,Delivered,2025-06-18,26
+2605,154,584,1036,Small,Petrol,Lahore,Islamabad,Pharmaceuticals,985,12,208.77,29,2025-06-16,Delayed,2025-06-17,12
+2606,112,530,1048,Large,Diesel,Islamabad,Quetta,FMCG,660,37,35.66,36,2025-04-04,Delivered,2025-04-07,41
+2607,122,557,1040,Small,Diesel,Quetta,Karachi,Furniture,1324,8,242.02,44,2025-04-16,In Transit,2025-04-23,13
+2608,188,560,1016,Large,Hybrid,Sialkot,Sialkot,Pharmaceuticals,357,34,38.46,18,2025-06-30,Delayed,2025-07-01,31
+2609,198,523,1087,Small,Diesel,Multan,Islamabad,Pharmaceuticals,1301,29,249.42,15,2025-05-31,In Transit,2025-06-07,28
+2610,129,519,1020,Large,Hybrid,Quetta,Peshawar,FMCG,856,27,324.16,28,2025-05-13,Delivered,2025-05-18,27
+2611,116,536,1050,Large,Petrol,Islamabad,Quetta,Pharmaceuticals,222,11,242.3,23,2025-06-07,Delayed,2025-06-17,16
+2612,161,503,1058,Small,Hybrid,Sialkot,Sialkot,Textiles,441,29,398.87,37,2025-05-18,In Transit,2025-05-23,31
+2613,183,591,1038,Small,Hybrid,Peshawar,Sialkot,Textiles,1294,28,193.23,38,2025-05-16,In Transit,2025-05-19,25
+2614,188,519,1054,Large,Hybrid,Multan,Lahore,Construction,1182,15,304.55,41,2025-04-05,Delayed,2025-04-11,15
+2615,185,559,1040,Medium,Petrol,Quetta,Islamabad,Electronics,1588,21,273.54,33,2025-05-16,Delayed,2025-05-20,26
+2616,112,523,1038,Small,Diesel,Faisalabad,Islamabad,Pharmaceuticals,359,16,396.74,21,2025-06-14,Delayed,2025-06-20,19
+2617,158,549,1012,Medium,Petrol,Sialkot,Karachi,Electronics,1496,37,291.02,21,2025-05-19,Delivered,2025-05-20,35
+2618,118,548,1063,Small,Diesel,Sialkot,Quetta,Furniture,194,11,82.33,23,2025-05-22,Delivered,2025-05-25,9
+2619,148,550,1010,Small,Hybrid,Quetta,Lahore,Automotive,1248,29,383.1,13,2025-05-31,Delayed,2025-06-06,32
+2620,199,595,1018,Small,Hybrid,Multan,Faisalabad,Textiles,140,38,273.76,47,2025-06-28,In Transit,2025-07-01,35
+2621,111,535,1010,Small,Hybrid,Karachi,Faisalabad,Construction,353,17,42.55,21,2025-05-05,Delivered,2025-05-08,15
+2622,160,597,1076,Medium,Hybrid,Lahore,Multan,Furniture,106,32,269.88,16,2025-04-13,Delayed,2025-04-15,30
+2623,118,599,1045,Small,Hybrid,Faisalabad,Islamabad,Construction,1594,23,355.59,11,2025-06-04,Delayed,2025-06-09,23
+2624,175,565,1044,Large,Diesel,Faisalabad,Islamabad,Automotive,827,18,239.28,6,2025-06-13,Delayed,2025-06-17,18
+2625,108,578,1000,Large,Diesel,Karachi,Lahore,Automotive,168,35,154.53,17,2025-06-11,Delayed,2025-06-15,32
+2626,170,533,1039,Medium,Hybrid,Multan,Peshawar,FMCG,1204,18,331.95,43,2025-04-10,Delivered,2025-04-15,21
+2627,127,535,1018,Small,Petrol,Sialkot,Faisalabad,Textiles,641,39,317.35,33,2025-04-17,In Transit,2025-04-21,42
+2628,177,505,1075,Large,Petrol,Sialkot,Multan,Furniture,1385,35,226.79,22,2025-06-21,Delayed,2025-06-22,32
+2629,194,538,1071,Medium,Hybrid,Lahore,Lahore,FMCG,188,30,78.66,6,2025-04-23,Delivered,2025-04-27,34
+2630,151,541,1071,Small,Diesel,Faisalabad,Islamabad,Automotive,1331,7,115.37,37,2025-05-24,In Transit,2025-05-25,10
+2631,182,557,1060,Large,Petrol,Lahore,Faisalabad,Furniture,312,23,300.62,13,2025-04-28,Delayed,2025-05-03,26
+2632,115,511,1011,Large,Petrol,Faisalabad,Quetta,Construction,933,10,326.31,45,2025-04-17,In Transit,2025-04-21,12
+2633,168,502,1060,Medium,Petrol,Multan,Multan,FMCG,365,24,126.12,48,2025-04-03,Delayed,2025-04-07,24
+2634,198,517,1032,Small,Hybrid,Peshawar,Karachi,FMCG,1011,23,159.83,29,2025-06-06,In Transit,2025-06-12,27
+2635,111,539,1044,Small,Petrol,Faisalabad,Faisalabad,Textiles,392,37,49.5,15,2025-05-30,Delayed,2025-06-06,35
+2636,124,520,1089,Large,Petrol,Peshawar,Multan,Electronics,1330,26,291.12,44,2025-04-18,Delayed,2025-04-22,31
+2637,151,514,1091,Large,Petrol,Faisalabad,Lahore,Construction,432,15,21.36,44,2025-04-14,In Transit,2025-04-15,14
+2638,184,596,1068,Large,Petrol,Sialkot,Karachi,Construction,1200,27,37.69,15,2025-04-28,In Transit,2025-05-01,26
+2639,199,598,1007,Small,Diesel,Islamabad,Multan,FMCG,1411,18,21.65,41,2025-05-17,In Transit,2025-05-19,21
+2640,152,525,1024,Medium,Hybrid,Multan,Multan,FMCG,1104,22,265.22,30,2025-05-09,Delivered,2025-05-13,21
+2641,122,507,1090,Medium,Hybrid,Karachi,Sialkot,Textiles,146,14,178.61,15,2025-06-11,Delivered,2025-06-17,15
+2642,115,599,1045,Small,Diesel,Peshawar,Sialkot,Electronics,721,29,133.07,24,2025-06-12,In Transit,2025-06-14,33
+2643,156,593,1086,Medium,Diesel,Karachi,Sialkot,Construction,1323,19,366.83,20,2025-05-24,Delivered,2025-05-31,19
+2644,138,586,1029,Large,Hybrid,Multan,Islamabad,Automotive,526,13,93.27,21,2025-04-22,Delayed,2025-05-01,20
+2645,152,541,1046,Medium,Petrol,Quetta,Peshawar,Pharmaceuticals,309,24,167.96,7,2025-05-17,In Transit,2025-05-23,27
+2646,141,543,1086,Medium,Petrol,Karachi,Faisalabad,Pharmaceuticals,987,33,377.32,34,2025-07-01,Delivered,2025-07-03,31
+2647,157,513,1048,Medium,Hybrid,Multan,Islamabad,Electronics,1543,35,182.3,9,2025-05-24,In Transit,2025-05-28,39
+2648,138,577,1046,Large,Petrol,Sialkot,Quetta,Furniture,253,12,230.78,34,2025-05-05,Delayed,2025-05-15,21
+2649,113,501,1083,Small,Diesel,Karachi,Karachi,Textiles,514,31,50.53,36,2025-05-19,Delayed,2025-05-25,33
+2650,194,536,1081,Large,Petrol,Peshawar,Peshawar,Electronics,1476,16,320.26,22,2025-04-14,Delivered,2025-04-15,17
+2651,104,568,1017,Small,Petrol,Islamabad,Multan,Pharmaceuticals,1280,19,180.65,15,2025-04-09,Delayed,2025-04-12,16
+2652,134,537,1065,Small,Petrol,Karachi,Islamabad,FMCG,1384,26,324.2,32,2025-06-10,In Transit,2025-06-16,23
+2653,186,540,1067,Small,Hybrid,Peshawar,Sialkot,Pharmaceuticals,1200,13,116.44,46,2025-05-29,Delivered,2025-06-03,18
+2654,192,561,1093,Medium,Diesel,Faisalabad,Peshawar,FMCG,868,8,180.54,20,2025-05-26,In Transit,2025-06-02,8
+2655,174,559,1032,Medium,Petrol,Multan,Quetta,Textiles,1082,33,318.89,49,2025-04-21,In Transit,2025-04-28,30
+2656,117,513,1035,Small,Hybrid,Lahore,Faisalabad,FMCG,1254,34,390.07,36,2025-05-05,In Transit,2025-05-09,33
+2657,175,588,1081,Small,Petrol,Quetta,Quetta,Electronics,678,28,42.66,26,2025-05-04,Delayed,2025-05-08,30
+2658,108,583,1018,Medium,Diesel,Sialkot,Karachi,FMCG,1578,23,328.73,46,2025-05-02,In Transit,2025-05-07,27
+2659,173,501,1027,Large,Petrol,Lahore,Lahore,Furniture,839,18,134.26,31,2025-04-08,Delayed,2025-04-15,16
+2660,157,569,1039,Small,Diesel,Sialkot,Islamabad,Electronics,262,17,229.28,43,2025-06-15,In Transit,2025-06-17,21
+2661,116,516,1083,Large,Petrol,Multan,Sialkot,Textiles,1138,10,130.24,41,2025-05-05,Delayed,2025-05-11,11
+2662,106,588,1096,Medium,Diesel,Sialkot,Karachi,Electronics,1355,16,253.11,22,2025-05-14,Delayed,2025-05-17,16
+2663,145,527,1075,Small,Petrol,Islamabad,Lahore,Furniture,294,16,154.45,8,2025-04-23,Delayed,2025-04-28,20
+2664,112,565,1014,Large,Diesel,Karachi,Sialkot,Textiles,641,36,146.77,19,2025-05-30,In Transit,2025-06-04,39
+2665,139,534,1040,Large,Petrol,Islamabad,Sialkot,Pharmaceuticals,458,36,34.42,18,2025-04-27,In Transit,2025-04-30,37
+2666,141,504,1038,Large,Petrol,Lahore,Sialkot,Furniture,949,18,75.84,46,2025-04-30,Delayed,2025-05-05,16
+2667,108,564,1001,Medium,Hybrid,Quetta,Islamabad,Textiles,1454,19,368.49,32,2025-05-31,In Transit,2025-06-05,24
+2668,149,539,1062,Medium,Hybrid,Peshawar,Karachi,Automotive,526,30,399.35,6,2025-04-15,Delayed,2025-04-22,31
+2669,126,575,1028,Large,Diesel,Quetta,Sialkot,FMCG,596,38,316.6,22,2025-05-08,In Transit,2025-05-14,42
+2670,165,555,1073,Large,Petrol,Multan,Quetta,Electronics,927,38,128.99,39,2025-04-12,Delayed,2025-04-20,41
+2671,104,535,1065,Medium,Diesel,Multan,Karachi,Textiles,585,20,172.93,19,2025-05-28,Delayed,2025-05-31,25
+2672,128,544,1050,Large,Hybrid,Islamabad,Peshawar,Electronics,1572,21,301.01,22,2025-06-26,Delivered,2025-06-30,24
+2673,136,522,1074,Large,Diesel,Peshawar,Quetta,FMCG,1536,11,388.04,8,2025-05-25,In Transit,2025-05-27,9
+2674,137,546,1076,Medium,Diesel,Islamabad,Islamabad,Textiles,429,30,193.08,39,2025-06-09,Delayed,2025-06-16,32
+2675,182,530,1009,Large,Hybrid,Karachi,Sialkot,Pharmaceuticals,988,20,335.22,45,2025-06-02,Delivered,2025-06-06,18
+2676,107,510,1013,Large,Petrol,Faisalabad,Karachi,Automotive,1090,9,390.53,30,2025-05-22,Delayed,2025-05-28,10
+2677,164,509,1081,Large,Diesel,Peshawar,Multan,Automotive,1270,9,351.92,7,2025-04-29,Delayed,2025-05-01,7
+2678,185,566,1050,Medium,Hybrid,Faisalabad,Islamabad,Furniture,358,35,106.32,39,2025-06-30,Delivered,2025-07-04,36
+2679,116,513,1072,Large,Petrol,Quetta,Karachi,Textiles,391,39,23.05,31,2025-05-15,Delivered,2025-05-18,44
+2680,170,579,1038,Medium,Hybrid,Karachi,Peshawar,FMCG,242,32,206.99,36,2025-04-16,Delayed,2025-04-18,30
+2681,188,573,1027,Medium,Diesel,Sialkot,Sialkot,Textiles,846,36,221.92,14,2025-05-18,In Transit,2025-05-19,41
+2682,144,592,1002,Small,Petrol,Sialkot,Lahore,Electronics,726,37,96.48,35,2025-05-27,Delivered,2025-06-02,40
+2683,103,509,1083,Small,Petrol,Faisalabad,Sialkot,Construction,1488,14,128.18,25,2025-06-15,Delivered,2025-06-19,17
+2684,135,575,1069,Large,Hybrid,Lahore,Lahore,Textiles,189,13,310.76,26,2025-06-05,Delivered,2025-06-10,14
+2685,169,593,1026,Medium,Hybrid,Quetta,Multan,Automotive,819,19,198.73,34,2025-06-07,Delivered,2025-06-09,23
+2686,130,500,1001,Small,Hybrid,Faisalabad,Islamabad,Automotive,1287,38,140.59,30,2025-04-14,Delivered,2025-04-15,41
+2687,118,504,1092,Large,Petrol,Karachi,Peshawar,Automotive,580,28,256.6,43,2025-05-22,Delayed,2025-05-28,32
+2688,160,519,1037,Small,Petrol,Faisalabad,Karachi,Pharmaceuticals,183,26,268.05,49,2025-05-28,Delayed,2025-05-29,24
+2689,153,507,1002,Small,Diesel,Multan,Karachi,Textiles,1200,17,312.37,30,2025-04-25,Delayed,2025-04-29,19
+2690,138,542,1015,Medium,Petrol,Islamabad,Lahore,Furniture,772,7,79.55,14,2025-04-23,Delivered,2025-04-28,5
+2691,190,575,1093,Medium,Diesel,Lahore,Peshawar,Textiles,616,18,301.78,44,2025-06-27,Delayed,2025-07-01,15
+2692,173,500,1039,Small,Hybrid,Multan,Quetta,Construction,584,9,247.78,49,2025-04-25,In Transit,2025-04-30,14
+2693,189,556,1001,Small,Hybrid,Multan,Multan,Automotive,881,25,41.88,31,2025-04-22,In Transit,2025-04-24,26
+2694,118,563,1080,Medium,Petrol,Karachi,Lahore,Electronics,203,19,315.43,42,2025-06-01,Delivered,2025-06-08,19
+2695,138,583,1040,Large,Hybrid,Islamabad,Lahore,Automotive,1575,35,165.57,21,2025-05-15,In Transit,2025-05-18,39
+2696,166,527,1011,Medium,Hybrid,Islamabad,Multan,Textiles,438,34,145.54,42,2025-05-04,In Transit,2025-05-11,35
+2697,144,536,1034,Small,Petrol,Peshawar,Islamabad,Pharmaceuticals,786,13,190.27,17,2025-06-18,Delayed,2025-06-21,16
+2698,112,546,1064,Large,Diesel,Quetta,Karachi,FMCG,999,17,151.55,29,2025-04-09,Delayed,2025-04-16,16
+2699,191,575,1054,Small,Petrol,Lahore,Islamabad,Textiles,706,31,148.55,31,2025-06-14,Delayed,2025-06-15,35
+2700,157,536,1044,Large,Diesel,Quetta,Peshawar,Textiles,322,7,327.07,25,2025-06-17,Delayed,2025-06-23,11
+2701,119,548,1078,Small,Petrol,Karachi,Quetta,Furniture,1132,19,67.31,14,2025-05-18,In Transit,2025-05-23,18
+2702,191,543,1089,Large,Petrol,Lahore,Sialkot,Pharmaceuticals,1176,11,388.83,28,2025-04-06,Delivered,2025-04-10,16
+2703,171,555,1084,Large,Hybrid,Peshawar,Faisalabad,Construction,1200,36,230.87,44,2025-04-18,Delayed,2025-04-24,40
+2704,160,527,1061,Small,Petrol,Faisalabad,Faisalabad,FMCG,602,22,89.51,34,2025-05-24,In Transit,2025-05-26,19
+2705,138,578,1048,Large,Petrol,Multan,Faisalabad,Automotive,1439,30,69.86,36,2025-05-08,Delayed,2025-05-10,34
+2706,100,505,1094,Medium,Diesel,Lahore,Multan,Electronics,921,37,244.77,24,2025-06-24,In Transit,2025-06-26,37
+2707,102,560,1024,Small,Hybrid,Quetta,Lahore,Textiles,723,17,260.54,25,2025-05-01,Delayed,2025-05-04,19
+2708,176,519,1022,Medium,Diesel,Multan,Quetta,Construction,264,18,40.15,28,2025-05-22,Delayed,2025-05-29,27
+2709,191,577,1023,Small,Diesel,Karachi,Islamabad,FMCG,1402,24,112.34,48,2025-06-12,Delayed,2025-06-14,25
+2710,161,501,1037,Large,Hybrid,Quetta,Sialkot,Electronics,1150,30,322.28,32,2025-04-13,Delivered,2025-04-15,33
+2711,162,572,1027,Large,Hybrid,Faisalabad,Karachi,Construction,1193,36,38.86,35,2025-06-16,Delayed,2025-06-24,37
+2712,124,536,1020,Large,Hybrid,Karachi,Faisalabad,Pharmaceuticals,1341,30,344.93,26,2025-05-10,Delayed,2025-05-12,39
+2713,155,519,1053,Small,Petrol,Sialkot,Islamabad,Pharmaceuticals,1488,21,270.1,49,2025-06-30,Delayed,2025-07-05,23
+2714,132,525,1017,Medium,Hybrid,Faisalabad,Faisalabad,FMCG,1429,28,185.08,40,2025-06-09,In Transit,2025-06-14,28
+2715,137,528,1035,Medium,Hybrid,Faisalabad,Quetta,Automotive,1247,19,151.64,12,2025-04-27,In Transit,2025-05-02,21
+2716,105,500,1098,Small,Hybrid,Multan,Faisalabad,Electronics,118,11,27.31,27,2025-04-21,Delayed,2025-04-28,15
+2717,157,534,1044,Small,Diesel,Karachi,Karachi,Pharmaceuticals,1380,30,333.58,15,2025-05-31,Delivered,2025-06-07,29
+2718,143,569,1072,Medium,Diesel,Karachi,Sialkot,FMCG,1419,28,74.23,28,2025-04-18,In Transit,2025-04-25,31
+2719,144,558,1052,Medium,Petrol,Lahore,Peshawar,Pharmaceuticals,1145,17,137.63,20,2025-04-25,Delivered,2025-04-26,16
+2720,131,568,1029,Medium,Diesel,Quetta,Peshawar,Pharmaceuticals,1088,18,236.26,35,2025-04-05,Delivered,2025-04-08,16
+2721,144,532,1059,Medium,Petrol,Sialkot,Quetta,Construction,549,39,113.48,39,2025-05-02,In Transit,2025-05-08,39
+2722,160,550,1097,Small,Diesel,Karachi,Peshawar,Construction,651,11,208.91,18,2025-05-07,In Transit,2025-05-08,14
+2723,146,577,1031,Small,Hybrid,Lahore,Multan,Pharmaceuticals,1171,13,327.55,9,2025-05-22,In Transit,2025-05-24,14
+2724,120,511,1066,Large,Diesel,Sialkot,Lahore,Furniture,794,13,198.8,23,2025-06-08,In Transit,2025-06-12,18
+2725,179,519,1066,Medium,Petrol,Islamabad,Multan,Construction,686,38,380.61,28,2025-06-01,Delayed,2025-06-07,41
+2726,184,552,1027,Large,Diesel,Islamabad,Islamabad,Electronics,820,39,342.05,38,2025-06-20,In Transit,2025-06-26,44
+2727,174,587,1043,Small,Hybrid,Sialkot,Multan,FMCG,1306,20,146.55,39,2025-04-29,Delivered,2025-05-01,25
+2728,135,542,1078,Small,Petrol,Islamabad,Islamabad,FMCG,1558,27,171.99,39,2025-05-13,Delayed,2025-05-15,25
+2729,198,597,1040,Large,Hybrid,Peshawar,Islamabad,Automotive,206,28,180.86,41,2025-05-07,Delayed,2025-05-11,25
+2730,118,588,1062,Medium,Hybrid,Karachi,Lahore,Electronics,1311,27,257.95,40,2025-04-09,Delivered,2025-04-14,27
+2731,119,549,1022,Medium,Petrol,Peshawar,Karachi,Electronics,875,10,128.98,22,2025-05-18,Delayed,2025-05-24,10
+2732,156,528,1074,Medium,Hybrid,Quetta,Sialkot,Electronics,1209,36,388.31,33,2025-04-24,Delivered,2025-04-25,34
+2733,117,556,1047,Medium,Hybrid,Karachi,Quetta,Automotive,1579,18,251.3,19,2025-05-17,Delayed,2025-05-20,17
+2734,146,538,1031,Large,Diesel,Lahore,Lahore,Electronics,1260,33,171.77,39,2025-06-24,Delayed,2025-06-26,32
+2735,148,594,1056,Large,Hybrid,Peshawar,Quetta,Textiles,997,25,265.1,16,2025-06-25,Delivered,2025-06-27,26
+2736,113,555,1099,Small,Hybrid,Peshawar,Peshawar,Automotive,435,38,170.25,18,2025-05-15,Delivered,2025-05-18,35
+2737,114,542,1032,Medium,Hybrid,Quetta,Peshawar,FMCG,706,21,330.76,38,2025-06-06,Delivered,2025-06-07,26
+2738,130,549,1023,Medium,Hybrid,Peshawar,Multan,Textiles,937,34,235.78,7,2025-04-24,Delivered,2025-04-26,38
+2739,100,522,1038,Medium,Petrol,Faisalabad,Islamabad,Automotive,1592,28,35.95,39,2025-06-09,In Transit,2025-06-12,32
+2740,153,543,1033,Large,Diesel,Lahore,Faisalabad,Pharmaceuticals,701,29,87.17,34,2025-04-03,In Transit,2025-04-10,28
+2741,102,537,1055,Medium,Hybrid,Islamabad,Faisalabad,Pharmaceuticals,502,39,348.7,42,2025-04-23,Delivered,2025-04-25,37
+2742,115,583,1027,Large,Hybrid,Lahore,Quetta,FMCG,639,12,233.9,9,2025-04-22,In Transit,2025-04-27,9
+2743,186,522,1036,Medium,Petrol,Faisalabad,Islamabad,Pharmaceuticals,1195,9,381.13,17,2025-05-02,Delivered,2025-05-07,11
+2744,156,544,1006,Medium,Hybrid,Quetta,Quetta,Electronics,123,39,47.52,31,2025-05-02,Delivered,2025-05-04,36
+2745,174,551,1067,Small,Petrol,Quetta,Lahore,Automotive,723,27,132.2,33,2025-04-25,Delayed,2025-05-02,28
+2746,111,579,1036,Medium,Diesel,Karachi,Karachi,Textiles,1179,10,93.55,8,2025-06-30,Delivered,2025-07-02,15
+2747,173,549,1055,Medium,Diesel,Lahore,Sialkot,Electronics,1085,28,230.46,25,2025-04-27,Delivered,2025-05-02,33
+2748,195,507,1064,Small,Hybrid,Sialkot,Lahore,Pharmaceuticals,322,20,165.46,15,2025-05-21,Delivered,2025-05-28,20
+2749,115,584,1064,Large,Hybrid,Sialkot,Islamabad,Construction,278,36,79.76,23,2025-06-24,Delivered,2025-06-26,39
+2750,171,500,1046,Large,Hybrid,Quetta,Islamabad,Textiles,899,14,264.25,32,2025-05-16,Delayed,2025-05-23,17
+2751,175,507,1019,Medium,Petrol,Peshawar,Karachi,Electronics,533,30,223.79,36,2025-05-30,Delivered,2025-05-31,30
+2752,123,528,1018,Large,Hybrid,Quetta,Quetta,Automotive,1573,30,124.4,32,2025-04-10,Delayed,2025-04-11,31
+2753,127,595,1028,Medium,Hybrid,Quetta,Multan,FMCG,892,26,202.31,47,2025-04-29,Delayed,2025-05-04,35
+2754,107,504,1073,Small,Diesel,Quetta,Multan,Electronics,983,14,303.38,6,2025-06-24,Delayed,2025-06-25,17
+2755,191,585,1059,Small,Hybrid,Quetta,Karachi,Construction,591,27,98.0,11,2025-05-23,In Transit,2025-05-29,30
+2756,135,546,1017,Medium,Diesel,Sialkot,Multan,Pharmaceuticals,1312,28,131.3,16,2025-05-30,Delayed,2025-06-06,31
+2757,189,533,1091,Small,Hybrid,Sialkot,Faisalabad,Textiles,909,9,151.52,39,2025-05-23,Delayed,2025-05-29,14
+2758,107,564,1034,Small,Diesel,Islamabad,Multan,FMCG,1060,34,303.76,44,2025-04-06,Delivered,2025-04-12,35
+2759,157,554,1042,Medium,Hybrid,Islamabad,Multan,Textiles,519,20,341.83,25,2025-05-29,Delayed,2025-05-31,22
+2760,159,589,1094,Medium,Diesel,Karachi,Multan,FMCG,1372,6,163.03,26,2025-04-18,Delayed,2025-04-20,5
+2761,149,542,1090,Small,Petrol,Quetta,Faisalabad,Automotive,748,35,132.72,26,2025-05-24,Delivered,2025-05-27,32
+2762,127,573,1010,Large,Diesel,Sialkot,Quetta,Textiles,1287,34,357.99,23,2025-04-23,Delayed,2025-05-01,34
+2763,191,529,1048,Large,Diesel,Lahore,Multan,Pharmaceuticals,1378,25,399.76,26,2025-05-25,In Transit,2025-05-31,29
+2764,140,581,1037,Medium,Diesel,Faisalabad,Peshawar,Automotive,575,38,274.73,24,2025-04-16,In Transit,2025-04-22,35
+2765,199,516,1063,Medium,Hybrid,Karachi,Faisalabad,Automotive,1540,27,396.19,9,2025-05-23,Delayed,2025-05-24,30
+2766,163,525,1068,Large,Hybrid,Sialkot,Karachi,FMCG,269,18,270.79,18,2025-04-25,Delayed,2025-05-02,22
+2767,126,507,1007,Small,Hybrid,Lahore,Lahore,Furniture,1440,12,298.71,23,2025-04-11,Delayed,2025-04-21,17
+2768,162,546,1033,Large,Petrol,Quetta,Karachi,Textiles,273,13,167.69,34,2025-04-27,Delayed,2025-05-05,21
+2769,116,575,1047,Large,Petrol,Multan,Lahore,Textiles,569,33,184.53,30,2025-07-01,Delayed,2025-07-11,37
+2770,172,590,1055,Large,Diesel,Quetta,Sialkot,Electronics,444,14,74.77,18,2025-06-07,In Transit,2025-06-14,16
+2771,132,571,1075,Large,Petrol,Islamabad,Karachi,FMCG,544,30,332.65,32,2025-05-04,Delivered,2025-05-08,29
+2772,183,588,1064,Medium,Diesel,Faisalabad,Peshawar,Construction,1141,21,373.8,24,2025-06-07,In Transit,2025-06-10,24
+2773,176,545,1030,Medium,Diesel,Sialkot,Lahore,Furniture,1193,15,256.91,6,2025-06-12,Delayed,2025-06-17,13
+2774,191,567,1003,Small,Diesel,Sialkot,Lahore,Pharmaceuticals,1461,16,150.59,43,2025-06-26,Delayed,2025-06-30,20
+2775,128,532,1049,Small,Petrol,Peshawar,Islamabad,Electronics,727,36,78.53,24,2025-06-06,Delivered,2025-06-07,39
+2776,112,500,1068,Small,Hybrid,Faisalabad,Lahore,Furniture,691,17,120.76,6,2025-04-22,In Transit,2025-04-25,21
+2777,145,518,1029,Small,Petrol,Peshawar,Lahore,FMCG,626,36,117.06,45,2025-06-16,In Transit,2025-06-19,34
+2778,134,530,1087,Large,Diesel,Faisalabad,Islamabad,Furniture,555,19,253.14,22,2025-06-01,Delayed,2025-06-07,18
+2779,105,579,1058,Medium,Diesel,Islamabad,Multan,Automotive,1392,37,379.11,26,2025-07-01,Delivered,2025-07-08,37
+2780,181,513,1066,Medium,Petrol,Peshawar,Multan,Textiles,910,22,38.34,27,2025-04-09,Delayed,2025-04-16,27
+2781,168,552,1074,Small,Diesel,Lahore,Islamabad,Automotive,287,6,20.39,20,2025-05-12,Delivered,2025-05-14,7
+2782,146,547,1044,Small,Diesel,Peshawar,Faisalabad,Textiles,1120,34,248.07,44,2025-06-25,Delivered,2025-07-02,36
+2783,124,568,1003,Large,Petrol,Karachi,Sialkot,Electronics,810,9,127.94,44,2025-05-29,Delivered,2025-06-05,6
+2784,165,589,1025,Large,Petrol,Lahore,Lahore,FMCG,628,28,354.61,37,2025-05-14,Delayed,2025-05-21,28
+2785,109,561,1026,Small,Petrol,Karachi,Lahore,FMCG,533,33,144.36,9,2025-06-27,Delivered,2025-07-03,33
+2786,155,591,1045,Medium,Diesel,Quetta,Islamabad,Furniture,387,21,130.1,49,2025-04-20,Delayed,2025-04-21,25
+2787,129,565,1063,Medium,Diesel,Faisalabad,Islamabad,Electronics,598,17,122.41,37,2025-05-17,Delayed,2025-05-24,21
+2788,104,563,1090,Medium,Hybrid,Lahore,Faisalabad,FMCG,1564,26,75.04,9,2025-06-09,In Transit,2025-06-15,28
+2789,132,569,1050,Small,Hybrid,Faisalabad,Peshawar,Construction,402,22,240.98,6,2025-05-28,Delayed,2025-05-31,26
+2790,164,562,1049,Medium,Petrol,Quetta,Multan,Construction,186,18,83.92,38,2025-05-12,Delayed,2025-05-18,23
+2791,117,572,1005,Large,Hybrid,Multan,Karachi,Automotive,929,37,181.36,12,2025-06-10,Delayed,2025-06-18,40
+2792,195,532,1058,Large,Diesel,Sialkot,Peshawar,Textiles,537,20,195.17,14,2025-04-26,In Transit,2025-04-30,17
+2793,148,540,1014,Small,Hybrid,Faisalabad,Quetta,Furniture,640,17,27.79,6,2025-05-27,In Transit,2025-06-02,14
+2794,110,588,1029,Large,Diesel,Quetta,Multan,Pharmaceuticals,1145,20,26.39,21,2025-06-22,Delivered,2025-06-27,18
+2795,184,547,1041,Small,Petrol,Faisalabad,Lahore,Textiles,932,39,217.68,23,2025-05-13,Delivered,2025-05-14,37
+2796,125,512,1036,Medium,Petrol,Quetta,Quetta,Electronics,896,11,284.49,11,2025-05-25,In Transit,2025-05-26,12
+2797,162,572,1041,Medium,Diesel,Karachi,Peshawar,FMCG,659,22,378.01,7,2025-06-28,Delivered,2025-07-01,25
+2798,188,576,1034,Medium,Hybrid,Quetta,Islamabad,Textiles,861,25,88.07,14,2025-05-24,In Transit,2025-05-30,28
+2799,185,530,1086,Large,Petrol,Peshawar,Faisalabad,Pharmaceuticals,566,14,59.24,9,2025-05-01,Delivered,2025-05-04,14
+2800,158,574,1005,Small,Petrol,Multan,Multan,Pharmaceuticals,1224,10,39.79,28,2025-06-13,Delayed,2025-06-16,10
+2801,126,567,1067,Medium,Hybrid,Faisalabad,Faisalabad,Construction,774,28,185.7,48,2025-06-15,Delivered,2025-06-19,27
+2802,148,597,1017,Small,Hybrid,Quetta,Quetta,Electronics,784,38,256.8,48,2025-04-19,Delivered,2025-04-21,36
+2803,176,503,1072,Medium,Diesel,Quetta,Multan,Textiles,1264,19,339.41,13,2025-04-04,Delayed,2025-04-07,18
+2804,132,518,1028,Large,Hybrid,Faisalabad,Sialkot,Furniture,237,22,279.41,44,2025-05-08,In Transit,2025-05-10,26
+2805,197,569,1076,Large,Hybrid,Sialkot,Sialkot,Textiles,677,24,99.18,30,2025-05-21,Delivered,2025-05-23,21
+2806,198,597,1058,Small,Hybrid,Multan,Peshawar,Construction,809,38,195.47,21,2025-05-27,Delivered,2025-05-28,38
+2807,100,581,1046,Large,Diesel,Multan,Lahore,Automotive,327,6,365.93,40,2025-04-06,Delayed,2025-04-11,9
+2808,120,512,1016,Large,Diesel,Quetta,Sialkot,Pharmaceuticals,380,18,144.16,22,2025-04-27,Delayed,2025-05-02,19
+2809,154,522,1095,Small,Petrol,Lahore,Sialkot,Electronics,783,32,209.52,23,2025-05-02,Delayed,2025-05-08,30
+2810,105,582,1021,Medium,Diesel,Karachi,Karachi,Electronics,927,11,384.25,32,2025-04-28,Delayed,2025-05-02,8
+2811,191,574,1067,Large,Petrol,Multan,Faisalabad,Furniture,530,11,299.19,20,2025-05-24,In Transit,2025-05-28,13
+2812,180,500,1068,Small,Hybrid,Multan,Faisalabad,Electronics,1163,38,304.14,22,2025-06-17,Delivered,2025-06-22,39
+2813,168,587,1036,Large,Petrol,Islamabad,Sialkot,Construction,1334,35,115.89,48,2025-05-26,Delivered,2025-06-01,34
+2814,194,553,1048,Large,Petrol,Peshawar,Karachi,Construction,401,28,177.59,10,2025-06-24,Delivered,2025-07-01,33
+2815,104,570,1012,Large,Hybrid,Multan,Faisalabad,Construction,1209,15,51.29,21,2025-06-02,Delivered,2025-06-07,14
+2816,102,588,1033,Large,Petrol,Karachi,Faisalabad,Electronics,1520,24,250.48,20,2025-06-25,In Transit,2025-07-01,22
+2817,152,584,1085,Small,Diesel,Peshawar,Multan,Electronics,1376,33,59.42,47,2025-06-01,Delivered,2025-06-07,34
+2818,122,514,1052,Small,Diesel,Peshawar,Multan,Construction,632,28,337.65,39,2025-05-15,In Transit,2025-05-21,33
+2819,152,564,1086,Small,Diesel,Faisalabad,Karachi,Electronics,868,9,329.53,24,2025-05-19,In Transit,2025-05-25,13
+2820,136,575,1050,Large,Diesel,Faisalabad,Quetta,Electronics,1504,25,222.77,13,2025-04-22,Delayed,2025-04-23,27
+2821,173,570,1002,Large,Petrol,Faisalabad,Lahore,Pharmaceuticals,543,24,73.64,15,2025-06-11,Delayed,2025-06-12,23
+2822,173,514,1041,Large,Petrol,Faisalabad,Peshawar,Textiles,1156,32,29.72,10,2025-06-16,Delivered,2025-06-21,34
+2823,182,520,1097,Small,Hybrid,Islamabad,Sialkot,FMCG,359,39,322.75,31,2025-06-08,In Transit,2025-06-14,40
+2824,116,518,1031,Large,Petrol,Multan,Sialkot,Electronics,1357,9,248.05,27,2025-04-08,Delayed,2025-04-11,6
+2825,184,559,1050,Medium,Petrol,Faisalabad,Peshawar,FMCG,1431,12,290.15,49,2025-04-03,In Transit,2025-04-09,13
+2826,177,592,1084,Large,Petrol,Quetta,Sialkot,Automotive,838,12,135.45,28,2025-05-19,Delayed,2025-05-22,15
+2827,172,588,1045,Medium,Hybrid,Lahore,Sialkot,FMCG,895,31,213.6,18,2025-04-27,In Transit,2025-04-28,36
+2828,100,532,1020,Large,Diesel,Faisalabad,Quetta,Pharmaceuticals,169,31,303.93,14,2025-06-23,Delayed,2025-06-30,30
+2829,150,548,1043,Small,Petrol,Multan,Faisalabad,Electronics,1577,24,195.77,25,2025-05-23,Delayed,2025-05-27,26
+2830,144,595,1010,Large,Hybrid,Faisalabad,Lahore,Construction,1562,14,248.53,33,2025-04-07,Delayed,2025-04-14,21
+2831,176,534,1067,Medium,Hybrid,Islamabad,Sialkot,FMCG,1487,25,320.1,49,2025-06-09,Delayed,2025-06-15,27
+2832,103,543,1000,Medium,Hybrid,Karachi,Karachi,Electronics,1082,21,101.78,42,2025-06-29,Delayed,2025-07-03,22
+2833,161,589,1091,Large,Diesel,Karachi,Quetta,Furniture,580,22,45.05,29,2025-05-01,Delivered,2025-05-04,20
+2834,164,510,1062,Medium,Petrol,Multan,Sialkot,Automotive,1267,27,222.09,49,2025-06-07,Delivered,2025-06-14,26
+2835,131,598,1023,Medium,Hybrid,Quetta,Karachi,Construction,123,18,43.61,38,2025-06-18,Delivered,2025-06-25,16
+2836,133,571,1098,Small,Diesel,Karachi,Multan,Furniture,1064,17,311.29,25,2025-05-29,Delayed,2025-06-04,14
+2837,191,577,1012,Large,Hybrid,Sialkot,Faisalabad,Furniture,1548,15,293.3,35,2025-04-18,Delayed,2025-04-21,20
+2838,194,573,1097,Large,Hybrid,Karachi,Islamabad,FMCG,845,6,355.05,49,2025-04-04,Delivered,2025-04-07,5
+2839,171,565,1010,Large,Hybrid,Lahore,Sialkot,Furniture,944,37,263.03,14,2025-04-11,In Transit,2025-04-13,40
+2840,138,545,1099,Medium,Hybrid,Multan,Karachi,Pharmaceuticals,1298,35,45.54,22,2025-05-08,Delayed,2025-05-16,40
+2841,125,508,1050,Large,Hybrid,Quetta,Quetta,Pharmaceuticals,424,13,116.2,41,2025-06-22,Delivered,2025-06-27,17
+2842,133,502,1016,Large,Diesel,Multan,Faisalabad,FMCG,1471,26,327.01,19,2025-06-23,In Transit,2025-06-30,23
+2843,153,584,1098,Small,Petrol,Karachi,Lahore,Electronics,897,27,83.51,24,2025-05-06,Delayed,2025-05-11,28
+2844,102,525,1081,Small,Petrol,Karachi,Quetta,Textiles,117,23,285.42,12,2025-06-10,Delayed,2025-06-18,30
+2845,149,571,1085,Small,Petrol,Karachi,Multan,Electronics,143,7,316.5,8,2025-04-28,In Transit,2025-04-29,10
+2846,111,547,1023,Medium,Petrol,Peshawar,Peshawar,Electronics,254,14,145.44,38,2025-04-05,Delayed,2025-04-12,11
+2847,164,565,1018,Large,Diesel,Islamabad,Sialkot,Electronics,966,8,142.47,49,2025-05-25,Delayed,2025-06-04,16
+2848,153,569,1036,Small,Diesel,Faisalabad,Lahore,Electronics,1021,31,231.97,37,2025-05-22,In Transit,2025-05-24,30
+2849,104,527,1084,Small,Diesel,Sialkot,Karachi,Construction,1500,26,347.29,16,2025-05-30,Delivered,2025-06-05,26
+2850,193,592,1007,Small,Hybrid,Islamabad,Sialkot,Textiles,842,35,105.08,47,2025-05-29,Delayed,2025-06-02,35
+2851,193,525,1027,Large,Hybrid,Multan,Karachi,Construction,1525,33,377.68,7,2025-05-22,In Transit,2025-05-26,37
+2852,156,524,1004,Large,Hybrid,Sialkot,Lahore,Furniture,324,31,247.67,31,2025-05-19,In Transit,2025-05-24,28
+2853,116,511,1016,Large,Petrol,Lahore,Karachi,Automotive,316,39,397.01,9,2025-04-12,In Transit,2025-04-16,43
+2854,146,504,1035,Medium,Hybrid,Faisalabad,Quetta,Electronics,130,13,54.05,22,2025-06-15,In Transit,2025-06-18,18
+2855,122,597,1018,Medium,Petrol,Lahore,Faisalabad,Automotive,1182,15,68.09,22,2025-04-12,In Transit,2025-04-14,20
+2856,178,547,1063,Small,Hybrid,Quetta,Karachi,Pharmaceuticals,997,19,334.12,33,2025-05-18,Delayed,2025-05-20,20
+2857,184,536,1090,Large,Petrol,Peshawar,Multan,FMCG,1476,20,348.61,35,2025-06-12,In Transit,2025-06-14,20
+2858,113,578,1097,Small,Hybrid,Multan,Faisalabad,FMCG,1034,22,189.27,45,2025-06-18,Delayed,2025-06-21,22
+2859,165,543,1010,Large,Hybrid,Peshawar,Quetta,Construction,544,23,291.35,28,2025-04-12,Delivered,2025-04-18,28
+2860,174,599,1053,Large,Diesel,Multan,Sialkot,Construction,1358,37,349.67,29,2025-04-16,Delayed,2025-04-17,41
+2861,150,514,1044,Large,Hybrid,Lahore,Islamabad,Pharmaceuticals,1230,28,36.39,34,2025-05-03,In Transit,2025-05-06,31
+2862,137,542,1046,Medium,Hybrid,Lahore,Sialkot,Electronics,1314,28,238.1,9,2025-04-20,Delivered,2025-04-22,27
+2863,163,547,1011,Medium,Diesel,Lahore,Karachi,Automotive,629,20,344.32,43,2025-05-16,Delayed,2025-05-18,20
+2864,197,586,1020,Large,Petrol,Multan,Karachi,Automotive,837,29,171.3,34,2025-05-28,Delayed,2025-06-05,37
+2865,137,569,1010,Small,Diesel,Karachi,Multan,Textiles,973,33,134.91,24,2025-04-06,Delayed,2025-04-08,37
+2866,149,545,1091,Large,Diesel,Lahore,Quetta,Furniture,665,21,322.37,32,2025-05-27,In Transit,2025-06-02,18
+2867,197,542,1004,Large,Petrol,Peshawar,Multan,FMCG,1368,21,147.6,34,2025-04-26,In Transit,2025-04-30,20
+2868,181,520,1080,Small,Hybrid,Quetta,Peshawar,Furniture,175,11,21.21,41,2025-06-30,Delayed,2025-07-01,9
+2869,129,522,1055,Large,Petrol,Faisalabad,Quetta,Textiles,646,7,384.64,40,2025-06-17,Delayed,2025-06-20,5
+2870,178,579,1019,Small,Hybrid,Multan,Lahore,Construction,366,18,245.01,11,2025-06-23,Delivered,2025-06-25,22
+2871,190,546,1040,Medium,Hybrid,Sialkot,Lahore,Automotive,416,14,331.42,28,2025-05-16,In Transit,2025-05-23,16
+2872,150,514,1045,Medium,Petrol,Peshawar,Lahore,FMCG,1244,39,333.61,44,2025-06-08,Delayed,2025-06-16,44
+2873,162,524,1011,Small,Diesel,Islamabad,Multan,Furniture,124,22,45.24,49,2025-04-08,Delivered,2025-04-13,22
+2874,197,535,1069,Medium,Petrol,Quetta,Lahore,Construction,1555,32,84.93,13,2025-05-03,Delayed,2025-05-04,29
+2875,151,574,1016,Medium,Hybrid,Islamabad,Quetta,Textiles,259,34,138.23,7,2025-06-29,Delayed,2025-07-06,37
+2876,137,550,1018,Small,Petrol,Faisalabad,Lahore,Furniture,695,27,141.87,18,2025-04-30,Delivered,2025-05-05,31
+2877,196,514,1025,Medium,Petrol,Karachi,Islamabad,Automotive,1237,29,270.34,45,2025-05-02,Delayed,2025-05-03,27
+2878,187,567,1047,Large,Hybrid,Lahore,Lahore,Electronics,999,12,256.79,26,2025-05-11,Delayed,2025-05-13,10
+2879,178,520,1051,Large,Diesel,Multan,Karachi,Construction,601,39,207.94,36,2025-06-23,Delivered,2025-06-24,36
+2880,129,512,1095,Small,Petrol,Peshawar,Peshawar,Textiles,1289,17,100.28,41,2025-06-19,Delivered,2025-06-20,17
+2881,150,585,1069,Medium,Hybrid,Sialkot,Multan,Furniture,1112,28,165.15,43,2025-05-23,Delivered,2025-05-25,30
+2882,180,518,1054,Large,Hybrid,Lahore,Faisalabad,Automotive,802,20,226.57,32,2025-06-04,Delayed,2025-06-10,21
+2883,104,533,1099,Large,Petrol,Peshawar,Peshawar,Electronics,1298,38,197.83,41,2025-06-02,Delivered,2025-06-09,38
+2884,128,577,1074,Medium,Diesel,Multan,Islamabad,Electronics,100,18,68.37,28,2025-05-26,Delayed,2025-06-01,22
+2885,103,567,1032,Medium,Petrol,Islamabad,Multan,Textiles,840,28,266.81,26,2025-05-28,In Transit,2025-06-03,31
+2886,109,551,1061,Large,Diesel,Lahore,Quetta,Pharmaceuticals,1209,37,47.76,18,2025-04-11,In Transit,2025-04-16,40
+2887,155,526,1087,Large,Diesel,Faisalabad,Sialkot,Automotive,419,6,163.71,42,2025-05-26,Delivered,2025-05-30,4
+2888,116,528,1022,Small,Diesel,Karachi,Multan,Automotive,1524,10,289.81,31,2025-04-05,Delayed,2025-04-12,13
+2889,173,527,1014,Small,Diesel,Faisalabad,Karachi,FMCG,481,18,27.61,45,2025-05-11,Delayed,2025-05-16,16
+2890,116,534,1026,Large,Petrol,Karachi,Quetta,Textiles,1441,10,236.59,12,2025-04-20,Delayed,2025-04-25,10
+2891,183,507,1074,Small,Hybrid,Quetta,Peshawar,Electronics,1373,37,147.12,44,2025-05-05,Delivered,2025-05-06,34
+2892,187,515,1063,Large,Hybrid,Peshawar,Peshawar,Electronics,997,26,23.36,27,2025-05-22,Delayed,2025-05-26,27
+2893,168,535,1080,Large,Hybrid,Lahore,Lahore,Textiles,816,29,92.35,44,2025-05-16,Delayed,2025-05-18,26
+2894,133,529,1050,Small,Hybrid,Lahore,Quetta,Pharmaceuticals,1379,23,377.56,28,2025-04-26,Delayed,2025-04-28,23
+2895,105,517,1052,Small,Hybrid,Quetta,Sialkot,FMCG,406,26,218.04,35,2025-05-22,In Transit,2025-05-25,31
+2896,152,501,1077,Medium,Hybrid,Karachi,Karachi,Furniture,1267,15,398.95,23,2025-04-24,Delayed,2025-04-28,19
+2897,165,548,1090,Medium,Petrol,Islamabad,Lahore,Textiles,490,29,219.43,47,2025-04-13,In Transit,2025-04-14,31
+2898,176,576,1081,Medium,Diesel,Multan,Lahore,FMCG,1292,26,226.7,23,2025-06-19,Delayed,2025-06-22,30
+2899,142,503,1091,Large,Hybrid,Faisalabad,Sialkot,Automotive,1089,30,168.9,15,2025-05-07,Delayed,2025-05-10,31
+2900,174,589,1050,Small,Petrol,Quetta,Multan,FMCG,397,28,137.82,44,2025-06-01,Delayed,2025-06-03,31
+2901,122,588,1046,Large,Hybrid,Sialkot,Peshawar,Construction,332,27,115.59,35,2025-06-14,In Transit,2025-06-19,31
+2902,154,593,1003,Small,Hybrid,Sialkot,Lahore,Electronics,370,9,150.5,31,2025-04-04,Delayed,2025-04-05,12
+2903,179,574,1006,Large,Diesel,Peshawar,Islamabad,Furniture,1183,39,194.74,12,2025-04-24,Delivered,2025-04-28,39
+2904,194,506,1034,Medium,Diesel,Quetta,Islamabad,Textiles,1419,11,92.96,12,2025-04-05,Delayed,2025-04-08,12
+2905,174,594,1047,Medium,Diesel,Faisalabad,Peshawar,Electronics,1590,33,105.45,10,2025-06-29,In Transit,2025-06-30,35
+2906,115,573,1072,Medium,Hybrid,Faisalabad,Islamabad,Construction,1358,36,123.19,6,2025-05-16,In Transit,2025-05-18,38
+2907,107,538,1071,Large,Hybrid,Peshawar,Sialkot,Construction,776,28,190.72,23,2025-04-05,Delivered,2025-04-08,33
+2908,103,512,1044,Small,Hybrid,Peshawar,Multan,Electronics,805,11,268.07,18,2025-05-26,Delivered,2025-05-29,9
+2909,103,530,1080,Small,Diesel,Lahore,Karachi,Pharmaceuticals,333,21,345.34,30,2025-05-15,Delivered,2025-05-21,23
+2910,155,570,1080,Medium,Petrol,Faisalabad,Faisalabad,FMCG,1491,7,129.11,45,2025-04-17,In Transit,2025-04-19,6
+2911,124,562,1096,Medium,Hybrid,Multan,Lahore,Textiles,944,29,89.82,13,2025-05-26,Delayed,2025-06-01,27
+2912,166,555,1095,Medium,Hybrid,Sialkot,Faisalabad,Textiles,1355,22,163.96,15,2025-04-27,Delayed,2025-04-29,24
+2913,195,541,1071,Medium,Hybrid,Multan,Karachi,Textiles,590,6,359.87,37,2025-04-21,Delivered,2025-04-23,6
+2914,166,560,1018,Small,Petrol,Karachi,Karachi,Electronics,602,11,23.75,22,2025-04-15,Delivered,2025-04-21,12
+2915,126,541,1062,Large,Hybrid,Quetta,Sialkot,Automotive,989,10,277.59,43,2025-05-18,Delayed,2025-05-25,11
+2916,192,555,1037,Large,Petrol,Peshawar,Multan,Pharmaceuticals,691,34,201.32,20,2025-05-17,Delivered,2025-05-18,33
+2917,131,535,1066,Large,Hybrid,Lahore,Islamabad,Furniture,845,17,81.2,20,2025-05-17,Delayed,2025-05-18,17
+2918,149,583,1058,Large,Petrol,Multan,Islamabad,Construction,1504,8,141.99,45,2025-06-18,Delayed,2025-06-25,7
+2919,160,567,1068,Medium,Hybrid,Islamabad,Sialkot,Electronics,527,6,105.48,25,2025-05-01,Delayed,2025-05-02,9
+2920,150,506,1012,Medium,Diesel,Sialkot,Karachi,Automotive,796,32,353.58,20,2025-06-02,Delayed,2025-06-07,29
+2921,118,553,1046,Medium,Diesel,Lahore,Multan,Furniture,745,29,203.11,40,2025-06-05,In Transit,2025-06-08,31
+2922,120,500,1060,Large,Diesel,Lahore,Multan,Construction,831,24,233.98,11,2025-06-22,Delayed,2025-06-23,24
+2923,104,543,1030,Medium,Diesel,Multan,Peshawar,Construction,899,13,245.6,35,2025-05-16,Delivered,2025-05-21,10
+2924,181,544,1079,Medium,Hybrid,Islamabad,Quetta,Pharmaceuticals,463,7,263.05,13,2025-04-16,Delivered,2025-04-19,4
+2925,191,546,1095,Small,Diesel,Karachi,Lahore,FMCG,301,35,208.31,36,2025-05-13,Delayed,2025-05-16,38
+2926,141,512,1021,Small,Petrol,Multan,Sialkot,Textiles,981,35,26.79,37,2025-05-07,Delivered,2025-05-09,36
+2927,160,521,1092,Medium,Diesel,Islamabad,Quetta,Furniture,245,37,147.19,20,2025-04-22,In Transit,2025-04-29,40
+2928,121,520,1085,Small,Diesel,Lahore,Sialkot,Electronics,935,6,89.87,23,2025-05-15,Delayed,2025-05-19,6
+2929,120,585,1042,Small,Diesel,Sialkot,Islamabad,Furniture,738,18,278.45,18,2025-06-28,Delayed,2025-06-29,23
+2930,169,591,1066,Medium,Hybrid,Islamabad,Karachi,FMCG,1580,16,41.55,29,2025-04-27,Delayed,2025-05-03,19
+2931,100,508,1053,Medium,Diesel,Lahore,Sialkot,Textiles,234,15,234.25,45,2025-05-13,Delivered,2025-05-14,18
+2932,104,525,1009,Medium,Petrol,Quetta,Sialkot,Furniture,725,31,100.04,19,2025-06-18,Delivered,2025-06-20,32
+2933,111,508,1041,Medium,Diesel,Multan,Peshawar,FMCG,1387,25,380.56,33,2025-06-19,Delayed,2025-06-26,26
+2934,189,514,1063,Large,Diesel,Peshawar,Faisalabad,Electronics,163,22,147.51,16,2025-05-10,In Transit,2025-05-17,24
+2935,145,509,1020,Large,Diesel,Multan,Islamabad,Pharmaceuticals,590,22,143.58,11,2025-05-26,In Transit,2025-05-30,26
+2936,133,587,1079,Medium,Petrol,Quetta,Lahore,Automotive,140,9,370.89,30,2025-04-16,In Transit,2025-04-21,10
+2937,148,541,1075,Small,Diesel,Faisalabad,Multan,Construction,1419,10,178.59,6,2025-06-15,In Transit,2025-06-17,9
+2938,177,571,1065,Medium,Petrol,Faisalabad,Karachi,Electronics,1126,28,385.89,30,2025-06-19,Delivered,2025-06-23,30
+2939,189,523,1040,Medium,Petrol,Faisalabad,Islamabad,Textiles,1012,15,29.18,7,2025-04-23,Delayed,2025-04-27,13
+2940,144,579,1023,Small,Diesel,Multan,Faisalabad,Construction,1074,33,136.41,37,2025-05-28,Delivered,2025-06-03,37
+2941,126,548,1034,Large,Petrol,Karachi,Sialkot,Automotive,1233,38,273.15,18,2025-06-19,In Transit,2025-06-25,42
+2942,172,525,1055,Medium,Hybrid,Multan,Lahore,Electronics,1344,31,358.53,38,2025-06-15,Delayed,2025-06-18,34
+2943,125,590,1029,Medium,Diesel,Sialkot,Sialkot,Electronics,1493,34,117.43,37,2025-05-30,In Transit,2025-06-01,38
+2944,146,536,1056,Large,Diesel,Quetta,Lahore,Electronics,467,32,373.58,29,2025-05-30,Delayed,2025-06-01,37
+2945,185,567,1093,Large,Petrol,Sialkot,Peshawar,Electronics,1559,23,245.77,32,2025-06-22,In Transit,2025-06-25,24
+2946,155,549,1046,Small,Petrol,Quetta,Sialkot,Construction,1017,15,324.38,9,2025-04-21,Delivered,2025-04-26,16
+2947,193,523,1034,Large,Diesel,Peshawar,Islamabad,Textiles,1127,10,170.94,29,2025-05-08,Delayed,2025-05-09,12
+2948,162,518,1018,Large,Hybrid,Islamabad,Faisalabad,Automotive,343,15,100.63,28,2025-05-14,In Transit,2025-05-20,18
+2949,147,599,1007,Large,Petrol,Multan,Lahore,FMCG,1001,26,366.27,34,2025-06-07,In Transit,2025-06-14,25
+2950,160,559,1025,Small,Petrol,Multan,Karachi,Furniture,265,29,374.59,39,2025-06-21,Delayed,2025-06-28,30
+2951,180,538,1070,Large,Hybrid,Lahore,Lahore,Pharmaceuticals,1149,8,209.08,26,2025-04-30,Delivered,2025-05-04,5
+2952,125,573,1029,Large,Hybrid,Quetta,Faisalabad,Automotive,1518,36,22.47,35,2025-06-23,Delayed,2025-06-29,37
+2953,135,588,1006,Small,Diesel,Lahore,Multan,Furniture,1597,7,61.72,31,2025-04-28,Delivered,2025-04-29,7
+2954,100,517,1066,Large,Hybrid,Lahore,Multan,Furniture,1140,7,237.75,25,2025-06-05,In Transit,2025-06-07,4
+2955,107,518,1064,Large,Diesel,Multan,Peshawar,Pharmaceuticals,827,39,29.04,21,2025-06-29,In Transit,2025-07-06,42
+2956,198,535,1035,Small,Hybrid,Karachi,Islamabad,Automotive,1215,25,170.83,8,2025-06-09,Delayed,2025-06-15,22
+2957,151,573,1024,Medium,Petrol,Islamabad,Faisalabad,Construction,582,38,135.28,42,2025-05-17,In Transit,2025-05-22,42
+2958,178,596,1036,Small,Diesel,Islamabad,Peshawar,Textiles,642,9,291.45,45,2025-05-30,Delayed,2025-06-06,9
+2959,146,554,1000,Large,Diesel,Sialkot,Quetta,Pharmaceuticals,1328,16,41.12,49,2025-04-22,In Transit,2025-04-25,17
+2960,155,568,1014,Large,Diesel,Quetta,Lahore,Textiles,1030,10,205.72,30,2025-04-09,In Transit,2025-04-15,12
+2961,185,546,1036,Large,Hybrid,Peshawar,Quetta,Construction,499,30,240.06,28,2025-05-10,Delivered,2025-05-12,35
+2962,113,548,1012,Small,Petrol,Quetta,Lahore,Furniture,1330,39,254.57,49,2025-05-23,Delayed,2025-05-27,42
+2963,189,598,1007,Large,Diesel,Karachi,Multan,Textiles,718,14,173.96,6,2025-06-22,Delayed,2025-06-25,16
+2964,127,597,1004,Large,Diesel,Karachi,Peshawar,Construction,1269,11,135.66,38,2025-05-13,In Transit,2025-05-15,12
+2965,186,532,1059,Small,Diesel,Islamabad,Multan,Construction,978,23,279.35,20,2025-04-25,Delayed,2025-04-30,28
+2966,177,520,1072,Medium,Diesel,Faisalabad,Karachi,FMCG,200,19,342.08,22,2025-04-03,Delivered,2025-04-09,19
+2967,187,580,1000,Medium,Petrol,Lahore,Quetta,Pharmaceuticals,979,24,283.57,39,2025-05-28,Delayed,2025-05-30,23
+2968,101,521,1035,Large,Hybrid,Lahore,Quetta,FMCG,929,19,374.2,22,2025-04-16,Delayed,2025-04-23,24
+2969,125,547,1034,Small,Petrol,Islamabad,Multan,Furniture,1364,22,292.56,46,2025-04-14,In Transit,2025-04-20,23
+2970,113,536,1065,Large,Diesel,Quetta,Karachi,Pharmaceuticals,858,34,310.56,49,2025-04-09,Delayed,2025-04-14,40
+2971,158,514,1062,Small,Petrol,Karachi,Lahore,Furniture,262,22,83.8,9,2025-06-02,In Transit,2025-06-06,25
+2972,155,534,1022,Small,Diesel,Quetta,Peshawar,FMCG,1296,13,179.43,18,2025-06-12,Delivered,2025-06-16,17
+2973,106,591,1008,Medium,Hybrid,Peshawar,Karachi,Automotive,601,6,204.32,9,2025-06-28,Delayed,2025-07-03,6
+2974,102,570,1033,Medium,Hybrid,Faisalabad,Peshawar,Construction,646,12,117.39,12,2025-06-28,Delivered,2025-07-01,17
+2975,122,531,1045,Small,Hybrid,Islamabad,Quetta,Furniture,1407,10,220.85,14,2025-06-28,Delivered,2025-07-03,7
+2976,117,510,1077,Large,Diesel,Lahore,Peshawar,Pharmaceuticals,1482,29,130.5,28,2025-05-05,In Transit,2025-05-07,28
+2977,137,509,1003,Medium,Petrol,Multan,Quetta,Pharmaceuticals,480,33,281.25,38,2025-06-06,Delivered,2025-06-13,37
+2978,198,572,1029,Large,Hybrid,Quetta,Karachi,Furniture,969,22,198.71,38,2025-06-14,In Transit,2025-06-20,19
+2979,114,577,1094,Medium,Diesel,Karachi,Quetta,Pharmaceuticals,1004,25,194.35,25,2025-06-10,In Transit,2025-06-14,22
+2980,163,576,1074,Medium,Diesel,Multan,Sialkot,Construction,1286,8,393.78,9,2025-04-23,Delivered,2025-04-24,10
+2981,188,556,1098,Large,Petrol,Peshawar,Islamabad,Automotive,1101,31,169.13,6,2025-04-22,Delivered,2025-04-26,32
+2982,127,524,1071,Medium,Hybrid,Islamabad,Quetta,Construction,708,20,157.67,47,2025-06-05,In Transit,2025-06-10,22
+2983,173,501,1002,Medium,Diesel,Quetta,Multan,Pharmaceuticals,406,13,141.07,39,2025-05-02,In Transit,2025-05-06,12
+2984,138,563,1013,Large,Petrol,Lahore,Karachi,Furniture,1462,18,360.0,32,2025-04-09,Delivered,2025-04-14,20
+2985,156,534,1059,Medium,Hybrid,Quetta,Sialkot,FMCG,154,8,208.76,26,2025-04-08,Delayed,2025-04-17,10
+2986,116,506,1076,Medium,Petrol,Faisalabad,Lahore,Pharmaceuticals,1082,6,248.01,29,2025-04-12,In Transit,2025-04-14,10
+2987,185,584,1044,Medium,Petrol,Sialkot,Peshawar,Pharmaceuticals,432,14,88.71,20,2025-06-11,Delayed,2025-06-15,16
+2988,189,517,1095,Large,Diesel,Multan,Sialkot,Pharmaceuticals,226,36,225.56,40,2025-05-26,Delayed,2025-05-29,36
+2989,143,566,1033,Small,Diesel,Faisalabad,Faisalabad,Pharmaceuticals,804,31,124.37,30,2025-04-07,Delayed,2025-04-13,31
+2990,124,541,1044,Large,Diesel,Peshawar,Sialkot,Furniture,342,22,297.64,14,2025-06-04,Delayed,2025-06-08,28
+2991,116,538,1060,Small,Petrol,Lahore,Karachi,FMCG,699,39,336.36,22,2025-06-19,Delayed,2025-06-25,38
+2992,112,540,1082,Medium,Diesel,Multan,Sialkot,FMCG,1532,14,291.63,26,2025-05-26,In Transit,2025-05-30,13
+2993,183,574,1015,Small,Petrol,Peshawar,Sialkot,Textiles,602,18,297.49,18,2025-05-14,Delayed,2025-05-23,24
+2994,124,523,1065,Large,Petrol,Faisalabad,Multan,Pharmaceuticals,703,10,214.74,8,2025-05-21,Delayed,2025-05-25,15
+2995,167,559,1039,Large,Diesel,Faisalabad,Quetta,Pharmaceuticals,402,18,290.6,9,2025-05-13,Delivered,2025-05-19,15
+2996,109,545,1016,Medium,Hybrid,Sialkot,Peshawar,Textiles,1587,6,180.62,9,2025-06-23,Delayed,2025-06-30,7
+2997,166,518,1033,Small,Hybrid,Multan,Islamabad,FMCG,334,30,267.57,48,2025-04-19,Delivered,2025-04-20,27
+2998,117,567,1015,Medium,Hybrid,Lahore,Lahore,Electronics,1161,9,118.43,33,2025-05-08,In Transit,2025-05-15,6
+2999,199,589,1059,Medium,Petrol,Faisalabad,Islamabad,Construction,238,15,46.51,12,2025-06-06,Delivered,2025-06-10,14
+3000,185,541,1065,Large,Petrol,Islamabad,Sialkot,Electronics,294,33,177.12,31,2025-04-18,In Transit,2025-04-19,32
+3001,133,531,1065,Small,Petrol,Sialkot,Faisalabad,FMCG,746,11,195.48,16,2025-06-04,Delivered,2025-06-05,11
+3002,107,538,1089,Small,Diesel,Peshawar,Karachi,Automotive,100,32,117.43,29,2025-05-09,In Transit,2025-05-15,31
+3003,139,535,1012,Small,Petrol,Multan,Peshawar,Pharmaceuticals,660,17,296.53,48,2025-06-07,In Transit,2025-06-08,19
+3004,182,596,1055,Small,Diesel,Karachi,Karachi,Electronics,1219,8,47.95,15,2025-05-13,Delayed,2025-05-14,8
+3005,141,535,1030,Medium,Diesel,Karachi,Multan,Furniture,812,38,104.64,42,2025-07-01,In Transit,2025-07-03,42
+3006,140,502,1033,Medium,Hybrid,Lahore,Karachi,Furniture,512,15,304.45,18,2025-04-24,Delayed,2025-05-01,12
+3007,105,572,1038,Large,Hybrid,Islamabad,Lahore,Textiles,637,36,186.11,49,2025-06-09,Delayed,2025-06-12,40
+3008,151,507,1066,Medium,Hybrid,Faisalabad,Faisalabad,FMCG,528,20,288.01,47,2025-04-13,Delayed,2025-04-14,17
+3009,125,596,1007,Medium,Diesel,Karachi,Islamabad,FMCG,334,12,235.64,44,2025-04-12,Delivered,2025-04-15,9
+3010,163,569,1086,Large,Diesel,Lahore,Sialkot,Electronics,448,19,381.27,24,2025-04-22,Delivered,2025-04-23,22
+3011,197,540,1077,Large,Diesel,Peshawar,Sialkot,Pharmaceuticals,495,19,247.16,24,2025-04-13,In Transit,2025-04-16,16
+3012,158,567,1054,Large,Petrol,Sialkot,Faisalabad,FMCG,1474,8,25.65,17,2025-05-08,Delayed,2025-05-12,13
+3013,155,512,1026,Medium,Diesel,Islamabad,Peshawar,Electronics,515,8,154.09,27,2025-04-12,Delayed,2025-04-16,12
+3014,158,548,1092,Medium,Hybrid,Islamabad,Karachi,Electronics,1015,27,74.36,42,2025-04-19,In Transit,2025-04-22,24
+3015,169,559,1052,Large,Hybrid,Quetta,Peshawar,Construction,1174,24,371.36,35,2025-07-01,Delayed,2025-07-08,22
+3016,132,501,1038,Large,Diesel,Lahore,Islamabad,Construction,180,17,59.52,17,2025-05-10,In Transit,2025-05-11,15
+3017,152,559,1064,Large,Diesel,Lahore,Peshawar,FMCG,135,10,167.33,34,2025-06-06,Delayed,2025-06-08,8
+3018,121,504,1016,Medium,Hybrid,Quetta,Multan,Electronics,1190,15,105.92,26,2025-06-16,Delivered,2025-06-23,17
+3019,120,543,1029,Medium,Diesel,Sialkot,Faisalabad,Textiles,740,38,341.75,16,2025-06-25,In Transit,2025-06-28,38
+3020,169,526,1052,Small,Hybrid,Faisalabad,Islamabad,Textiles,981,18,137.26,42,2025-06-28,In Transit,2025-07-05,22
+3021,169,531,1012,Medium,Petrol,Lahore,Islamabad,Construction,856,37,396.92,23,2025-04-29,Delivered,2025-05-04,34
+3022,103,520,1020,Medium,Hybrid,Quetta,Quetta,FMCG,722,16,34.67,49,2025-04-05,In Transit,2025-04-07,16
+3023,193,507,1018,Medium,Petrol,Faisalabad,Islamabad,Pharmaceuticals,567,29,68.75,32,2025-05-08,Delivered,2025-05-13,30
+3024,174,571,1052,Large,Diesel,Sialkot,Quetta,Automotive,1265,24,105.36,42,2025-06-12,Delayed,2025-06-16,31
+3025,161,549,1018,Medium,Diesel,Faisalabad,Lahore,Textiles,455,11,328.22,17,2025-04-14,Delivered,2025-04-15,12
+3026,161,566,1056,Large,Petrol,Multan,Sialkot,Textiles,808,9,353.84,28,2025-06-06,Delivered,2025-06-13,8
+3027,193,543,1024,Small,Diesel,Islamabad,Quetta,Construction,1594,38,47.15,39,2025-04-06,In Transit,2025-04-13,38
+3028,194,557,1085,Small,Petrol,Peshawar,Faisalabad,Construction,1119,18,32.33,43,2025-04-11,Delayed,2025-04-16,21
+3029,123,502,1030,Large,Diesel,Islamabad,Peshawar,FMCG,1001,24,302.93,28,2025-05-29,Delivered,2025-06-05,21
+3030,154,585,1080,Large,Hybrid,Islamabad,Quetta,Construction,772,17,70.67,30,2025-06-11,Delayed,2025-06-14,19
+3031,108,569,1054,Large,Diesel,Multan,Islamabad,Furniture,538,16,70.54,9,2025-04-21,Delivered,2025-04-23,20
+3032,102,501,1022,Medium,Hybrid,Faisalabad,Faisalabad,Automotive,630,11,28.5,35,2025-04-28,In Transit,2025-04-29,8
+3033,130,586,1031,Small,Hybrid,Faisalabad,Quetta,Electronics,226,17,38.93,35,2025-06-15,Delivered,2025-06-20,21
+3034,139,543,1061,Large,Petrol,Lahore,Quetta,Textiles,304,32,120.2,18,2025-05-28,Delivered,2025-06-04,35
+3035,135,501,1073,Medium,Diesel,Multan,Islamabad,Furniture,128,30,44.7,47,2025-05-21,Delayed,2025-05-24,27
+3036,123,580,1009,Small,Petrol,Lahore,Multan,Pharmaceuticals,544,8,160.17,19,2025-04-30,Delivered,2025-05-01,13
+3037,194,534,1099,Medium,Diesel,Multan,Multan,Furniture,1065,8,336.45,13,2025-04-14,In Transit,2025-04-15,7
+3038,105,597,1071,Small,Hybrid,Lahore,Quetta,FMCG,563,25,144.0,29,2025-04-03,Delayed,2025-04-10,26
+3039,165,586,1053,Medium,Hybrid,Karachi,Multan,Pharmaceuticals,1403,33,296.58,23,2025-06-19,Delivered,2025-06-20,36
+3040,183,529,1051,Small,Diesel,Quetta,Karachi,Pharmaceuticals,250,28,55.69,40,2025-06-29,Delivered,2025-07-02,27
+3041,191,507,1019,Small,Diesel,Islamabad,Islamabad,Construction,339,8,270.56,30,2025-04-19,Delayed,2025-04-21,5
+3042,174,521,1031,Medium,Petrol,Islamabad,Karachi,Furniture,365,29,140.36,22,2025-06-21,Delayed,2025-06-27,28
+3043,103,543,1013,Large,Diesel,Sialkot,Faisalabad,FMCG,1228,11,304.91,37,2025-06-20,Delayed,2025-06-27,15
+3044,178,557,1049,Small,Diesel,Peshawar,Karachi,Textiles,1556,25,71.78,29,2025-05-30,Delayed,2025-06-02,24
+3045,105,535,1027,Large,Diesel,Quetta,Faisalabad,Automotive,1012,16,361.2,12,2025-07-01,Delayed,2025-07-05,20
+3046,193,568,1052,Medium,Petrol,Faisalabad,Quetta,Construction,596,37,112.18,18,2025-06-22,In Transit,2025-06-25,42
+3047,150,576,1023,Large,Diesel,Peshawar,Faisalabad,Furniture,1563,32,154.19,32,2025-06-05,Delayed,2025-06-10,35
+3048,161,592,1078,Large,Hybrid,Karachi,Faisalabad,Textiles,784,26,381.07,10,2025-05-23,In Transit,2025-05-30,24
+3049,156,530,1021,Large,Petrol,Sialkot,Peshawar,Furniture,257,18,239.82,41,2025-06-18,Delivered,2025-06-23,15
+3050,165,546,1029,Large,Petrol,Peshawar,Karachi,Construction,271,27,158.99,31,2025-05-25,Delayed,2025-05-27,30
+3051,178,554,1062,Large,Hybrid,Sialkot,Peshawar,Textiles,593,27,380.85,47,2025-04-11,Delayed,2025-04-17,31
+3052,174,579,1003,Small,Hybrid,Islamabad,Quetta,Construction,1069,33,145.05,36,2025-05-29,Delayed,2025-06-06,39
+3053,107,561,1076,Small,Hybrid,Faisalabad,Islamabad,Furniture,1434,26,56.05,15,2025-06-28,In Transit,2025-07-03,28
+3054,125,529,1058,Small,Diesel,Karachi,Karachi,Pharmaceuticals,1526,23,398.8,31,2025-05-08,In Transit,2025-05-13,26
+3055,150,554,1086,Medium,Hybrid,Islamabad,Islamabad,Automotive,775,36,121.78,27,2025-05-11,In Transit,2025-05-16,36
+3056,144,515,1007,Large,Diesel,Quetta,Islamabad,Electronics,758,26,343.48,17,2025-07-01,Delayed,2025-07-03,25
+3057,143,511,1081,Small,Petrol,Lahore,Faisalabad,Automotive,1002,19,82.91,37,2025-04-13,Delayed,2025-04-16,22
+3058,104,516,1011,Medium,Petrol,Multan,Sialkot,Pharmaceuticals,765,30,297.91,32,2025-04-06,In Transit,2025-04-09,29
+3059,169,515,1030,Small,Hybrid,Karachi,Karachi,Construction,1586,32,219.29,38,2025-06-23,Delayed,2025-06-27,31
+3060,125,511,1077,Small,Diesel,Faisalabad,Islamabad,Automotive,466,28,392.74,25,2025-04-20,Delayed,2025-04-26,30
+3061,167,507,1033,Large,Hybrid,Sialkot,Sialkot,Construction,649,36,230.08,44,2025-05-22,In Transit,2025-05-27,40
+3062,118,583,1081,Medium,Hybrid,Peshawar,Multan,Construction,742,34,29.51,46,2025-06-13,Delivered,2025-06-19,32
+3063,183,502,1097,Large,Diesel,Quetta,Islamabad,Textiles,354,35,249.47,45,2025-04-30,Delayed,2025-05-07,35
+3064,196,515,1074,Large,Hybrid,Peshawar,Multan,FMCG,307,31,75.22,18,2025-06-11,Delayed,2025-06-16,30
+3065,119,529,1075,Small,Petrol,Karachi,Karachi,Construction,549,25,323.45,19,2025-05-29,Delivered,2025-05-30,28
+3066,111,522,1048,Large,Hybrid,Quetta,Quetta,Automotive,194,24,345.5,49,2025-04-20,Delivered,2025-04-26,22
+3067,146,591,1078,Medium,Diesel,Faisalabad,Peshawar,Automotive,938,32,203.2,45,2025-04-06,Delivered,2025-04-12,29
+3068,100,504,1056,Large,Diesel,Karachi,Karachi,Automotive,577,30,317.62,27,2025-05-27,In Transit,2025-06-03,27
+3069,189,583,1094,Large,Petrol,Faisalabad,Peshawar,Pharmaceuticals,782,28,75.14,23,2025-06-13,Delivered,2025-06-16,30
+3070,113,564,1092,Large,Diesel,Peshawar,Peshawar,Electronics,861,34,206.99,34,2025-06-27,In Transit,2025-07-02,33
+3071,163,529,1025,Small,Diesel,Islamabad,Karachi,Construction,289,20,169.7,48,2025-05-18,Delivered,2025-05-23,23
+3072,137,520,1017,Medium,Petrol,Quetta,Islamabad,Construction,810,8,252.3,21,2025-04-12,Delivered,2025-04-16,12
+3073,136,583,1095,Small,Hybrid,Lahore,Lahore,Construction,855,15,36.9,40,2025-04-08,In Transit,2025-04-09,16
+3074,110,569,1085,Small,Petrol,Islamabad,Islamabad,Textiles,1546,20,305.81,39,2025-05-28,In Transit,2025-05-31,21
+3075,199,521,1037,Small,Hybrid,Lahore,Islamabad,Construction,935,21,50.07,8,2025-05-06,Delivered,2025-05-08,19
+3076,176,581,1080,Small,Petrol,Peshawar,Quetta,Pharmaceuticals,232,22,269.46,9,2025-06-15,Delayed,2025-06-20,29
+3077,102,571,1086,Small,Hybrid,Sialkot,Faisalabad,Furniture,154,24,27.01,10,2025-05-02,Delivered,2025-05-08,21
+3078,132,531,1087,Medium,Petrol,Quetta,Faisalabad,FMCG,609,16,336.12,15,2025-06-01,Delayed,2025-06-04,21
+3079,105,532,1049,Large,Hybrid,Islamabad,Islamabad,Automotive,769,10,86.39,34,2025-05-12,Delivered,2025-05-16,7
+3080,149,515,1007,Small,Petrol,Islamabad,Multan,Construction,509,10,215.89,37,2025-06-26,In Transit,2025-06-29,7
+3081,109,575,1040,Small,Hybrid,Karachi,Quetta,Textiles,1334,19,119.37,36,2025-05-11,Delayed,2025-05-15,16
+3082,104,537,1005,Medium,Petrol,Multan,Peshawar,Pharmaceuticals,1416,31,294.61,7,2025-04-12,In Transit,2025-04-18,34
+3083,122,597,1068,Medium,Diesel,Peshawar,Sialkot,Construction,1086,13,142.11,17,2025-06-12,Delayed,2025-06-16,13
+3084,109,513,1043,Large,Hybrid,Faisalabad,Faisalabad,Textiles,833,10,295.35,32,2025-04-26,Delayed,2025-05-04,16
+3085,143,535,1063,Medium,Petrol,Peshawar,Islamabad,Furniture,1238,12,128.25,10,2025-06-07,In Transit,2025-06-14,13
+3086,101,596,1028,Large,Hybrid,Faisalabad,Quetta,Electronics,358,21,305.94,42,2025-05-06,Delayed,2025-05-11,24
+3087,112,522,1027,Small,Hybrid,Quetta,Lahore,Construction,1245,19,31.63,32,2025-05-18,In Transit,2025-05-20,22
+3088,139,565,1010,Small,Petrol,Faisalabad,Multan,Pharmaceuticals,398,9,127.66,28,2025-05-10,Delayed,2025-05-19,11
+3089,101,584,1064,Large,Hybrid,Sialkot,Karachi,Textiles,1504,22,209.48,38,2025-06-05,Delayed,2025-06-09,20
+3090,183,501,1018,Medium,Petrol,Lahore,Islamabad,Textiles,660,11,37.12,9,2025-05-16,In Transit,2025-05-17,15
+3091,164,590,1008,Large,Diesel,Faisalabad,Quetta,Construction,396,21,90.69,26,2025-05-31,Delayed,2025-06-06,19
+3092,162,572,1026,Medium,Hybrid,Faisalabad,Islamabad,Textiles,461,34,375.12,29,2025-04-07,In Transit,2025-04-08,39
+3093,172,564,1033,Small,Diesel,Karachi,Sialkot,Electronics,688,15,391.2,49,2025-06-29,Delivered,2025-07-01,16
+3094,116,574,1043,Medium,Hybrid,Islamabad,Peshawar,Textiles,1586,34,301.1,36,2025-04-12,Delivered,2025-04-16,39
+3095,108,566,1067,Large,Hybrid,Peshawar,Multan,Automotive,1561,19,115.84,49,2025-04-08,Delayed,2025-04-14,24
+3096,174,551,1099,Large,Hybrid,Peshawar,Faisalabad,FMCG,226,9,119.0,29,2025-06-25,Delayed,2025-07-01,13
+3097,114,561,1081,Small,Petrol,Quetta,Faisalabad,Automotive,296,18,265.4,15,2025-06-14,In Transit,2025-06-16,22
+3098,123,522,1014,Medium,Diesel,Quetta,Faisalabad,FMCG,320,23,64.69,7,2025-04-09,In Transit,2025-04-14,23
+3099,137,525,1050,Medium,Hybrid,Sialkot,Sialkot,Textiles,1094,38,380.36,36,2025-06-04,Delayed,2025-06-05,38
+3100,134,567,1012,Medium,Petrol,Faisalabad,Karachi,Construction,190,26,105.43,30,2025-06-10,In Transit,2025-06-16,24
+3101,193,581,1082,Small,Hybrid,Multan,Quetta,FMCG,510,21,399.86,9,2025-04-09,In Transit,2025-04-12,21
+3102,194,554,1048,Medium,Petrol,Peshawar,Multan,Pharmaceuticals,107,20,208.38,16,2025-05-30,Delayed,2025-06-03,24
+3103,148,505,1069,Large,Hybrid,Quetta,Multan,FMCG,643,10,313.14,22,2025-05-03,Delayed,2025-05-07,12
+3104,168,534,1055,Medium,Diesel,Faisalabad,Faisalabad,Automotive,567,11,20.83,49,2025-05-05,Delivered,2025-05-07,10
+3105,161,521,1075,Small,Diesel,Quetta,Faisalabad,Textiles,419,8,357.72,7,2025-04-08,Delivered,2025-04-09,6
+3106,159,542,1050,Medium,Hybrid,Sialkot,Peshawar,Construction,1517,17,122.6,11,2025-05-10,In Transit,2025-05-13,21
+3107,149,514,1036,Medium,Petrol,Lahore,Sialkot,Furniture,368,38,273.82,14,2025-05-04,Delayed,2025-05-11,36
+3108,177,585,1016,Large,Hybrid,Lahore,Lahore,Construction,1314,38,326.42,10,2025-04-16,In Transit,2025-04-19,42
+3109,174,559,1057,Medium,Petrol,Quetta,Lahore,Construction,160,36,82.38,25,2025-05-13,Delayed,2025-05-16,42
+3110,108,511,1086,Large,Hybrid,Lahore,Islamabad,Construction,1561,26,188.15,34,2025-05-12,In Transit,2025-05-14,25
+3111,133,548,1089,Large,Petrol,Quetta,Islamabad,Pharmaceuticals,1387,32,207.66,26,2025-04-14,Delivered,2025-04-21,34
+3112,175,541,1028,Small,Diesel,Faisalabad,Multan,Electronics,896,32,138.61,14,2025-06-11,Delayed,2025-06-12,34
+3113,198,537,1032,Large,Hybrid,Karachi,Multan,Automotive,1218,13,203.07,33,2025-05-15,In Transit,2025-05-19,14
+3114,134,581,1059,Large,Diesel,Multan,Karachi,Textiles,652,37,140.67,13,2025-05-16,Delayed,2025-05-21,41
+3115,100,544,1090,Small,Diesel,Faisalabad,Karachi,Electronics,1025,31,157.08,36,2025-04-29,Delayed,2025-05-04,36
+3116,139,534,1088,Large,Hybrid,Karachi,Lahore,Furniture,1593,7,274.35,25,2025-06-27,Delayed,2025-07-02,14
+3117,163,529,1054,Small,Hybrid,Karachi,Sialkot,Electronics,760,17,260.39,32,2025-04-08,In Transit,2025-04-13,19
+3118,121,587,1009,Medium,Petrol,Peshawar,Islamabad,Textiles,815,27,108.26,13,2025-04-07,In Transit,2025-04-12,30
+3119,159,529,1046,Small,Petrol,Faisalabad,Lahore,Automotive,878,22,361.04,26,2025-04-12,In Transit,2025-04-17,27
+3120,163,577,1022,Large,Diesel,Faisalabad,Sialkot,Automotive,293,12,347.86,33,2025-05-01,Delayed,2025-05-06,15
+3121,192,505,1084,Small,Petrol,Quetta,Lahore,Textiles,581,9,213.45,28,2025-04-17,Delayed,2025-04-19,12
+3122,171,566,1020,Large,Petrol,Karachi,Islamabad,Furniture,1459,37,184.64,11,2025-06-06,Delivered,2025-06-09,36
+3123,110,579,1012,Medium,Hybrid,Karachi,Quetta,Textiles,1558,16,163.21,8,2025-04-24,Delayed,2025-04-28,17
+3124,113,506,1032,Small,Petrol,Karachi,Karachi,Furniture,1319,6,288.76,10,2025-06-18,Delivered,2025-06-19,9
+3125,159,551,1023,Medium,Diesel,Quetta,Peshawar,Furniture,954,30,275.23,14,2025-06-17,Delayed,2025-06-20,30
+3126,129,513,1010,Large,Petrol,Peshawar,Peshawar,Textiles,1372,29,94.55,12,2025-05-02,Delayed,2025-05-05,30
+3127,134,572,1016,Large,Diesel,Faisalabad,Peshawar,FMCG,597,22,275.15,9,2025-05-23,Delayed,2025-05-26,24
+3128,184,514,1067,Medium,Hybrid,Karachi,Islamabad,Automotive,311,13,115.92,44,2025-05-10,In Transit,2025-05-11,15
+3129,136,520,1046,Small,Diesel,Lahore,Faisalabad,Furniture,764,32,27.05,10,2025-04-26,Delivered,2025-05-02,34
+3130,104,534,1024,Small,Petrol,Faisalabad,Faisalabad,Textiles,769,23,285.7,16,2025-05-13,Delivered,2025-05-16,21
+3131,182,565,1093,Large,Hybrid,Quetta,Faisalabad,FMCG,1589,32,265.02,20,2025-04-18,Delivered,2025-04-24,29
+3132,177,590,1072,Medium,Petrol,Peshawar,Multan,Automotive,320,27,176.11,39,2025-04-17,Delivered,2025-04-22,26
+3133,125,501,1020,Medium,Hybrid,Lahore,Karachi,Furniture,372,21,219.76,18,2025-06-03,Delayed,2025-06-11,22
+3134,161,534,1083,Small,Hybrid,Quetta,Karachi,Automotive,1277,7,379.92,12,2025-04-09,Delayed,2025-04-13,9
+3135,103,581,1082,Small,Petrol,Islamabad,Quetta,FMCG,1372,10,246.18,45,2025-05-19,Delayed,2025-05-20,12
+3136,188,577,1082,Small,Petrol,Faisalabad,Quetta,Automotive,378,23,270.0,11,2025-04-15,In Transit,2025-04-18,24
+3137,141,519,1011,Medium,Hybrid,Islamabad,Multan,Pharmaceuticals,1563,8,44.29,44,2025-05-01,Delayed,2025-05-02,9
+3138,188,581,1036,Small,Hybrid,Quetta,Lahore,Construction,915,32,83.08,35,2025-04-19,Delivered,2025-04-24,37
+3139,117,509,1041,Small,Petrol,Quetta,Sialkot,Pharmaceuticals,375,22,134.36,27,2025-05-02,In Transit,2025-05-08,23
+3140,139,524,1016,Large,Diesel,Quetta,Quetta,FMCG,1104,21,224.96,30,2025-06-14,Delayed,2025-06-18,23
+3141,171,565,1047,Small,Petrol,Karachi,Peshawar,Furniture,613,11,315.1,33,2025-05-02,In Transit,2025-05-03,11
+3142,138,524,1027,Small,Hybrid,Peshawar,Faisalabad,Textiles,1211,12,142.07,25,2025-06-26,In Transit,2025-07-02,9
+3143,113,553,1040,Medium,Petrol,Karachi,Peshawar,Electronics,1022,19,155.43,44,2025-05-18,Delayed,2025-05-23,19
+3144,131,532,1098,Medium,Diesel,Peshawar,Faisalabad,Textiles,741,20,117.34,8,2025-05-17,Delayed,2025-05-22,18
+3145,150,535,1046,Large,Petrol,Multan,Peshawar,Automotive,604,38,116.75,10,2025-04-16,In Transit,2025-04-21,37
+3146,137,594,1017,Small,Hybrid,Karachi,Lahore,Electronics,689,32,380.57,6,2025-04-30,In Transit,2025-05-07,35
+3147,196,513,1077,Large,Petrol,Islamabad,Sialkot,Electronics,871,34,261.47,20,2025-05-07,Delayed,2025-05-13,37
+3148,122,564,1098,Medium,Hybrid,Peshawar,Peshawar,Automotive,1364,10,79.24,31,2025-05-27,In Transit,2025-05-30,7
+3149,162,579,1070,Large,Hybrid,Karachi,Peshawar,Automotive,839,34,294.45,8,2025-06-08,Delayed,2025-06-12,42
+3150,114,553,1012,Medium,Petrol,Faisalabad,Islamabad,Furniture,774,37,294.37,45,2025-06-22,In Transit,2025-06-23,40
+3151,196,551,1081,Large,Hybrid,Quetta,Sialkot,FMCG,1359,11,273.26,46,2025-06-09,In Transit,2025-06-16,8
+3152,124,502,1012,Large,Hybrid,Peshawar,Peshawar,Textiles,1113,7,71.19,47,2025-05-24,In Transit,2025-05-26,11
+3153,116,598,1099,Small,Diesel,Peshawar,Islamabad,FMCG,227,11,175.04,39,2025-04-08,Delayed,2025-04-13,9
+3154,196,540,1030,Large,Diesel,Karachi,Karachi,Pharmaceuticals,602,9,60.57,10,2025-06-11,Delivered,2025-06-13,13
+3155,165,505,1001,Small,Diesel,Multan,Sialkot,Furniture,1323,34,330.32,36,2025-05-18,Delayed,2025-05-24,33
+3156,177,524,1015,Small,Diesel,Karachi,Multan,Furniture,1001,30,268.97,18,2025-05-28,Delayed,2025-06-04,36
+3157,152,512,1008,Small,Hybrid,Sialkot,Sialkot,Pharmaceuticals,642,14,212.74,48,2025-05-07,Delivered,2025-05-14,16
+3158,150,597,1072,Small,Petrol,Islamabad,Sialkot,Textiles,591,8,150.35,6,2025-07-01,Delayed,2025-07-08,13
+3159,138,507,1037,Large,Hybrid,Islamabad,Peshawar,Construction,1144,31,90.01,27,2025-04-07,In Transit,2025-04-11,29
+3160,150,520,1074,Medium,Hybrid,Peshawar,Karachi,Pharmaceuticals,1357,32,60.45,20,2025-06-17,Delayed,2025-06-24,32
+3161,169,597,1053,Medium,Hybrid,Peshawar,Sialkot,Textiles,813,37,388.31,31,2025-04-13,Delivered,2025-04-20,34
+3162,105,567,1055,Medium,Petrol,Karachi,Quetta,Electronics,890,6,95.87,23,2025-04-06,Delivered,2025-04-12,11
+3163,166,524,1085,Large,Diesel,Islamabad,Quetta,Automotive,515,21,42.75,14,2025-06-11,Delayed,2025-06-17,25
+3164,106,578,1096,Small,Hybrid,Islamabad,Islamabad,Furniture,247,16,385.43,6,2025-06-30,Delayed,2025-07-02,20
+3165,150,567,1099,Medium,Hybrid,Multan,Peshawar,Textiles,1069,31,228.6,48,2025-06-13,Delivered,2025-06-20,28
+3166,171,544,1086,Large,Diesel,Faisalabad,Peshawar,FMCG,128,6,322.73,14,2025-06-13,Delayed,2025-06-14,7
+3167,141,559,1044,Small,Hybrid,Multan,Sialkot,Automotive,1484,31,36.63,28,2025-05-28,Delivered,2025-06-04,33
+3168,163,511,1033,Medium,Petrol,Sialkot,Lahore,FMCG,407,33,235.44,48,2025-06-10,In Transit,2025-06-12,31
+3169,114,531,1008,Small,Hybrid,Lahore,Karachi,Automotive,261,14,171.32,7,2025-05-31,Delayed,2025-06-08,17
+3170,128,595,1087,Medium,Hybrid,Quetta,Faisalabad,Furniture,968,27,313.35,19,2025-05-22,Delivered,2025-05-23,29
+3171,132,591,1007,Medium,Diesel,Multan,Faisalabad,Pharmaceuticals,951,13,34.6,43,2025-05-20,Delayed,2025-05-27,18
+3172,193,512,1006,Medium,Hybrid,Sialkot,Lahore,Construction,160,32,172.64,45,2025-06-17,Delayed,2025-06-19,29
+3173,126,530,1035,Small,Hybrid,Karachi,Islamabad,Pharmaceuticals,224,24,323.65,23,2025-05-04,Delivered,2025-05-07,23
+3174,135,577,1017,Large,Petrol,Faisalabad,Faisalabad,Textiles,1579,30,218.62,21,2025-04-04,In Transit,2025-04-07,35
+3175,128,519,1002,Small,Diesel,Karachi,Sialkot,Pharmaceuticals,1194,26,229.01,34,2025-05-19,Delivered,2025-05-20,23
+3176,137,517,1027,Medium,Diesel,Quetta,Faisalabad,Furniture,937,29,56.92,49,2025-04-20,Delayed,2025-04-24,26
+3177,156,592,1069,Small,Petrol,Sialkot,Quetta,Textiles,565,29,70.29,16,2025-05-29,Delivered,2025-05-30,26
+3178,196,559,1043,Large,Hybrid,Lahore,Quetta,Electronics,342,24,277.26,11,2025-04-28,Delayed,2025-04-30,27
+3179,126,562,1020,Small,Diesel,Faisalabad,Multan,Pharmaceuticals,1344,7,276.52,8,2025-06-29,Delivered,2025-07-04,8
+3180,154,505,1027,Large,Diesel,Peshawar,Karachi,Pharmaceuticals,572,19,392.06,19,2025-06-05,In Transit,2025-06-08,21
+3181,132,531,1053,Large,Hybrid,Islamabad,Islamabad,Construction,1058,37,290.54,7,2025-04-23,In Transit,2025-04-28,41
+3182,167,592,1053,Small,Hybrid,Multan,Peshawar,Textiles,632,37,207.43,37,2025-07-01,In Transit,2025-07-04,35
+3183,185,542,1064,Medium,Diesel,Sialkot,Karachi,FMCG,593,33,345.78,36,2025-04-26,In Transit,2025-04-28,31
+3184,165,501,1099,Large,Hybrid,Karachi,Islamabad,Pharmaceuticals,998,18,59.7,16,2025-06-08,Delivered,2025-06-11,17
+3185,109,559,1020,Small,Diesel,Lahore,Faisalabad,Furniture,181,17,190.73,27,2025-05-31,In Transit,2025-06-01,16
+3186,104,522,1098,Large,Hybrid,Islamabad,Multan,Pharmaceuticals,955,13,129.1,8,2025-05-17,Delivered,2025-05-22,12
+3187,173,582,1012,Medium,Hybrid,Multan,Karachi,Construction,978,20,59.76,36,2025-04-04,Delayed,2025-04-10,20
+3188,196,530,1056,Small,Petrol,Islamabad,Faisalabad,Electronics,1022,31,310.13,38,2025-05-27,Delayed,2025-06-03,33
+3189,137,504,1048,Small,Hybrid,Multan,Islamabad,Construction,111,17,214.1,29,2025-06-19,Delayed,2025-06-21,15
+3190,112,582,1053,Small,Petrol,Sialkot,Karachi,Pharmaceuticals,1386,32,231.57,6,2025-05-20,In Transit,2025-05-26,37
+3191,130,533,1009,Medium,Hybrid,Peshawar,Peshawar,FMCG,548,23,176.28,49,2025-06-05,In Transit,2025-06-10,25
+3192,146,509,1052,Large,Diesel,Faisalabad,Karachi,Automotive,1315,32,194.93,20,2025-05-24,In Transit,2025-05-31,31
+3193,199,588,1043,Small,Diesel,Sialkot,Faisalabad,Pharmaceuticals,861,14,64.09,42,2025-04-28,Delayed,2025-04-30,19
+3194,187,501,1046,Large,Hybrid,Islamabad,Sialkot,Textiles,1237,6,275.71,32,2025-05-07,Delayed,2025-05-16,10
+3195,151,510,1052,Large,Hybrid,Islamabad,Sialkot,Pharmaceuticals,125,12,184.33,43,2025-06-02,Delayed,2025-06-06,12
+3196,155,549,1073,Medium,Diesel,Islamabad,Karachi,FMCG,607,31,330.37,32,2025-04-04,Delayed,2025-04-05,35
+3197,114,530,1045,Small,Hybrid,Faisalabad,Peshawar,Textiles,161,12,94.59,49,2025-05-16,Delivered,2025-05-19,15
+3198,128,555,1012,Large,Petrol,Lahore,Multan,Furniture,328,12,97.92,17,2025-04-16,Delivered,2025-04-23,15
+3199,107,578,1036,Small,Petrol,Multan,Multan,Textiles,706,13,265.39,8,2025-04-16,In Transit,2025-04-19,16
+3200,104,572,1023,Small,Petrol,Sialkot,Sialkot,Construction,1158,21,341.48,35,2025-07-01,In Transit,2025-07-04,22
+3201,128,586,1001,Medium,Petrol,Sialkot,Faisalabad,Electronics,1579,8,199.44,37,2025-06-02,Delayed,2025-06-06,11
+3202,146,582,1085,Small,Petrol,Peshawar,Islamabad,Construction,990,15,296.24,28,2025-06-28,Delivered,2025-06-29,15
+3203,167,508,1080,Small,Hybrid,Islamabad,Faisalabad,Automotive,860,12,399.75,7,2025-05-20,Delivered,2025-05-25,16
+3204,175,598,1099,Large,Hybrid,Quetta,Multan,Textiles,694,26,396.3,12,2025-04-27,In Transit,2025-05-04,31
+3205,144,520,1013,Medium,Petrol,Sialkot,Lahore,Furniture,1148,36,302.85,39,2025-05-04,Delivered,2025-05-09,35
+3206,101,572,1009,Small,Hybrid,Faisalabad,Lahore,Pharmaceuticals,1155,28,301.04,37,2025-04-16,In Transit,2025-04-17,31
+3207,126,527,1034,Large,Hybrid,Lahore,Karachi,Textiles,1135,32,114.1,44,2025-04-25,Delayed,2025-05-01,37
+3208,194,561,1024,Medium,Petrol,Sialkot,Peshawar,Construction,1442,27,336.75,37,2025-05-16,Delayed,2025-05-19,27
+3209,135,506,1002,Medium,Hybrid,Multan,Sialkot,Textiles,100,32,173.94,48,2025-05-30,In Transit,2025-06-02,30
+3210,135,579,1016,Large,Hybrid,Faisalabad,Quetta,Textiles,1558,9,385.56,48,2025-04-05,Delayed,2025-04-10,12
+3211,125,515,1011,Large,Hybrid,Peshawar,Quetta,Textiles,1259,29,50.94,19,2025-06-03,Delayed,2025-06-04,27
+3212,142,596,1053,Large,Petrol,Peshawar,Quetta,Furniture,1319,28,185.62,8,2025-04-12,Delivered,2025-04-17,31
+3213,126,503,1023,Large,Hybrid,Multan,Karachi,FMCG,232,24,231.22,37,2025-05-31,Delivered,2025-06-01,21
+3214,168,503,1028,Large,Diesel,Islamabad,Lahore,FMCG,185,8,173.96,48,2025-05-25,Delivered,2025-05-27,7
+3215,119,539,1042,Small,Diesel,Peshawar,Multan,Textiles,1599,32,100.02,41,2025-06-16,Delivered,2025-06-23,33
+3216,110,516,1024,Small,Petrol,Lahore,Karachi,Furniture,1447,8,245.34,22,2025-05-15,Delivered,2025-05-18,10
+3217,173,551,1099,Medium,Diesel,Faisalabad,Quetta,Furniture,1303,33,307.25,8,2025-04-08,In Transit,2025-04-09,38
+3218,137,592,1059,Small,Petrol,Sialkot,Quetta,Automotive,615,22,265.04,15,2025-05-20,In Transit,2025-05-24,27
+3219,105,551,1089,Small,Diesel,Lahore,Sialkot,Textiles,274,36,109.09,45,2025-04-10,Delivered,2025-04-11,35
+3220,171,535,1064,Small,Diesel,Islamabad,Faisalabad,Construction,862,15,298.01,23,2025-05-25,Delayed,2025-05-27,19
+3221,122,537,1083,Large,Diesel,Lahore,Quetta,Construction,1144,27,117.62,8,2025-04-22,Delayed,2025-04-26,27
+3222,146,549,1027,Medium,Petrol,Lahore,Peshawar,Electronics,1096,35,86.58,44,2025-06-12,In Transit,2025-06-16,38
+3223,189,562,1015,Medium,Petrol,Karachi,Quetta,Textiles,1228,26,282.45,15,2025-06-04,In Transit,2025-06-05,28
+3224,145,562,1046,Medium,Hybrid,Lahore,Faisalabad,Electronics,677,28,340.26,14,2025-04-04,In Transit,2025-04-06,32
+3225,111,561,1080,Medium,Petrol,Multan,Quetta,Construction,1566,17,202.98,16,2025-06-06,Delayed,2025-06-10,19
+3226,189,598,1091,Small,Diesel,Faisalabad,Peshawar,Construction,148,30,221.93,38,2025-05-13,In Transit,2025-05-20,30
+3227,112,506,1057,Small,Diesel,Karachi,Multan,Textiles,627,25,135.04,41,2025-04-06,Delayed,2025-04-10,25
+3228,161,526,1075,Large,Petrol,Faisalabad,Karachi,Electronics,244,12,207.95,31,2025-06-13,In Transit,2025-06-19,15
+3229,181,591,1026,Medium,Petrol,Faisalabad,Peshawar,Electronics,1463,34,70.15,32,2025-05-21,Delayed,2025-05-24,34
+3230,188,585,1052,Small,Petrol,Islamabad,Faisalabad,Textiles,861,34,383.22,43,2025-04-18,In Transit,2025-04-23,39
+3231,196,513,1041,Small,Hybrid,Islamabad,Karachi,Automotive,1477,18,324.14,27,2025-04-23,In Transit,2025-04-28,23
+3232,159,570,1058,Large,Diesel,Karachi,Karachi,Electronics,1198,8,273.83,31,2025-04-04,Delayed,2025-04-06,11
+3233,142,585,1046,Large,Hybrid,Peshawar,Faisalabad,Automotive,1028,7,224.51,27,2025-04-05,In Transit,2025-04-09,8
+3234,175,504,1093,Large,Hybrid,Quetta,Sialkot,Pharmaceuticals,893,21,321.02,10,2025-05-06,Delivered,2025-05-09,20
+3235,199,554,1033,Small,Diesel,Islamabad,Lahore,Construction,418,35,208.01,40,2025-04-18,Delayed,2025-04-23,38
+3236,167,501,1036,Small,Diesel,Quetta,Quetta,FMCG,1210,11,133.99,7,2025-04-06,In Transit,2025-04-12,16
+3237,104,561,1005,Large,Petrol,Islamabad,Peshawar,Automotive,797,12,80.94,40,2025-06-17,Delayed,2025-06-19,17
+3238,136,590,1006,Medium,Petrol,Islamabad,Faisalabad,Automotive,946,10,266.08,14,2025-05-16,In Transit,2025-05-23,10
+3239,171,520,1095,Large,Hybrid,Faisalabad,Multan,Automotive,882,12,373.18,23,2025-05-03,Delivered,2025-05-07,9
+3240,191,578,1095,Large,Petrol,Karachi,Islamabad,Furniture,141,39,78.38,48,2025-05-03,In Transit,2025-05-05,40
+3241,130,520,1024,Large,Petrol,Faisalabad,Faisalabad,Electronics,1216,37,88.41,17,2025-04-11,In Transit,2025-04-12,41
+3242,108,509,1032,Large,Diesel,Sialkot,Quetta,Electronics,628,18,184.77,8,2025-06-02,Delivered,2025-06-05,18
+3243,150,586,1054,Small,Diesel,Multan,Quetta,Furniture,1388,35,326.62,23,2025-04-10,Delayed,2025-04-12,35
+3244,128,557,1057,Medium,Petrol,Faisalabad,Karachi,Electronics,391,30,131.69,43,2025-04-03,In Transit,2025-04-05,35
+3245,177,538,1006,Large,Diesel,Quetta,Karachi,Furniture,1068,26,116.49,12,2025-06-10,In Transit,2025-06-16,31
+3246,139,504,1056,Medium,Petrol,Quetta,Faisalabad,Automotive,1587,26,255.59,38,2025-05-08,Delivered,2025-05-15,29
+3247,140,564,1011,Medium,Diesel,Multan,Islamabad,Textiles,196,33,223.53,11,2025-04-05,Delayed,2025-04-06,37
+3248,185,512,1015,Medium,Diesel,Lahore,Sialkot,Pharmaceuticals,1218,25,42.88,23,2025-06-14,Delayed,2025-06-22,29
+3249,110,584,1079,Large,Diesel,Lahore,Faisalabad,Automotive,1449,39,50.97,27,2025-05-06,Delivered,2025-05-09,43
+3250,122,589,1042,Small,Diesel,Multan,Islamabad,Pharmaceuticals,173,10,264.34,44,2025-05-05,Delivered,2025-05-11,12
+3251,100,584,1099,Large,Petrol,Multan,Sialkot,Construction,1459,23,196.75,14,2025-07-01,In Transit,2025-07-08,22
+3252,145,552,1076,Medium,Hybrid,Faisalabad,Islamabad,Automotive,1191,16,388.97,40,2025-05-30,Delivered,2025-06-06,19
+3253,120,581,1006,Medium,Diesel,Multan,Quetta,FMCG,857,22,277.84,28,2025-04-18,Delivered,2025-04-20,21
+3254,189,544,1099,Small,Petrol,Sialkot,Quetta,Electronics,1200,27,23.83,17,2025-04-16,Delivered,2025-04-19,30
+3255,135,531,1050,Large,Petrol,Karachi,Quetta,FMCG,307,25,202.79,29,2025-06-15,Delayed,2025-06-22,28
+3256,153,535,1072,Medium,Diesel,Lahore,Multan,Textiles,1344,11,177.49,45,2025-05-01,Delivered,2025-05-08,11
+3257,186,580,1031,Small,Hybrid,Lahore,Quetta,Pharmaceuticals,1385,39,60.55,14,2025-04-08,In Transit,2025-04-10,38
+3258,156,598,1074,Medium,Diesel,Sialkot,Peshawar,Automotive,509,19,370.82,18,2025-06-21,In Transit,2025-06-28,23
+3259,100,559,1007,Small,Petrol,Peshawar,Karachi,Textiles,430,28,325.9,45,2025-05-20,In Transit,2025-05-21,28
+3260,162,510,1096,Small,Hybrid,Sialkot,Karachi,Textiles,443,25,107.43,47,2025-06-05,Delivered,2025-06-12,29
+3261,153,562,1086,Large,Petrol,Sialkot,Islamabad,Electronics,1088,18,117.27,22,2025-06-09,Delayed,2025-06-12,17
+3262,154,520,1088,Medium,Diesel,Multan,Karachi,Textiles,870,37,32.17,12,2025-05-22,Delivered,2025-05-29,42
+3263,139,551,1071,Large,Hybrid,Islamabad,Lahore,Automotive,173,31,132.75,22,2025-06-15,Delivered,2025-06-22,33
+3264,114,554,1044,Medium,Petrol,Islamabad,Sialkot,Automotive,353,19,242.16,29,2025-05-29,In Transit,2025-06-04,20
+3265,120,525,1085,Large,Petrol,Sialkot,Islamabad,Pharmaceuticals,1058,13,179.92,7,2025-05-03,Delivered,2025-05-04,14
+3266,146,567,1058,Medium,Petrol,Multan,Karachi,Automotive,919,27,388.32,40,2025-05-25,Delayed,2025-05-30,26
+3267,172,533,1003,Large,Diesel,Karachi,Lahore,FMCG,1085,27,41.31,33,2025-05-19,In Transit,2025-05-24,25
+3268,152,551,1066,Small,Hybrid,Islamabad,Sialkot,Pharmaceuticals,431,21,244.74,24,2025-06-06,Delayed,2025-06-09,23
+3269,108,581,1028,Medium,Diesel,Peshawar,Multan,Electronics,1521,32,346.16,38,2025-05-02,Delayed,2025-05-07,29
+3270,173,598,1028,Medium,Diesel,Quetta,Karachi,Pharmaceuticals,1468,15,202.68,26,2025-06-03,Delayed,2025-06-07,18
+3271,151,592,1097,Small,Diesel,Multan,Lahore,Furniture,846,30,21.13,15,2025-04-26,Delayed,2025-05-03,34
+3272,156,551,1097,Large,Hybrid,Sialkot,Faisalabad,FMCG,935,36,112.26,14,2025-04-10,Delivered,2025-04-13,36
+3273,125,528,1027,Medium,Diesel,Karachi,Peshawar,Furniture,554,26,143.03,43,2025-06-26,Delivered,2025-07-03,31
+3274,140,537,1076,Medium,Diesel,Karachi,Faisalabad,Furniture,1238,32,387.08,11,2025-05-23,Delivered,2025-05-27,29
+3275,134,541,1078,Large,Diesel,Faisalabad,Lahore,Construction,412,22,366.47,47,2025-04-26,In Transit,2025-05-01,22
+3276,162,520,1086,Small,Diesel,Karachi,Islamabad,Automotive,1117,38,380.68,40,2025-05-16,Delivered,2025-05-23,37
+3277,124,541,1043,Large,Petrol,Islamabad,Quetta,Electronics,327,36,333.79,23,2025-05-09,In Transit,2025-05-12,38
+3278,189,512,1089,Large,Diesel,Sialkot,Quetta,Textiles,933,31,153.63,24,2025-05-15,Delayed,2025-05-21,35
+3279,174,563,1003,Large,Petrol,Quetta,Quetta,Furniture,957,26,364.23,10,2025-06-03,In Transit,2025-06-08,29
+3280,137,516,1089,Medium,Diesel,Islamabad,Sialkot,Pharmaceuticals,1368,6,393.04,30,2025-05-05,Delivered,2025-05-07,3
+3281,101,508,1008,Small,Hybrid,Multan,Islamabad,Textiles,917,9,153.03,16,2025-04-09,In Transit,2025-04-11,10
+3282,106,540,1004,Small,Petrol,Quetta,Sialkot,Pharmaceuticals,1117,9,119.01,15,2025-06-24,Delivered,2025-06-25,7
+3283,181,500,1055,Large,Petrol,Multan,Karachi,Pharmaceuticals,627,31,227.83,22,2025-04-05,Delivered,2025-04-07,29
+3284,190,501,1095,Medium,Petrol,Karachi,Quetta,Textiles,1049,9,91.12,41,2025-04-09,In Transit,2025-04-13,7
+3285,133,559,1083,Large,Petrol,Peshawar,Faisalabad,Textiles,526,14,32.4,31,2025-05-04,In Transit,2025-05-10,19
+3286,190,547,1049,Medium,Hybrid,Lahore,Islamabad,Automotive,141,35,379.42,36,2025-04-20,Delayed,2025-04-25,37
+3287,116,528,1074,Medium,Diesel,Quetta,Islamabad,Pharmaceuticals,564,9,371.78,37,2025-05-10,Delayed,2025-05-13,9
+3288,142,596,1014,Medium,Petrol,Sialkot,Quetta,Electronics,377,10,81.81,26,2025-07-01,Delayed,2025-07-04,11
+3289,158,509,1031,Medium,Hybrid,Faisalabad,Faisalabad,Automotive,935,28,174.94,23,2025-06-11,Delayed,2025-06-14,28
+3290,150,557,1027,Small,Petrol,Lahore,Multan,FMCG,118,21,335.79,23,2025-05-12,Delayed,2025-05-14,21
+3291,153,559,1021,Medium,Diesel,Karachi,Islamabad,Construction,165,27,271.18,6,2025-04-19,In Transit,2025-04-26,28
+3292,123,520,1016,Medium,Petrol,Karachi,Quetta,FMCG,266,13,170.02,19,2025-06-10,Delayed,2025-06-12,18
+3293,124,527,1058,Large,Hybrid,Sialkot,Peshawar,Electronics,1119,38,302.78,13,2025-06-18,Delayed,2025-06-21,45
+3294,170,574,1089,Large,Diesel,Lahore,Lahore,Automotive,502,21,360.88,7,2025-06-02,Delayed,2025-06-08,23
+3295,151,533,1070,Small,Hybrid,Faisalabad,Sialkot,Construction,508,10,371.94,20,2025-05-26,Delivered,2025-06-02,9
+3296,169,507,1056,Large,Diesel,Quetta,Karachi,Automotive,211,21,163.96,39,2025-05-08,Delayed,2025-05-14,23
+3297,187,558,1025,Medium,Diesel,Quetta,Islamabad,Textiles,1397,12,85.95,41,2025-05-27,Delivered,2025-06-03,12
+3298,132,585,1024,Large,Diesel,Lahore,Peshawar,Construction,1530,6,366.88,6,2025-05-11,In Transit,2025-05-18,5
+3299,148,571,1009,Small,Petrol,Multan,Peshawar,Pharmaceuticals,1496,14,55.17,26,2025-06-12,Delayed,2025-06-17,16
+3300,128,548,1044,Large,Hybrid,Islamabad,Islamabad,FMCG,696,23,294.24,47,2025-06-18,In Transit,2025-06-19,25
+3301,162,578,1082,Large,Hybrid,Peshawar,Multan,Construction,750,8,73.39,6,2025-05-09,Delayed,2025-05-13,6
+3302,121,516,1010,Small,Hybrid,Multan,Lahore,Pharmaceuticals,1162,29,167.97,37,2025-04-19,In Transit,2025-04-22,34
+3303,125,559,1076,Small,Diesel,Quetta,Karachi,Automotive,204,33,176.39,25,2025-06-24,Delayed,2025-06-26,37
+3304,127,586,1052,Medium,Petrol,Islamabad,Islamabad,Electronics,423,15,80.33,41,2025-05-09,Delayed,2025-05-14,17
+3305,184,587,1071,Large,Diesel,Peshawar,Sialkot,Construction,1091,14,370.62,44,2025-05-21,Delivered,2025-05-26,11
+3306,148,544,1067,Medium,Hybrid,Peshawar,Karachi,Pharmaceuticals,1537,18,21.01,35,2025-06-05,In Transit,2025-06-12,16
+3307,170,582,1094,Large,Petrol,Peshawar,Faisalabad,Automotive,528,28,359.65,12,2025-06-19,In Transit,2025-06-21,28
+3308,180,568,1027,Large,Petrol,Karachi,Peshawar,Automotive,734,22,355.86,27,2025-05-29,In Transit,2025-05-30,25
+3309,183,531,1074,Medium,Petrol,Sialkot,Peshawar,Automotive,829,12,140.45,15,2025-05-30,Delayed,2025-06-06,20
+3310,148,543,1064,Large,Hybrid,Peshawar,Islamabad,Electronics,988,21,287.63,13,2025-06-05,In Transit,2025-06-11,22
+3311,119,564,1048,Large,Petrol,Faisalabad,Islamabad,Textiles,1184,25,116.07,32,2025-06-16,Delivered,2025-06-17,23
+3312,185,586,1046,Large,Petrol,Lahore,Sialkot,Electronics,1430,29,308.33,15,2025-06-01,Delayed,2025-06-03,26
+3313,191,507,1051,Small,Diesel,Quetta,Faisalabad,Electronics,1477,10,233.23,19,2025-05-06,Delivered,2025-05-13,7
+3314,162,576,1087,Medium,Diesel,Faisalabad,Multan,FMCG,492,11,134.09,16,2025-04-11,In Transit,2025-04-12,12
+3315,160,571,1053,Small,Petrol,Lahore,Islamabad,Automotive,303,33,172.09,11,2025-06-27,In Transit,2025-07-04,36
+3316,148,586,1059,Medium,Petrol,Multan,Peshawar,Pharmaceuticals,357,10,282.16,26,2025-04-10,Delayed,2025-04-16,15
+3317,170,542,1056,Medium,Diesel,Sialkot,Karachi,Construction,585,7,364.32,38,2025-05-12,Delayed,2025-05-18,14
+3318,100,500,1046,Large,Diesel,Multan,Lahore,FMCG,545,26,69.68,24,2025-05-05,Delayed,2025-05-12,30
+3319,195,550,1030,Medium,Diesel,Lahore,Quetta,Automotive,1303,23,237.12,44,2025-06-20,Delayed,2025-06-27,20
+3320,112,523,1045,Small,Hybrid,Faisalabad,Karachi,Furniture,1123,17,116.42,29,2025-06-21,Delivered,2025-06-23,18
+3321,193,598,1025,Small,Hybrid,Lahore,Multan,Electronics,441,22,324.52,23,2025-06-27,Delayed,2025-07-03,24
+3322,186,523,1004,Small,Diesel,Peshawar,Lahore,Furniture,232,20,46.69,40,2025-04-19,Delivered,2025-04-21,22
+3323,150,516,1083,Medium,Petrol,Karachi,Karachi,Automotive,542,12,281.8,48,2025-06-14,Delivered,2025-06-20,12
+3324,155,504,1051,Small,Diesel,Quetta,Karachi,FMCG,352,19,86.48,42,2025-06-13,In Transit,2025-06-19,16
+3325,182,519,1074,Medium,Hybrid,Multan,Faisalabad,Pharmaceuticals,364,6,246.63,24,2025-04-10,Delayed,2025-04-15,5
+3326,161,520,1053,Small,Petrol,Quetta,Quetta,FMCG,192,8,337.56,29,2025-05-09,In Transit,2025-05-14,8
+3327,131,557,1032,Small,Hybrid,Karachi,Sialkot,Pharmaceuticals,1534,36,306.93,39,2025-05-26,Delayed,2025-05-31,36
+3328,129,530,1049,Medium,Petrol,Peshawar,Multan,Pharmaceuticals,237,18,306.12,27,2025-04-18,Delayed,2025-04-24,21
+3329,128,599,1037,Small,Hybrid,Peshawar,Peshawar,Automotive,1331,23,216.78,9,2025-06-09,In Transit,2025-06-12,24
+3330,148,510,1026,Large,Petrol,Multan,Faisalabad,Textiles,1101,22,358.48,15,2025-04-19,In Transit,2025-04-25,27
+3331,144,551,1097,Medium,Petrol,Multan,Lahore,Automotive,406,22,243.48,7,2025-06-05,Delayed,2025-06-12,26
+3332,192,514,1014,Medium,Petrol,Peshawar,Quetta,Electronics,365,16,368.66,13,2025-06-19,Delivered,2025-06-21,21
+3333,129,582,1095,Medium,Petrol,Islamabad,Peshawar,FMCG,745,25,227.68,38,2025-05-23,Delayed,2025-05-28,30
+3334,115,506,1060,Large,Hybrid,Quetta,Faisalabad,Pharmaceuticals,417,15,212.27,43,2025-04-27,Delivered,2025-04-29,12
+3335,139,527,1020,Medium,Hybrid,Sialkot,Quetta,Automotive,1236,34,104.49,48,2025-05-13,Delayed,2025-05-20,35
+3336,118,550,1045,Small,Petrol,Karachi,Sialkot,Automotive,1000,39,227.02,33,2025-05-02,Delayed,2025-05-08,44
+3337,117,557,1068,Small,Petrol,Quetta,Multan,FMCG,1501,22,73.42,15,2025-06-12,Delayed,2025-06-15,24
+3338,100,504,1005,Small,Hybrid,Karachi,Islamabad,FMCG,553,18,350.48,6,2025-05-10,Delayed,2025-05-17,23
+3339,177,504,1037,Medium,Petrol,Islamabad,Sialkot,Pharmaceuticals,290,32,276.84,39,2025-06-16,Delayed,2025-06-19,32
+3340,146,593,1061,Small,Petrol,Sialkot,Islamabad,Construction,1563,31,397.58,8,2025-06-12,In Transit,2025-06-16,29
+3341,165,595,1085,Medium,Petrol,Faisalabad,Lahore,Furniture,1310,33,55.0,14,2025-04-25,In Transit,2025-04-26,31
+3342,191,507,1061,Small,Diesel,Karachi,Islamabad,Electronics,930,18,111.46,10,2025-04-16,Delayed,2025-04-20,19
+3343,193,563,1081,Large,Petrol,Quetta,Faisalabad,Electronics,1490,17,353.32,47,2025-05-23,In Transit,2025-05-26,14
+3344,137,509,1077,Large,Diesel,Lahore,Lahore,Construction,1212,33,170.2,15,2025-05-30,Delayed,2025-06-04,32
+3345,150,537,1073,Large,Petrol,Sialkot,Peshawar,Textiles,286,7,197.2,17,2025-06-06,In Transit,2025-06-07,4
+3346,162,595,1045,Large,Hybrid,Peshawar,Sialkot,Construction,918,39,347.05,23,2025-06-10,In Transit,2025-06-13,39
+3347,103,591,1012,Medium,Diesel,Peshawar,Sialkot,Textiles,1120,28,218.29,26,2025-04-28,In Transit,2025-04-30,25
+3348,100,580,1094,Small,Diesel,Islamabad,Multan,Textiles,231,34,93.52,26,2025-05-25,Delayed,2025-06-03,36
+3349,107,594,1093,Large,Petrol,Karachi,Lahore,Construction,971,16,358.97,6,2025-05-12,Delivered,2025-05-14,15
+3350,128,507,1002,Medium,Petrol,Faisalabad,Peshawar,Electronics,734,38,31.8,8,2025-04-29,In Transit,2025-04-30,43
+3351,154,524,1093,Large,Diesel,Karachi,Sialkot,Furniture,1499,16,360.25,10,2025-06-22,Delayed,2025-06-26,15
+3352,102,572,1005,Large,Hybrid,Peshawar,Lahore,Electronics,790,14,39.2,30,2025-05-07,Delayed,2025-05-13,18
+3353,131,565,1092,Medium,Hybrid,Multan,Karachi,Automotive,791,19,273.02,13,2025-06-28,Delayed,2025-07-02,28
+3354,109,578,1007,Medium,Petrol,Lahore,Karachi,Electronics,1222,14,47.24,22,2025-06-25,Delivered,2025-06-29,17
+3355,173,549,1043,Small,Hybrid,Sialkot,Lahore,Electronics,1157,8,288.36,14,2025-04-27,Delivered,2025-05-02,5
+3356,182,566,1032,Small,Hybrid,Islamabad,Sialkot,Construction,681,34,32.91,37,2025-06-14,Delivered,2025-06-17,34
+3357,133,548,1080,Large,Petrol,Multan,Quetta,Construction,270,24,340.13,11,2025-06-13,Delayed,2025-06-19,21
+3358,196,535,1074,Large,Hybrid,Quetta,Islamabad,Automotive,1489,37,197.06,45,2025-04-09,In Transit,2025-04-11,37
+3359,186,567,1076,Small,Petrol,Faisalabad,Karachi,Automotive,883,12,55.51,26,2025-06-22,In Transit,2025-06-24,11
+3360,154,577,1049,Small,Diesel,Multan,Quetta,Construction,1182,33,288.59,12,2025-04-04,Delayed,2025-04-09,31
+3361,191,540,1010,Medium,Petrol,Quetta,Quetta,Electronics,280,23,205.93,12,2025-04-11,In Transit,2025-04-12,20
+3362,131,588,1094,Small,Diesel,Multan,Multan,Furniture,118,10,92.56,44,2025-06-24,In Transit,2025-06-25,12
+3363,149,561,1027,Small,Diesel,Faisalabad,Peshawar,Textiles,1349,28,25.96,32,2025-05-24,Delivered,2025-05-26,31
+3364,106,509,1069,Large,Hybrid,Sialkot,Faisalabad,FMCG,1596,27,178.84,13,2025-06-02,In Transit,2025-06-07,29
+3365,192,520,1040,Small,Hybrid,Multan,Karachi,Textiles,1218,31,52.54,14,2025-04-26,In Transit,2025-04-28,36
+3366,107,535,1015,Large,Hybrid,Islamabad,Lahore,Automotive,980,17,55.78,33,2025-06-16,Delayed,2025-06-17,22
+3367,164,511,1067,Small,Petrol,Peshawar,Islamabad,Automotive,1420,24,121.59,20,2025-04-17,Delayed,2025-04-23,22
+3368,156,590,1098,Medium,Hybrid,Karachi,Faisalabad,Textiles,274,6,259.57,7,2025-06-09,Delivered,2025-06-12,4
+3369,166,501,1047,Small,Diesel,Multan,Peshawar,FMCG,1345,8,221.37,12,2025-04-18,Delayed,2025-04-19,13
+3370,187,512,1055,Small,Hybrid,Islamabad,Quetta,Electronics,153,32,46.22,23,2025-05-01,Delivered,2025-05-07,29
+3371,186,552,1063,Small,Hybrid,Karachi,Peshawar,Furniture,794,23,388.0,27,2025-06-03,Delivered,2025-06-06,24
+3372,158,531,1058,Large,Petrol,Sialkot,Sialkot,Furniture,962,35,357.12,15,2025-04-07,In Transit,2025-04-14,32
+3373,171,594,1089,Medium,Petrol,Quetta,Karachi,Textiles,1526,7,118.51,38,2025-04-03,Delivered,2025-04-07,10
+3374,153,515,1061,Small,Diesel,Karachi,Peshawar,FMCG,1441,10,66.49,12,2025-06-22,In Transit,2025-06-27,15
+3375,166,531,1075,Large,Petrol,Quetta,Peshawar,Automotive,448,34,378.11,8,2025-04-16,Delivered,2025-04-22,36
+3376,150,531,1010,Medium,Hybrid,Multan,Islamabad,Pharmaceuticals,542,38,195.23,19,2025-04-21,Delayed,2025-04-25,36
+3377,196,597,1088,Large,Petrol,Islamabad,Sialkot,Electronics,932,25,138.24,49,2025-05-30,Delayed,2025-05-31,27
+3378,191,510,1017,Large,Diesel,Peshawar,Sialkot,Textiles,679,35,206.34,41,2025-04-11,Delayed,2025-04-18,40
+3379,107,509,1018,Medium,Hybrid,Multan,Quetta,Furniture,381,10,313.64,18,2025-04-11,Delayed,2025-04-19,11
+3380,133,514,1086,Small,Diesel,Quetta,Islamabad,Automotive,459,26,83.99,21,2025-06-13,Delivered,2025-06-19,31
+3381,134,516,1054,Large,Petrol,Faisalabad,Islamabad,Construction,1014,20,311.65,21,2025-06-28,In Transit,2025-07-05,24
+3382,195,539,1081,Large,Petrol,Karachi,Lahore,Construction,922,25,304.79,10,2025-05-19,In Transit,2025-05-20,28
+3383,187,517,1025,Small,Diesel,Multan,Peshawar,FMCG,991,13,224.95,30,2025-05-18,In Transit,2025-05-23,17
+3384,177,554,1005,Small,Hybrid,Quetta,Peshawar,FMCG,1052,36,349.02,43,2025-05-27,In Transit,2025-06-01,38
+3385,131,572,1003,Medium,Petrol,Sialkot,Sialkot,Textiles,740,17,70.21,43,2025-06-18,Delivered,2025-06-19,16
+3386,145,524,1028,Medium,Petrol,Karachi,Peshawar,Pharmaceuticals,1131,26,246.28,43,2025-04-17,Delivered,2025-04-18,29
+3387,115,558,1058,Medium,Hybrid,Sialkot,Multan,Furniture,662,35,190.75,44,2025-04-21,In Transit,2025-04-28,35
+3388,167,577,1097,Small,Petrol,Quetta,Islamabad,Textiles,590,32,180.47,46,2025-06-22,Delayed,2025-07-02,35
+3389,136,588,1016,Large,Diesel,Islamabad,Faisalabad,Pharmaceuticals,440,31,115.97,31,2025-04-27,Delivered,2025-05-03,35
+3390,153,521,1042,Large,Petrol,Lahore,Sialkot,Automotive,571,38,161.47,18,2025-05-13,Delivered,2025-05-18,41
+3391,184,529,1079,Medium,Petrol,Sialkot,Karachi,FMCG,348,31,61.1,49,2025-05-24,Delivered,2025-05-30,34
+3392,113,583,1065,Small,Hybrid,Multan,Sialkot,Construction,334,31,115.61,31,2025-05-22,In Transit,2025-05-29,35
+3393,194,584,1033,Large,Diesel,Peshawar,Quetta,Electronics,1206,6,123.35,6,2025-05-25,In Transit,2025-05-30,5
+3394,154,543,1007,Medium,Hybrid,Multan,Faisalabad,Automotive,1216,20,293.85,13,2025-06-21,Delivered,2025-06-27,19
+3395,147,531,1012,Large,Petrol,Karachi,Quetta,Construction,1517,6,38.45,9,2025-04-21,Delayed,2025-04-24,6
+3396,181,550,1007,Large,Petrol,Islamabad,Lahore,Furniture,923,16,267.45,26,2025-05-25,In Transit,2025-05-26,13
+3397,106,545,1093,Small,Hybrid,Quetta,Lahore,Furniture,1391,7,104.14,27,2025-06-28,Delayed,2025-07-02,12
+3398,173,520,1095,Small,Hybrid,Faisalabad,Quetta,Construction,1540,6,51.11,42,2025-04-22,Delayed,2025-04-29,8
+3399,106,598,1099,Large,Hybrid,Peshawar,Peshawar,Automotive,731,36,134.31,8,2025-06-27,In Transit,2025-07-03,40
+3400,132,531,1093,Medium,Diesel,Islamabad,Faisalabad,Construction,628,21,105.3,24,2025-06-12,Delayed,2025-06-17,26
+3401,122,593,1064,Small,Petrol,Sialkot,Peshawar,Pharmaceuticals,1376,27,229.77,6,2025-06-02,Delayed,2025-06-07,33
+3402,184,538,1042,Large,Hybrid,Sialkot,Sialkot,Textiles,221,23,155.8,34,2025-05-17,Delivered,2025-05-21,20
+3403,118,511,1038,Small,Petrol,Multan,Multan,FMCG,991,22,387.08,28,2025-05-23,In Transit,2025-05-28,25
+3404,118,546,1080,Small,Diesel,Faisalabad,Lahore,Pharmaceuticals,109,35,386.15,38,2025-06-27,Delayed,2025-06-30,38
+3405,135,517,1058,Small,Diesel,Islamabad,Lahore,Electronics,1439,15,188.61,46,2025-04-09,Delivered,2025-04-13,20
+3406,128,520,1083,Large,Diesel,Lahore,Faisalabad,Construction,937,26,322.13,28,2025-06-07,In Transit,2025-06-14,29
+3407,159,512,1087,Medium,Diesel,Peshawar,Lahore,Electronics,1396,21,25.04,10,2025-05-05,Delivered,2025-05-10,25
+3408,181,520,1085,Medium,Petrol,Karachi,Multan,Electronics,1429,11,228.17,12,2025-04-24,Delivered,2025-04-27,11
+3409,101,507,1092,Medium,Diesel,Islamabad,Multan,Pharmaceuticals,1333,8,302.45,11,2025-05-16,Delayed,2025-05-18,13
+3410,100,545,1085,Small,Diesel,Islamabad,Multan,FMCG,852,26,102.44,27,2025-05-23,In Transit,2025-05-26,23
+3411,146,506,1043,Large,Hybrid,Lahore,Karachi,Automotive,985,18,43.25,18,2025-06-26,Delivered,2025-06-27,22
+3412,168,522,1008,Small,Diesel,Multan,Multan,Furniture,563,23,79.25,17,2025-04-19,Delayed,2025-04-26,22
+3413,119,595,1036,Medium,Hybrid,Quetta,Multan,Textiles,811,29,187.9,9,2025-06-16,Delayed,2025-06-17,26
+3414,110,574,1073,Medium,Diesel,Quetta,Karachi,Furniture,827,32,212.42,13,2025-05-09,Delivered,2025-05-15,30
+3415,101,585,1035,Large,Diesel,Peshawar,Peshawar,FMCG,816,9,164.74,42,2025-06-27,Delivered,2025-07-02,11
+3416,166,521,1091,Small,Hybrid,Peshawar,Sialkot,Furniture,1539,27,187.19,36,2025-04-14,Delayed,2025-04-18,28
+3417,186,588,1027,Medium,Diesel,Karachi,Islamabad,Construction,1339,29,198.69,42,2025-06-18,Delivered,2025-06-25,28
+3418,111,521,1041,Large,Petrol,Islamabad,Lahore,Construction,179,15,312.39,31,2025-06-22,Delivered,2025-06-24,20
+3419,119,591,1042,Small,Petrol,Faisalabad,Multan,Pharmaceuticals,579,7,59.99,48,2025-05-22,In Transit,2025-05-29,11
+3420,104,528,1084,Small,Diesel,Islamabad,Lahore,Electronics,1001,11,312.2,13,2025-04-11,Delayed,2025-04-16,10
+3421,136,512,1087,Medium,Petrol,Quetta,Faisalabad,FMCG,990,23,281.68,45,2025-06-20,Delivered,2025-06-22,21
+3422,137,581,1041,Medium,Hybrid,Karachi,Lahore,FMCG,117,22,301.83,38,2025-05-14,Delayed,2025-05-15,26
+3423,193,501,1065,Small,Diesel,Islamabad,Quetta,Furniture,1288,28,299.1,34,2025-06-30,In Transit,2025-07-07,29
+3424,108,528,1054,Small,Diesel,Lahore,Peshawar,Pharmaceuticals,301,35,198.82,10,2025-05-29,Delayed,2025-06-04,44
+3425,197,584,1071,Medium,Hybrid,Quetta,Sialkot,Furniture,840,26,100.33,33,2025-05-01,Delayed,2025-05-07,25
+3426,152,578,1047,Small,Hybrid,Islamabad,Karachi,Furniture,1469,15,223.92,45,2025-05-24,Delayed,2025-05-25,14
+3427,143,551,1090,Medium,Hybrid,Islamabad,Lahore,FMCG,1489,18,384.03,22,2025-04-10,In Transit,2025-04-13,19
+3428,198,526,1021,Small,Diesel,Quetta,Lahore,Furniture,1571,17,243.64,28,2025-04-21,In Transit,2025-04-25,15
+3429,185,549,1026,Medium,Hybrid,Faisalabad,Lahore,Electronics,418,14,24.2,14,2025-06-14,Delayed,2025-06-17,13
+3430,123,594,1092,Large,Hybrid,Quetta,Islamabad,Furniture,316,9,42.69,7,2025-05-03,Delayed,2025-05-05,9
+3431,180,578,1066,Medium,Petrol,Lahore,Islamabad,Electronics,1157,29,397.29,37,2025-06-15,In Transit,2025-06-19,29
+3432,173,522,1012,Medium,Petrol,Lahore,Faisalabad,FMCG,365,39,47.34,36,2025-04-08,Delivered,2025-04-14,44
+3433,129,587,1044,Large,Diesel,Islamabad,Karachi,Pharmaceuticals,823,10,37.5,12,2025-04-30,In Transit,2025-05-01,7
+3434,158,543,1009,Small,Petrol,Peshawar,Lahore,Construction,874,20,154.15,35,2025-05-28,Delayed,2025-06-04,25
+3435,186,576,1099,Large,Petrol,Faisalabad,Lahore,Electronics,1203,9,388.34,8,2025-04-26,Delivered,2025-04-29,14
+3436,195,521,1008,Medium,Hybrid,Islamabad,Lahore,Pharmaceuticals,512,13,141.1,14,2025-06-02,Delayed,2025-06-11,18
+3437,180,542,1053,Small,Hybrid,Quetta,Lahore,Pharmaceuticals,1375,29,175.76,15,2025-04-10,Delivered,2025-04-12,26
+3438,180,536,1026,Large,Petrol,Islamabad,Islamabad,Electronics,1135,33,260.95,31,2025-07-01,In Transit,2025-07-03,35
+3439,113,560,1033,Small,Petrol,Karachi,Peshawar,FMCG,500,32,29.16,6,2025-06-19,In Transit,2025-06-23,36
+3440,108,596,1000,Small,Petrol,Karachi,Peshawar,Textiles,823,6,361.15,35,2025-05-05,In Transit,2025-05-09,7
+3441,139,555,1031,Large,Diesel,Peshawar,Faisalabad,Pharmaceuticals,381,39,217.39,43,2025-05-18,In Transit,2025-05-24,40
+3442,165,502,1088,Small,Diesel,Faisalabad,Quetta,Pharmaceuticals,1235,22,197.39,20,2025-06-13,Delayed,2025-06-18,19
+3443,124,562,1092,Large,Diesel,Multan,Multan,FMCG,822,31,347.08,30,2025-05-22,Delivered,2025-05-27,28
+3444,172,518,1070,Medium,Petrol,Sialkot,Karachi,FMCG,1501,29,382.17,11,2025-04-15,Delayed,2025-04-20,36
+3445,121,522,1066,Small,Petrol,Karachi,Peshawar,Furniture,850,26,180.9,23,2025-04-27,In Transit,2025-05-02,27
+3446,103,528,1083,Medium,Diesel,Multan,Quetta,FMCG,367,35,85.53,6,2025-05-19,In Transit,2025-05-20,39
+3447,125,529,1019,Medium,Diesel,Lahore,Sialkot,Pharmaceuticals,397,18,329.97,8,2025-04-14,Delayed,2025-04-20,16
+3448,157,538,1093,Small,Petrol,Karachi,Sialkot,Electronics,1440,8,173.24,22,2025-05-12,Delivered,2025-05-13,8
+3449,128,524,1034,Large,Hybrid,Karachi,Lahore,Textiles,669,37,375.51,13,2025-05-08,Delivered,2025-05-13,42
+3450,197,507,1098,Small,Diesel,Faisalabad,Sialkot,Automotive,608,24,380.96,45,2025-05-25,In Transit,2025-05-29,23
+3451,186,557,1090,Medium,Petrol,Peshawar,Peshawar,Furniture,645,19,63.64,22,2025-05-12,In Transit,2025-05-13,21
+3452,136,515,1089,Medium,Petrol,Multan,Faisalabad,Automotive,874,27,383.49,30,2025-04-19,In Transit,2025-04-21,30
+3453,174,571,1077,Large,Hybrid,Quetta,Multan,Electronics,464,22,159.94,46,2025-05-29,In Transit,2025-06-05,21
+3454,169,500,1016,Small,Petrol,Karachi,Peshawar,Textiles,646,9,265.58,17,2025-06-29,Delivered,2025-07-03,6
+3455,117,504,1017,Medium,Petrol,Karachi,Faisalabad,Textiles,370,24,33.21,34,2025-06-10,Delayed,2025-06-16,22
+3456,184,502,1044,Medium,Diesel,Faisalabad,Sialkot,Textiles,1597,7,357.78,30,2025-05-19,Delivered,2025-05-22,10
+3457,141,564,1092,Medium,Diesel,Faisalabad,Islamabad,Construction,838,20,263.81,41,2025-05-01,Delayed,2025-05-04,23
+3458,199,503,1083,Large,Hybrid,Peshawar,Multan,Electronics,636,7,264.55,30,2025-06-11,In Transit,2025-06-15,4
+3459,140,598,1052,Medium,Hybrid,Multan,Faisalabad,Furniture,1357,16,362.83,34,2025-04-20,In Transit,2025-04-25,19
+3460,137,595,1090,Medium,Petrol,Lahore,Quetta,Furniture,158,28,213.17,16,2025-04-24,Delayed,2025-04-25,30
+3461,133,563,1081,Small,Diesel,Quetta,Peshawar,Textiles,1374,15,176.0,9,2025-06-26,In Transit,2025-06-27,17
+3462,116,597,1067,Small,Hybrid,Peshawar,Islamabad,Electronics,185,8,349.13,19,2025-05-16,Delivered,2025-05-20,11
+3463,136,588,1064,Medium,Hybrid,Sialkot,Quetta,Construction,862,10,302.12,43,2025-05-08,In Transit,2025-05-10,13
+3464,124,509,1000,Medium,Hybrid,Lahore,Faisalabad,Textiles,489,8,380.61,22,2025-06-03,In Transit,2025-06-09,5
+3465,175,520,1057,Small,Petrol,Islamabad,Faisalabad,FMCG,1303,18,377.25,7,2025-05-23,In Transit,2025-05-28,19
+3466,186,545,1025,Large,Diesel,Karachi,Sialkot,Automotive,818,24,165.28,13,2025-05-24,In Transit,2025-05-26,28
+3467,185,590,1019,Large,Hybrid,Multan,Quetta,Furniture,955,29,189.85,41,2025-06-17,Delivered,2025-06-21,33
+3468,184,526,1086,Large,Diesel,Peshawar,Peshawar,Automotive,248,29,117.27,15,2025-05-13,Delayed,2025-05-20,30
+3469,126,565,1009,Large,Hybrid,Karachi,Multan,Pharmaceuticals,682,22,271.05,12,2025-04-16,In Transit,2025-04-18,21
+3470,156,540,1058,Large,Hybrid,Multan,Islamabad,Textiles,220,15,158.53,41,2025-04-10,In Transit,2025-04-13,18
+3471,130,512,1074,Large,Diesel,Multan,Sialkot,FMCG,864,7,318.72,21,2025-06-26,Delivered,2025-06-30,7
+3472,105,508,1040,Large,Diesel,Multan,Lahore,Furniture,704,28,66.19,19,2025-06-29,Delivered,2025-07-05,30
+3473,190,535,1004,Large,Diesel,Karachi,Karachi,Automotive,355,11,64.23,21,2025-05-09,Delivered,2025-05-16,16
+3474,139,585,1064,Small,Petrol,Peshawar,Multan,Construction,865,7,97.69,30,2025-06-18,In Transit,2025-06-23,5
+3475,197,589,1016,Large,Hybrid,Quetta,Sialkot,Electronics,963,26,52.03,46,2025-05-05,Delayed,2025-05-07,24
+3476,111,557,1021,Large,Petrol,Faisalabad,Islamabad,Furniture,899,34,255.61,9,2025-06-24,Delivered,2025-06-27,36
+3477,152,553,1097,Large,Diesel,Karachi,Quetta,Automotive,1432,12,75.99,34,2025-06-02,Delivered,2025-06-04,11
+3478,170,511,1040,Medium,Hybrid,Sialkot,Faisalabad,Electronics,158,34,80.79,11,2025-04-13,Delivered,2025-04-16,31
+3479,109,580,1092,Small,Petrol,Multan,Quetta,Automotive,1121,28,25.41,6,2025-05-27,Delayed,2025-05-30,26
+3480,144,577,1067,Small,Hybrid,Peshawar,Sialkot,Electronics,1192,38,317.19,44,2025-06-18,In Transit,2025-06-24,41
+3481,116,513,1068,Small,Petrol,Quetta,Islamabad,Construction,1569,13,328.67,6,2025-05-28,In Transit,2025-06-02,13
+3482,125,533,1010,Large,Diesel,Islamabad,Quetta,Construction,487,17,81.57,45,2025-05-22,In Transit,2025-05-26,15
+3483,184,552,1055,Large,Petrol,Sialkot,Quetta,Textiles,1209,15,301.02,8,2025-04-26,Delivered,2025-04-29,19
+3484,191,519,1050,Medium,Hybrid,Lahore,Karachi,Textiles,885,20,184.75,6,2025-04-12,In Transit,2025-04-16,20
+3485,161,574,1020,Small,Hybrid,Sialkot,Peshawar,Furniture,1350,29,111.05,6,2025-05-08,Delivered,2025-05-13,29
+3486,145,515,1098,Large,Hybrid,Multan,Sialkot,Construction,692,31,256.13,44,2025-05-28,Delayed,2025-06-01,29
+3487,163,594,1075,Small,Hybrid,Islamabad,Karachi,FMCG,1307,8,87.82,26,2025-05-08,Delayed,2025-05-14,5
+3488,101,569,1025,Medium,Diesel,Faisalabad,Sialkot,Automotive,1445,7,307.62,35,2025-05-03,In Transit,2025-05-09,4
+3489,153,555,1018,Medium,Petrol,Quetta,Lahore,Automotive,1008,11,38.09,37,2025-05-26,Delayed,2025-05-29,14
+3490,164,582,1059,Medium,Diesel,Quetta,Lahore,Automotive,1441,26,384.47,38,2025-05-14,Delivered,2025-05-20,28
+3491,150,557,1070,Small,Diesel,Multan,Karachi,Furniture,665,14,47.31,27,2025-06-01,In Transit,2025-06-04,17
+3492,152,503,1046,Large,Diesel,Sialkot,Multan,Automotive,498,15,240.19,35,2025-04-03,Delayed,2025-04-08,20
+3493,135,503,1070,Large,Hybrid,Sialkot,Multan,Pharmaceuticals,998,8,362.83,9,2025-06-16,Delayed,2025-06-22,9
+3494,125,519,1025,Medium,Hybrid,Quetta,Quetta,Electronics,1416,29,24.52,28,2025-06-16,Delayed,2025-06-18,34
+3495,128,509,1039,Large,Hybrid,Islamabad,Quetta,Automotive,392,27,209.44,49,2025-04-11,Delayed,2025-04-16,31
+3496,120,523,1004,Medium,Petrol,Multan,Faisalabad,Electronics,584,19,153.0,30,2025-05-25,Delayed,2025-05-31,20
+3497,110,598,1020,Small,Hybrid,Karachi,Lahore,Textiles,1570,32,240.53,17,2025-04-23,In Transit,2025-04-28,31
+3498,139,525,1077,Medium,Petrol,Peshawar,Sialkot,Automotive,902,38,105.67,22,2025-05-07,Delayed,2025-05-16,44
+3499,110,536,1003,Small,Hybrid,Islamabad,Faisalabad,FMCG,1535,27,44.66,20,2025-06-28,In Transit,2025-06-30,32
+3500,135,584,1022,Medium,Hybrid,Peshawar,Lahore,Construction,989,34,257.85,15,2025-06-25,Delayed,2025-06-26,34
